@@ -1,0 +1,182 @@
+[
+  {
+    "query_id": "at01",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at02",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at03",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at04",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at05",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at06",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at07",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at08",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at09",
+    "group": "image",
+    "pass": false,
+    "reason": "Không đạt: từ chối (text-only không có thông tin bản đồ)."
+  },
+  {
+    "query_id": "at10",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at11",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at12",
+    "group": "chart",
+    "pass": false,
+    "reason": "Không đạt: từ chối dù Figure 3 có nhãn số (text layer của treemap không đủ để agent kết luận)."
+  },
+  {
+    "query_id": "at13",
+    "group": "chart",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at14",
+    "group": "chart",
+    "pass": false,
+    "reason": "Không đạt: nêu 246 và 63 (là MtCO2e phát thải) thay vì 276 và 26 TWh than."
+  },
+  {
+    "query_id": "at15",
+    "group": "chart",
+    "pass": false,
+    "reason": "Không đạt: đúng ngành Electricity nhưng sai giá trị 28.1 (là nhãn trục), đúng là 23.6."
+  },
+  {
+    "query_id": "at16",
+    "group": "chart",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at17",
+    "group": "multi-hop",
+    "pass": false,
+    "reason": "Không đạt: từ chối."
+  },
+  {
+    "query_id": "at18",
+    "group": "multi-hop",
+    "pass": false,
+    "reason": "Không đạt vế 2: GDP -0.6% thay vì +1.7%."
+  },
+  {
+    "query_id": "at19",
+    "group": "multi-hop",
+    "pass": false,
+    "reason": "Không đạt: thiếu giá trị 2018 (36.32 MtCO2e); dẫn số tổng 364 MtCO2e không liên quan."
+  },
+  {
+    "query_id": "at20",
+    "group": "multi-hop",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at21",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at22",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at23",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "at24",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án, đúng đơn vị; citation trỏ đúng trang và vùng evidence (đã đối chiếu ảnh trang gốc)."
+  },
+  {
+    "query_id": "ut01",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối, không thêm khẳng định."
+  },
+  {
+    "query_id": "ut02",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối, không thêm khẳng định."
+  },
+  {
+    "query_id": "ut03",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối, không thêm khẳng định."
+  },
+  {
+    "query_id": "ut04",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối, không thêm khẳng định."
+  },
+  {
+    "query_id": "ut05",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối, không thêm khẳng định."
+  },
+  {
+    "query_id": "ut06",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối, không thêm khẳng định."
+  }
+]

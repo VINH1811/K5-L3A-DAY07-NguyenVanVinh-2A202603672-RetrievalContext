@@ -26,7 +26,7 @@ sys.path.insert(0, str(ROOT / 'src'))
 sys.path.insert(0, str(ROOT / 'src' / 'advanced'))
 from common import load_json, save_json  # noqa: E402
 from agent import run_agent  # noqa: E402
-from controller import OllamaController  # noqa: E402
+from controller import DECISION_INSTRUCTIONS, SYSTEM_PROMPT, OllamaController  # noqa: E402
 from gemini import default_model, generate, image_part  # noqa: E402
 
 DATA = ROOT / 'starter' / 'data' / 'advanced'
@@ -37,8 +37,28 @@ def page_of(chunk_id: str) -> int:
     return int(re.search(r':p(\d{3}):', chunk_id).group(1))
 
 
+ADVANCED_RULES = """
+Extra rules for this report (tables, charts, maps and diagrams):
+7. A question can have several parts (two values, two years, two scenarios, a comparison). Answer
+   only when the passages state EVERY part; if one part is missing, search again for that part.
+8. Prefer a value printed in a table or in the text over a value estimated from a chart. Never guess
+   a number from a chart when the question asks for a specific statistic: search for the exact figure
+   (e.g. in the annex tables) instead. Estimate from a chart only when the chart is the only source,
+   and then say "about".
+9. Give the direction of every change explicitly (increase or decrease, higher or lower, the sign).
+10. For a comparison, state both values with units, then the comparison."""
+
+ADVANCED_DECISION = DECISION_INSTRUCTIONS.replace(
+    '"passages_contain_answer": true only if the passages above state the answer to the question.',
+    '"passages_contain_answer": true only if the passages above (or the page images) state EVERY part of the answer.')
+assert ADVANCED_DECISION != DECISION_INSTRUCTIONS
+
+
 class GeminiController(OllamaController):
-    """Same decision logic as the local controller; only the model call differs."""
+    """Same decision logic as the local controller; only the model call and extra rules differ."""
+
+    system_prompt = SYSTEM_PROMPT + ADVANCED_RULES
+    decision_instructions = ADVANCED_DECISION
 
     def __init__(self, model: str, *, max_searches: int, page_images: bool = False, max_images: int = 3):
         super().__init__(model, max_searches=max_searches)
@@ -109,8 +129,8 @@ def main() -> None:
     parser.add_argument('--chunks', choices=('pypdf', 'mm'), required=True)
     parser.add_argument('--method', choices=('bm25', 'dense', 'hybrid'), required=True)
     parser.add_argument('--split', choices=('dev', 'test'), required=True)
-    parser.add_argument('--top-k', type=int, default=5)
-    parser.add_argument('--budget', type=int, default=9000, help='context budget (ký tự)')
+    parser.add_argument('--top-k', type=int, default=8)
+    parser.add_argument('--budget', type=int, default=24000, help='context budget (ký tự)')
     parser.add_argument('--max-searches', type=int, default=3)
     parser.add_argument('--page-images', action='store_true')
     parser.add_argument('--model', default=default_model())

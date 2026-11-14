@@ -1,0 +1,112 @@
+[
+  {
+    "query_id": "ad01",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad02",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad03",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad04",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad05",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad06",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad07",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad08",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad09",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad10",
+    "pass": false,
+    "reason": "Sai giá trị: nói khoảng $500/tCO2e, cột cao nhất chỉ dưới 400."
+  },
+  {
+    "query_id": "ad11",
+    "pass": false,
+    "reason": "Từ chối dù Figure 17 có đáp án (mô tả trích xuất không nêu giá trị từng cột)."
+  },
+  {
+    "query_id": "ad12",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad13",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad14",
+    "pass": false,
+    "reason": "Không nêu giá trị năm 2018 (\"shown in Figure 4\"), thiếu một vế."
+  },
+  {
+    "query_id": "ad15",
+    "pass": false,
+    "reason": "Sai vế 1: nói 6.8% GDP (con số của RNZP) thay vì 2.1% cho decarbonizing."
+  },
+  {
+    "query_id": "ad16",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad17",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad18",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad19",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ud01",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  },
+  {
+    "query_id": "ud02",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  },
+  {
+    "query_id": "ud03",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  }
+]

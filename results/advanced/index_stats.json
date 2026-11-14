@@ -1,0 +1,47 @@
+{
+  "document": {
+    "title": "Vietnam Country Climate and Development Report",
+    "publisher": "World Bank Group",
+    "date": "July 2022",
+    "url": "https://documents1.worldbank.org/curated/en/099355507062229876/pdf/P17724103036ee07909701028a237b6d18b.pdf",
+    "sha256": "bff12549ea7f81fdf8c2d5e0df5a418485c1fd2734e131ad902de89969316f89",
+    "physical_pages": 100,
+    "body_pages_printed_1_87": "physical 11-97",
+    "blank_pages": [
+      98,
+      99
+    ]
+  },
+  "pages_rendered_dpi": 110,
+  "pages_extracted": 100,
+  "extraction_models": {
+    "gemini-3-flash-preview": 13,
+    "gemini-2.5-flash": 15,
+    "gemini-3.1-flash-lite": 72
+  },
+  "extracted_elements": {
+    "figure": 32,
+    "text": 298,
+    "table": 19
+  },
+  "extraction_tokens": 426474,
+  "extraction_seconds": 2400,
+  "chunks_mm": {
+    "n": 453,
+    "by_element": {
+      "figure": 32,
+      "text": 402,
+      "table": 19
+    },
+    "pages": 99
+  },
+  "chunks_pypdf": {
+    "n": 362,
+    "pages": 96
+  },
+  "embedding": "google/embeddinggemma-2, 768 dims, Chroma cosine (collections adv_mm, adv_pypdf)",
+  "embed_seconds": {
+    "pypdf": 202,
+    "mm": 457
+  }
+}

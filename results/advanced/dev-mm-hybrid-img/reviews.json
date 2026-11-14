@@ -1,0 +1,112 @@
+[
+  {
+    "query_id": "ad01",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad02",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad03",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad04",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad05",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad06",
+    "pass": false,
+    "reason": "Từ chối dù tài liệu có đáp án: 2 lượt tìm không lấy được bảng phụ lục tr.86 (lỗi retrieval)."
+  },
+  {
+    "query_id": "ad07",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad08",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad09",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad10",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad11",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad12",
+    "pass": false,
+    "reason": "Nêu \"1.1 point deviation\" nhưng không nói Gini giảm; thiếu chiều thay đổi."
+  },
+  {
+    "query_id": "ad13",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad14",
+    "pass": false,
+    "reason": "Sai: lấy \"khoảng 150 MtCO2e\" ước lượng từ Figure 4 thay vì 109.13 MtCO2e trong bảng Annex 1 (tr.85)."
+  },
+  {
+    "query_id": "ad15",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad16",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad17",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad18",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad19",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ud01",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  },
+  {
+    "query_id": "ud02",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  },
+  {
+    "query_id": "ud03",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  }
+]

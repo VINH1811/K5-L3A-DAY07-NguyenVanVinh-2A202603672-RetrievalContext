@@ -1,0 +1,54 @@
+{
+  "run": "starter\\results\\adv-dev-pypdf-hybrid",
+  "passed": 16,
+  "total": 22,
+  "rate_percent": 72.72727272727273,
+  "meets_90_percent": false,
+  "by_group": {
+    "table": "6/6",
+    "image": "1/2",
+    "chart": "2/5",
+    "multi-hop": "0/2",
+    "text": "4/4",
+    "unanswerable": "3/3"
+  },
+  "errors": 0,
+  "failures": [
+    {
+      "query_id": "ad07",
+      "group": "image",
+      "status": "answered",
+      "reason": "Thiếu: chỉ nêu miền núi phía Bắc, bỏ dải miền Trung trên bản đồ."
+    },
+    {
+      "query_id": "ad10",
+      "group": "chart",
+      "status": "answered",
+      "reason": "Sai biện pháp: \"rice to shrimp farming\" (cột âm), đúng là rice to maize."
+    },
+    {
+      "query_id": "ad11",
+      "group": "chart",
+      "status": "answered",
+      "reason": "Sai biện pháp: Dairy TMR (cột âm), đúng là diet for buffaloes."
+    },
+    {
+      "query_id": "ad12",
+      "group": "chart",
+      "status": "answered",
+      "reason": "Sai giá trị: 0.3 điểm, đúng là -1.1."
+    },
+    {
+      "query_id": "ad14",
+      "group": "multi-hop",
+      "status": "answered",
+      "reason": "Sai vế 2: 276 MtCO2e (là TWh than của CPS), đúng là 246 MtCO2e."
+    },
+    {
+      "query_id": "ad15",
+      "group": "multi-hop",
+      "status": "answered",
+      "reason": "Thiếu vế 1: không nêu 2.1% GDP/năm cho decarbonizing pathway."
+    }
+  ]
+}

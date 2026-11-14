@@ -1,0 +1,1028 @@
+[
+  {
+    "query_id": "ad01",
+    "group": "table",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 474.85969999979716,
+    "results": [
+      {
+        "id": "ccdr:p018:mm-table:01",
+        "page": 18,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p006:mm-text:02",
+        "page": 6,
+        "score": 0.031754032258064516,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p017:mm-text:03",
+        "page": 17,
+        "score": 0.029877369007803793,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:mm-text:02",
+        "page": 7,
+        "score": 0.029827662395050816,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p062:mm-text:05",
+        "page": 62,
+        "score": 0.027972027972027972,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad02",
+    "group": "table",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 224.41560000061145,
+    "results": [
+      {
+        "id": "ccdr:p029:mm-table:04",
+        "page": 29,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p029:mm-text:02",
+        "page": 29,
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p071:mm-figure:03",
+        "page": 71,
+        "score": 0.03125763125763126,
+        "rank": 3,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p029:mm-text:00",
+        "page": 29,
+        "score": 0.029957522915269395,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p073:mm-text:04",
+        "page": 73,
+        "score": 0.02964426877470356,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad03",
+    "group": "table",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 177.32109999997192,
+    "results": [
+      {
+        "id": "ccdr:p048:mm-table:04",
+        "page": 48,
+        "score": 0.03200204813108039,
+        "rank": 1,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p091:mm-table:00",
+        "page": 91,
+        "score": 0.031544957774465976,
+        "rank": 2,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p045:mm-text:05",
+        "page": 45,
+        "score": 0.03149801587301587,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p046:mm-text:04",
+        "page": 46,
+        "score": 0.03131881575727918,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p048:mm-text:02",
+        "page": 48,
+        "score": 0.029827662395050816,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad04",
+    "group": "table",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 178.32569999973202,
+    "results": [
+      {
+        "id": "ccdr:p051:mm-text:01",
+        "page": 51,
+        "score": 0.032266458495966696,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p052:mm-table:00",
+        "page": 52,
+        "score": 0.031754032258064516,
+        "rank": 2,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p050:mm-text:01",
+        "page": 50,
+        "score": 0.03131881575727918,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p051:mm-figure:00",
+        "page": 51,
+        "score": 0.028991596638655463,
+        "rank": 4,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p006:mm-text:02",
+        "page": 6,
+        "score": 0.028949545078577336,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad05",
+    "group": "table",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 152.8213000001415,
+    "results": [
+      {
+        "id": "ccdr:p078:mm-table:03",
+        "page": 78,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p078:mm-text:02",
+        "page": 78,
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p094:mm-table:00",
+        "page": 94,
+        "score": 0.031009615384615385,
+        "rank": 3,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p005:mm-text:02",
+        "page": 5,
+        "score": 0.029957522915269395,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p011:mm-text:04",
+        "page": 11,
+        "score": 0.028594771241830064,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad06",
+    "group": "table",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 155.7930999997552,
+    "results": [
+      {
+        "id": "ccdr:p021:mm-text:04",
+        "page": 21,
+        "score": 0.027972027972027972,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p072:mm-text:01",
+        "page": 72,
+        "score": 0.027479766610201392,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p093:mm-table:02",
+        "page": 93,
+        "score": 0.02548701298701299,
+        "rank": 3,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p023:mm-text:05",
+        "page": 23,
+        "score": 0.01639344262295082,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p086:mm-table:00",
+        "page": 86,
+        "score": 0.01639344262295082,
+        "rank": 5,
+        "element": "table"
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad07",
+    "group": "image",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 166.32490000029065,
+    "results": [
+      {
+        "id": "ccdr:p034:mm-figure:01",
+        "page": 34,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p007:mm-text:01",
+        "page": 7,
+        "score": 0.0315136476426799,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p035:mm-text:02",
+        "page": 35,
+        "score": 0.03149801587301587,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p037:mm-figure:01",
+        "page": 37,
+        "score": 0.031009615384615385,
+        "rank": 4,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p054:mm-figure:00",
+        "page": 54,
+        "score": 0.030158730158730156,
+        "rank": 5,
+        "element": "figure"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad08",
+    "group": "image",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 163.21530000004714,
+    "results": [
+      {
+        "id": "ccdr:p071:mm-figure:03",
+        "page": 71,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p029:mm-table:04",
+        "page": 29,
+        "score": 0.03200204813108039,
+        "rank": 2,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p071:mm-text:01",
+        "page": 71,
+        "score": 0.03128054740957967,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p029:mm-text:02",
+        "page": 29,
+        "score": 0.030798389007344232,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p073:mm-text:05",
+        "page": 73,
+        "score": 0.029709507042253523,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad09",
+    "group": "chart",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 169.4883000000118,
+    "results": [
+      {
+        "id": "ccdr:p023:mm-figure:00",
+        "page": 23,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p022:mm-text:04",
+        "page": 22,
+        "score": 0.03149801587301587,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p022:mm-text:03",
+        "page": 22,
+        "score": 0.029116045245077504,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p093:mm-text:01",
+        "page": 93,
+        "score": 0.016129032258064516,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:mm-text:00",
+        "page": 7,
+        "score": 0.015873015873015872,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad10",
+    "group": "chart",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 165.4630000002726,
+    "results": [
+      {
+        "id": "ccdr:p059:mm-figure:03",
+        "page": 59,
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p060:mm-text:03",
+        "page": 60,
+        "score": 0.03177805800756621,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p059:mm-text:01",
+        "page": 59,
+        "score": 0.031754032258064516,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:mm-text:02",
+        "page": 7,
+        "score": 0.030158730158730156,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p060:mm-text:05",
+        "page": 60,
+        "score": 0.02886002886002886,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad11",
+    "group": "chart",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 152.48759999940376,
+    "results": [
+      {
+        "id": "ccdr:p059:mm-text:01",
+        "page": 59,
+        "score": 0.032266458495966696,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p059:mm-figure:03",
+        "page": 59,
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p060:mm-figure:00",
+        "page": 60,
+        "score": 0.031544957774465976,
+        "rank": 3,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p060:mm-text:05",
+        "page": 60,
+        "score": 0.028814262023217248,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:mm-text:02",
+        "page": 7,
+        "score": 0.02668564312399929,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad12",
+    "group": "chart",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 152.44760000041424,
+    "results": [
+      {
+        "id": "ccdr:p064:mm-figure:00",
+        "page": 64,
+        "score": 0.032266458495966696,
+        "rank": 1,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p063:mm-text:04",
+        "page": 63,
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p048:mm-text:02",
+        "page": 48,
+        "score": 0.031544957774465976,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p048:mm-table:04",
+        "page": 48,
+        "score": 0.03076923076923077,
+        "rank": 4,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p048:mm-text:03",
+        "page": 48,
+        "score": 0.03057889822595705,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad13",
+    "group": "chart",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 170.53779999969265,
+    "results": [
+      {
+        "id": "ccdr:p051:mm-figure:00",
+        "page": 51,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p007:mm-text:02",
+        "page": 7,
+        "score": 0.031754032258064516,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p051:mm-text:03",
+        "page": 51,
+        "score": 0.03149801587301587,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p050:mm-text:01",
+        "page": 50,
+        "score": 0.03125763125763126,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p051:mm-text:01",
+        "page": 51,
+        "score": 0.030621785881252923,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad14",
+    "group": "multi-hop",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 187.82850000025064,
+    "results": [
+      {
+        "id": "ccdr:p051:mm-figure:00",
+        "page": 51,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p018:mm-figure:00",
+        "page": 18,
+        "score": 0.031754032258064516,
+        "rank": 2,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p007:mm-text:02",
+        "page": 7,
+        "score": 0.03125763125763126,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p050:mm-text:01",
+        "page": 50,
+        "score": 0.030621785881252923,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p050:mm-text:00",
+        "page": 50,
+        "score": 0.030117753623188408,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_all_groups": false
+  },
+  {
+    "query_id": "ad15",
+    "group": "multi-hop",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 172.06850000002305,
+    "results": [
+      {
+        "id": "ccdr:p046:mm-table:00",
+        "page": 46,
+        "score": 0.03125763125763126,
+        "rank": 1,
+        "element": "table"
+      },
+      {
+        "id": "ccdr:p006:mm-text:02",
+        "page": 6,
+        "score": 0.031099324975891997,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p071:mm-text:00",
+        "page": 71,
+        "score": 0.030798389007344232,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p063:mm-text:03",
+        "page": 63,
+        "score": 0.030776515151515152,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p073:mm-text:04",
+        "page": 73,
+        "score": 0.030117753623188408,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_all_groups": false
+  },
+  {
+    "query_id": "ad16",
+    "group": "text",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 137.54690000041592,
+    "results": [
+      {
+        "id": "ccdr:p057:mm-text:02",
+        "page": 57,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p056:mm-text:03",
+        "page": 56,
+        "score": 0.031024531024531024,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p056:mm-text:02",
+        "page": 56,
+        "score": 0.030798389007344232,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p058:mm-text:03",
+        "page": 58,
+        "score": 0.029827662395050816,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p014:mm-figure:01",
+        "page": 14,
+        "score": 0.028381642512077296,
+        "rank": 5,
+        "element": "figure"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad17",
+    "group": "text",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 167.91850000026898,
+    "results": [
+      {
+        "id": "ccdr:p034:mm-text:03",
+        "page": 34,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p035:mm-text:01",
+        "page": 35,
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p027:mm-text:03",
+        "page": 27,
+        "score": 0.03007688828584351,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p063:mm-text:04",
+        "page": 63,
+        "score": 0.02782608695652174,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p019:mm-text:02",
+        "page": 19,
+        "score": 0.02690501986276634,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad18",
+    "group": "text",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 156.0429999999542,
+    "results": [
+      {
+        "id": "ccdr:p038:mm-text:04",
+        "page": 38,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:mm-text:01",
+        "page": 7,
+        "score": 0.030017921146953404,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p039:mm-text:04",
+        "page": 39,
+        "score": 0.028850145288501453,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p038:mm-figure:06",
+        "page": 38,
+        "score": 0.027443609022556388,
+        "rank": 4,
+        "element": "figure"
+      },
+      {
+        "id": "ccdr:p016:mm-text:03",
+        "page": 16,
+        "score": 0.016129032258064516,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad19",
+    "group": "text",
+    "chunks": "mm",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 164.57179999997607,
+    "results": [
+      {
+        "id": "ccdr:p058:mm-text:03",
+        "page": 58,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p049:mm-text:01",
+        "page": 49,
+        "score": 0.031009615384615385,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p057:mm-text:02",
+        "page": 57,
+        "score": 0.030017921146953404,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p061:mm-text:04",
+        "page": 61,
+        "score": 0.029827662395050816,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p049:mm-text:02",
+        "page": 49,
+        "score": 0.02976190476190476,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  }
+]

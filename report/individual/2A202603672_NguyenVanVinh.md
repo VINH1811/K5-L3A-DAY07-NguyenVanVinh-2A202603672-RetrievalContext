@@ -88,4 +88,39 @@ Lỗi thứ ba chưa sửa được: **q03** — hybrid trả lời "36 percent"
 
 ## Thử thách nâng cao
 
-Không thực hiện.
+- **Tài liệu, nguồn, quyền sử dụng, số trang và phiên bản:** World Bank Group, *Vietnam Country Climate and Development Report*, 07/2022, 100 trang PDF (trang in 1–87 là trang vật lý 11–97; tr.98–99 trống). Tải công khai từ [documents.worldbank.org](https://documents1.worldbank.org/curated/en/099355507062229876/pdf/P17724103036ee07909701028a237b6d18b.pdf), sha256 `bff12549…316f89`. Bản quyền World Bank; chỉ dùng cho bài học, không đưa PDF, ảnh trang hay bản trích xuất lên repo (tái tạo theo [src/advanced/README.md](../../src/advanced/README.md)). Tài liệu có 22 hình (biểu đồ, bản đồ, sơ đồ), 6 bảng đánh số và bảng phụ lục. Lưu ý: tài liệu vừa đúng 100 trang PDF, khoảng 87 trang nội dung.
+- **Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý:**
+  - Render 100 trang thành ảnh PNG 110 dpi (PyMuPDF). Mỗi trang gửi ảnh và text layer (pypdf) cho model đọc ảnh, nhận về JSON các phần tử `text` / `table` / `figure`: bảng chép theo hàng, cột, đơn vị; hình gồm tiêu đề, trục, chú giải, mọi số và nhãn in trên hình ("Printed values"), số ước lượng tách riêng có dấu ~, bản đồ ghi vùng được tô đậm và địa danh.
+  - Model trích xuất: `gemini-3-flash-preview` 13 trang, `gemini-2.5-flash` 15 trang, `gemini-3.1-flash-lite` 72 trang. Lý do: gói miễn phí giới hạn 20 request/ngày cho mỗi model flash, script tự chuyển model khi hết hạn mức. Kết quả: 298 phần tử text, 19 bảng, 32 hình; 426 nghìn token, khoảng 40 phút.
+  - Hai index trong Chroma, cùng embedding `embeddinggemma-2`: `pypdf` (text layer, 362 chunk, 96 trang có text) và `mm` (453 chunk: 402 text, 19 bảng, 32 hình). Mỗi bảng/hình là một chunk riêng, mở đầu bằng nhãn và tiêu đề; mỗi chunk giữ trang vật lý, trang in, loại phần tử, nhãn. Citation trỏ tới đúng vùng trang (ví dụ `ccdr:p051:mm-figure:00` = Figure 13, trang in 41).
+  - Chưa xử lý tốt: Figure 12 (biểu đồ tròn) không có chú giải màu trong bản gốc, model tự gán tên nhiên liệu cho các phần ngoài phần than (59% khớp text). Mô tả Figure 11 (bản đồ ngập lụt) không nêu vùng đậm nhất. Ảnh trang trí đầu chương chỉ được ghi một dòng. Text trích xuất chỉ được kiểm tra trên các trang có trong benchmark (33 câu có bảng/hình đều có đủ số then chốt), không phải toàn bộ 100 trang.
+- **Cách chia benchmark, schema evidence, model và cấu hình đã chốt trên dev:**
+  - [data/advanced/questions.json](../../data/advanced/questions.json), sinh từ [build_questions.py](../../data/advanced/build_questions.py), chia trước khi chạy retrieval. Dev 22 câu (6 bảng, 2 ảnh, 5 biểu đồ, 2 multi-hop, 4 text, 3 thiếu bằng chứng); test 30 câu (6 bảng, 5 ảnh/sơ đồ, 5 biểu đồ, 4 multi-hop, 4 text, 6 thiếu bằng chứng). Câu dev và test không trùng đáp án.
+  - Mỗi câu có nhóm chính, đáp án, `evidence_groups` (trang vật lý, trang in, phần tử như "Table 4"/"Figure 13", mô tả ô hoặc vùng), phép tính nếu có. Multi-hop có hai nhóm evidence ở hai trang khác nhau. Đáp án đọc từ ảnh trang gốc; mọi trích dẫn text đã được kiểm tra khớp nguyên văn trang. Câu thiếu bằng chứng ghi mẫu regex và số trang khớp; một câu dự kiến (doanh số xe điện) bị loại khỏi nhóm này vì tài liệu có số liệu (tr.58), chuyển thành câu dev có đáp án.
+  - Agent: cùng vòng lặp với phần cơ bản (`interleave`, tối đa 3 lượt tìm), controller gọi `gemini-3.1-flash-lite` (model duy nhất còn đủ hạn mức). Kết quả dev (đạt/không đạt), file trong [results/advanced/](../../results/advanced/):
+
+| Cấu hình dev | Đạt | Bảng | Ảnh | Biểu đồ | Multi-hop | Text | Thiếu evidence |
+|---|---|---|---|---|---|---|---|
+| pypdf + hybrid (text-only) | 16/22 | 6/6 | 1/2 | 2/5 | 0/2 | 4/4 | 3/3 |
+| mm + hybrid | 18/22 | 6/6 | 2/2 | 3/5 | 0/2 | 4/4 | 3/3 |
+| mm + hybrid + ảnh trang | 19/22 | 5/6 | 2/2 | 4/5 | 1/2 | 4/4 | 3/3 |
+| mm + hybrid + ảnh trang + quy tắc nâng cao, top-k 8, budget 24.000 (chốt) | 22/22 | 6/6 | 2/2 | 5/5 | 2/2 | 4/4 | 3/3 |
+
+  - Ba lỗi dev dẫn tới cấu hình chốt: ad14 ước lượng "khoảng 150 MtCO2e" từ Figure 4 thay vì số 109,13 trong bảng phụ lục; ad12 nêu "lệch 1,1 điểm" không có chiều; ad06 không lấy được bảng phụ lục (bảng dài ~8.000 ký tự chiếm gần hết budget 12.000). Sửa: thêm quy tắc "trả lời đủ mọi vế, ưu tiên số in trong bảng/text hơn số ước lượng từ biểu đồ, nêu chiều thay đổi", top-k 5 → 8, budget 12.000 → 24.000 ký tự. "Ảnh trang" nghĩa là ở bước quyết định, model nhận thêm ảnh của tối đa 3 trang có trong context.
+  - Tiêu chí chọn (ghi trong [SELECTION.md](../../data/advanced/SELECTION.md) trước khi chạy test): tỷ lệ đạt dev cao nhất; hòa thì ít lượt gọi model hơn. Test chạy một lần, không chỉnh sau đó.
+
+| Nhóm test | Đạt / tổng (cấu hình chốt) | Tỷ lệ | Baseline text-only | Lỗi / nhận xét |
+|---|---|---|---|---|
+| Bảng | 5/6 | 83,3% | 6/6 | at04: chọn nhầm hàng "competitiveness gains" (−0,6) thay vì "energy efficiency gains" (+0,2) dù trích đúng Table 4 |
+| Ảnh, sơ đồ | 4/5 | 80,0% | 4/5 | at09: chọn Cần Thơ thay vì Đà Nẵng trên bản đồ Figure 11 dù có ảnh trang |
+| Biểu đồ | 5/5 | 100% | 2/5 | Baseline đọc nhầm số (246 thay vì 276 TWh; 28,1 là nhãn trục) hoặc từ chối |
+| Multi-hop | 3/4 | 75,0% | 1/4 | at18: vế GDP lấy −0,6% (NZP không cải cách) thay vì +1,7% (Table 4) |
+| Text | 4/4 | 100% | 4/4 | |
+| Thiếu bằng chứng | 6/6 | 100% | 6/6 | ut03 ở ranh giới (xem dưới) |
+| **Toàn bộ** | **27/30** | **90,0%** | **23/30 (76,7%)** | 0 lỗi hệ thống, 0 timeout |
+
+- **Trace, nhãn và evidence từng câu; thời gian, chi phí, lỗi hệ thống:** `results/advanced/test-final/` gồm `traces.json` (từng lượt gọi model, query, chunk trả về, context, trang ảnh đã gửi, câu trả lời, citation, token, thời gian), `review_sheet.json` (câu hỏi, đáp án, evidence, câu trả lời, nội dung từng citation), `reviews.json` (đạt/không đạt và lý do từng câu), `score.json`. Cấu hình chốt: 67 lượt gọi model, 255.501 token prompt (phần lớn là ảnh trang) / 3.191 token output, median 7,7 s/câu, tổng 789 s (gồm thời gian chờ khi API báo 429/503 và tự thử lại). Baseline: 79 lượt gọi, 167.181 / 3.591 token, median 3,3 s, tổng 287 s. Chi phí 0 USD (gói miễn phí). Không có lỗi hệ thống trong hai lượt test; các lỗi 429 (hạn mức theo phút) và 503 (quá tải) đều được thử lại thành công.
+- **Giới hạn, cách tái lập và đường dẫn benchmark:**
+  - *Kết quả nằm đúng ngưỡng:* 27/30 = 90,0%, và có 4 câu được chấm "đạt" theo cách nới (ghi rõ trong `reviews.json`): at08 chỉ nêu "ven biển miền Trung" trong khi dải tô màu kéo từ ven biển phía Bắc; at17 và at19 nêu đủ hai giá trị nhưng không nêu tỷ lệ; ut03 không dùng câu từ chối mà bác bỏ tiền đề bằng evidence ("hệ thống trading chưa triển khai", tr.22), không đưa ra giá nào. Nếu người chấm đánh "không đạt" bất kỳ câu nào trong 4 câu này, kết quả là 26/30 và không đạt ngưỡng.
+  - Mẫu nhỏ (dev 22, test 30) trên một tài liệu; benchmark do một người soạn và chấm, chưa có người chấm thứ hai. Cấu hình chốt đạt 22/22 trên dev nhưng 27/30 trên test, cho thấy đã khớp dev một phần. Model trích xuất khác nhau giữa các trang. Model agent là bản "lite" vì giới hạn hạn mức miễn phí. Câu hỏi bằng tiếng Anh.
+  - Tái lập: [src/advanced/README.md](../../src/advanced/README.md). Benchmark: [data/advanced/questions.json](../../data/advanced/questions.json).

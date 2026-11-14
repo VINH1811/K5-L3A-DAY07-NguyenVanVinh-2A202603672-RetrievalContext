@@ -1,0 +1,60 @@
+{
+  "run": "starter\\results\\adv-test-baseline-pypdf",
+  "passed": 23,
+  "total": 30,
+  "rate_percent": 76.66666666666667,
+  "meets_90_percent": false,
+  "by_group": {
+    "table": "6/6",
+    "image": "4/5",
+    "chart": "2/5",
+    "multi-hop": "1/4",
+    "text": "4/4",
+    "unanswerable": "6/6"
+  },
+  "errors": 0,
+  "failures": [
+    {
+      "query_id": "at09",
+      "group": "image",
+      "status": "abstain",
+      "reason": "Không đạt: từ chối (text-only không có thông tin bản đồ)."
+    },
+    {
+      "query_id": "at12",
+      "group": "chart",
+      "status": "abstain",
+      "reason": "Không đạt: từ chối dù Figure 3 có nhãn số (text layer của treemap không đủ để agent kết luận)."
+    },
+    {
+      "query_id": "at14",
+      "group": "chart",
+      "status": "answered",
+      "reason": "Không đạt: nêu 246 và 63 (là MtCO2e phát thải) thay vì 276 và 26 TWh than."
+    },
+    {
+      "query_id": "at15",
+      "group": "chart",
+      "status": "answered",
+      "reason": "Không đạt: đúng ngành Electricity nhưng sai giá trị 28.1 (là nhãn trục), đúng là 23.6."
+    },
+    {
+      "query_id": "at17",
+      "group": "multi-hop",
+      "status": "abstain",
+      "reason": "Không đạt: từ chối."
+    },
+    {
+      "query_id": "at18",
+      "group": "multi-hop",
+      "status": "answered",
+      "reason": "Không đạt vế 2: GDP -0.6% thay vì +1.7%."
+    },
+    {
+      "query_id": "at19",
+      "group": "multi-hop",
+      "status": "answered",
+      "reason": "Không đạt: thiếu giá trị 2018 (36.32 MtCO2e); dẫn số tổng 364 MtCO2e không liên quan."
+    }
+  ]
+}

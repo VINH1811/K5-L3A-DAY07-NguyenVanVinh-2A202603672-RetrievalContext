@@ -1,6 +1,6 @@
 # Day 7 — Agentic RAG
 
-> **Bài làm của 2A202603672 Nguyễn Văn Vinh:** [báo cáo](report/individual/2A202603672_NguyenVanVinh.md) · [cách chạy và code](src/README.md) · [benchmark](data/questions.json) · [kết quả, trace và nhãn](results/)
+> **Bài làm của 2A202603672 Nguyễn Văn Vinh:** [báo cáo](report/individual/2A202603672_NguyenVanVinh.md) · [cách chạy và code](src/README.md) · [benchmark](data/questions.json) · [kết quả, trace và nhãn](results/) · [thử thách nâng cao](src/advanced/README.md)
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 

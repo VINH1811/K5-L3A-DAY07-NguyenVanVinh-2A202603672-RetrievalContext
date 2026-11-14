@@ -12,7 +12,7 @@ import argparse
 import json
 from pathlib import Path
 
-from gemini import default_model, generate, image_part
+from gemini import DailyQuotaExceeded, generate, image_part
 
 PROMPT = """You are digitizing page {page} of a World Bank report so that it can be searched.
 Use the page image as the source of truth; the raw text layer below is only a help (it can be
@@ -52,18 +52,29 @@ def main() -> None:
     parser.add_argument('--pages', type=Path, required=True)
     parser.add_argument('--pypdf', type=Path, required=True)
     parser.add_argument('--out', type=Path, required=True)
-    parser.add_argument('--model', default=default_model())
+    parser.add_argument('--model', nargs='+', default=['gemini-2.5-flash'],
+                        help='một hoặc nhiều model; khi model đầu hết hạn mức ngày thì chuyển sang model sau')
     parser.add_argument('--only', type=int, nargs='*', help='chỉ xử lý các trang này')
     args = parser.parse_args()
     args.out.mkdir(parents=True, exist_ok=True)
+    models = list(args.model)
     texts = {p['page']: p['text'] for p in json.loads(args.pypdf.read_text(encoding='utf-8'))}
     for page in sorted(args.only or texts):
         target = args.out / f'p{page:03d}.json'
         if target.exists():
             continue
-        result = generate([{'role': 'user', 'parts': [
+        contents = [{'role': 'user', 'parts': [
             {'text': PROMPT.format(page=page, text=texts[page][:12000] or '(empty)')},
-            image_part(args.pages / f'p{page:03d}.png')]}], model=args.model, schema=SCHEMA)
+            image_part(args.pages / f'p{page:03d}.png')]}]
+        while True:
+            try:
+                result = generate(contents, model=models[0], schema=SCHEMA)
+                break
+            except DailyQuotaExceeded as error:
+                print(f'  {error}; switching model', flush=True)
+                models.pop(0)
+                if not models:
+                    raise SystemExit('Hết hạn mức ngày của mọi model đã cho; chạy lại sau, các trang đã xong được giữ lại.')
         data = json.loads(result['text'])
         record = {'page': page, **data, 'model': result['model'], 'usage': result['usage'],
                   'seconds': result['seconds'], 'retries': result['retries']}

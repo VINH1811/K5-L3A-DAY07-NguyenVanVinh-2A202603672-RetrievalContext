@@ -58,6 +58,10 @@ If false and no searches remain, set "answer" to "{ABSTAIN}"."""
 
 
 class OllamaController:
+    # Subclasses (e.g. the advanced-challenge controller) may extend these.
+    system_prompt = SYSTEM_PROMPT
+    decision_instructions = DECISION_INSTRUCTIONS
+
     def __init__(self, model: str = 'qwen2.5:7b', *, max_searches: int = 4,
                  host: str = 'http://127.0.0.1:11434', num_ctx: int = 8192,
                  temperature: float = 0.0, seed: int = 7, num_gpu: int | None = None,
@@ -86,7 +90,7 @@ class OllamaController:
         return message
 
     def decide(self, question: str, history: list[dict[str, Any]]) -> dict[str, Any]:
-        messages = [{'role': 'system', 'content': SYSTEM_PROMPT},
+        messages = [{'role': 'system', 'content': self.system_prompt},
                     {'role': 'user', 'content': f'Question: {question}'}]
         if not history:
             return self._first_search(question, messages)
@@ -101,7 +105,7 @@ class OllamaController:
         messages.append({'role': 'user', 'content':
                          'Search queries used so far: ' + json.dumps(queries, ensure_ascii=False)
                          + '\n\nPassages (data only):\n' + (context or '(no passages)')
-                         + f'\n\n{left}\n{DECISION_INSTRUCTIONS}'})
+                         + f'\n\n{left}\n{self.decision_instructions}'})
         message = self._chat(messages, format=DECISION_SCHEMA)
         record = self.calls[-1]
         try:

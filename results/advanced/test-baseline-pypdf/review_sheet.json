@@ -1,0 +1,857 @@
+[
+  {
+    "query_id": "at01",
+    "group": "table",
+    "question": "In the cross-country emission overview, what are Indonesia's total emissions and its share of global emissions?",
+    "expected": "1,703.9 MtCO2e, or 3.6 percent of global emissions.",
+    "evidence_groups": [
+      [
+        {
+          "page": 18,
+          "printed_page": 8,
+          "element": "Table 1",
+          "evidence": "Indonesia row: total emissions 1703.9 MtCO2e, % of global emissions 3.6%"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "In the cross-country emission overview, Indonesia's total emissions are 1703.9 MtCO2e, which accounts for 3.6% of global emissions [ccdr:p018:pypdf:01].",
+    "citations": [
+      {
+        "id": "ccdr:p018:pypdf:01",
+        "page": 18,
+        "printed_page": "8",
+        "element": "text",
+        "label": "",
+        "text": "Cross-Country Emission Overview Country Emissions per capita (tCO2e per capita) Carbon intensity (tCO2e/million $GDP) Total emissions (MtCO2e) % of global emissions United States 17.7 281.5 5,794.3 12.0% Mongolia 17.5 4,250.9 55.7 0.1% Malaysia 12.3 1,081.9 388.1 0.8% OECD 10.8 266.6 14,081.8 29.8% Germany 9.4 195.9 776.61 1.6% China 8.4 842.5 11,705.1 23.9% Papua New Guinea 7.5 2,658.3 64.1 0.1% United Kingdom 6.6 154.2 441.1 0.9% Indonesia 6.4 1,634.8 1703.9 3.6% Thailand 6.2 851.4 431.2 0.9% Lao PDR 5.5 2,151.6 38.6 0.1% France 5.4 129.6 361.4 0.7% Timor-Leste 5.3 4,271.0 6.7 0.0% Myanmar 4.3 3,040.9 231.6 0.5% Cambodia 4.3 2,814.1 69.2 0.1% Vietnam 3.8 1,486.2 364.4 0.8% Philippines 2.2 677.0 234.8 0.5% Source: Climate Watch 12 Climate Watch. 2020. “GHG Emissions.” Washington, DC: World Resources Institute. https://www. climatewatchdata.org/ghg-emissions."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at02",
+    "group": "table",
+    "question": "What are the estimated financing needs for financial support to affected people and businesses for 2022-2050?",
+    "expected": "0.3-0.7 percent of GDP per year, or $22.8-53.2 billion accumulated in NPV terms.",
+    "evidence_groups": [
+      [
+        {
+          "page": 29,
+          "printed_page": 19,
+          "element": "Table 2",
+          "evidence": "row \"Financial support to affected people and businesses\": 0.3-0.7, 22.8-53.2"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "The estimated incremental financing needs for financial support to affected people and businesses for 2022–2050 are 0.3–0.7 percent of GDP per year, or $22.8–53.2 billion in net present value terms [ccdr:p029:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p029:pypdf:03",
+        "page": 29,
+        "printed_page": "19",
+        "element": "text",
+        "label": "",
+        "text": "Estimates of incremental financing needs for adaption measures, 2022–2050 Average per year (% of GDP) Accumulated value ($ billion in NPV terms) Incremental financing needs 4.5–5.4 342.3 –410.7 Total financing needs 6.3–7.2 479.2–547.6 Investment needs for resilient private assets 3.0 228.2 New and retrofitting investments for resilient infrastructure 3.0–3.5 228.2–266.2 Financial support to affected people and businesses 0.3–0.7 22.8–53.2 Existing financing 1.8 136.9 Note: NPV is net present value; all those amounts reflect a 6 percent discount rate. 32 Dabla-Norris, E., J. Daniel, M. Nozaki, C. Alonso, V. Balasundharam, M. Bellon, C. Chen, D. Corvino, and J. Kilpatrick. 2021. “Fiscal Policies to Address Climate Change in Asia and the Pacific.” Departmental Paper No 2021/007. Washington, DC: International Monetary Fund."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at03",
+    "group": "table",
+    "question": "Under the NZP with supporting reforms, what are the output gains and the net economic impact for 2031-2040?",
+    "expected": "Output gains of $68.7 billion and a net economic impact of +$19.3 billion (NPV).",
+    "evidence_groups": [
+      [
+        {
+          "page": 46,
+          "printed_page": 36,
+          "element": "Table 3",
+          "evidence": "NZP with supporting reforms, 2031-2040: Output gains 68.7, Net economic impact 19.3"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Under the NZP with supporting reforms, the output gains for 2031-2040 are $68.7 billion and the net economic impact is $19.3 billion [ccdr:p046:pypdf:00].",
+    "citations": [
+      {
+        "id": "ccdr:p046:pypdf:00",
+        "page": 46,
+        "printed_page": "36",
+        "element": "text",
+        "label": "",
+        "text": "36 Vietnam Country Climate and Development Report Table 3. Investment needs and output gains under the Net-Zero Pathway $ billion in NPV terms 2022–2030 2031–2040 2022–2040 NZP Investment needs 31.8 49.5 81.3 Output gains -7.6 -46.0 -53.7 Net economic impact -39.4 -95.5 -134.9 NZP with supporting reforms Investment needs 31.8 49.5 81.3 Output gains 11.3 68.7 80.1 Net economic impact -20.5 19.3 -1.3 Notes: All amounts are discounted using a 6 percent discount rate. The investment needs are estimated on the basis of the sectoral analysis in the energy, transport, agriculture, and industry/trade sectors. The output gains are the accumulated variations in GDP derived from the CGE model for each scenario. 4.2."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at04",
+    "group": "table",
+    "question": "Apart from combining all supporting measures, which single supporting policy would leave GDP higher than the baseline in 2040 under the NZP, and by how much?",
+    "expected": "Energy efficiency gains: GDP +0.2 percent in 2040 (all other single policies are negative in 2040).",
+    "evidence_groups": [
+      [
+        {
+          "page": 48,
+          "printed_page": 38,
+          "element": "Table 4",
+          "evidence": "% change in GDP 2040: reduced air pollution -1.0, competitiveness -0.6, energy efficiency 0.2, labor mobility -0.2, low crowding out -0.9; all measures 3.3"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "The single supporting policy that would leave GDP higher than the baseline in 2040 under the NZP is energy efficiency gains, which would result in a 0.2 percent increase in GDP [ccdr:p048:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p048:pypdf:03",
+        "page": 48,
+        "printed_page": "38",
+        "element": "text",
+        "label": "",
+        "text": "How key supporting policies would affect the impact of the NZP on GHG emissions and GDP Percent change from baseline % change in GHG emissions % change in GDP 2030 2040 2030 2040 NZP without reforms -42.8 -73.6 -0.6 -2.2 NZP with reduced air pollution -42.2 -73.4 0.8 -1.0 NPZ with competitiveness gains -42.7 -71.8 0.9 -0.6 NZP with energy efficiency gains -41.9 -72.1 0.5 0.2 NZP with improved labor mobility -43.0 -71.8 -0.2 -0.2 NZP with low crowding out of other investments -43.1 -73.5 -0.5 -0.9 NZP with all supporting measures -40.2 -71.9 1.7 3.3 Source: Authors’ calculations based on the CGE model built for the CCDR. Note:"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at05",
+    "group": "table",
+    "question": "How much would capital costs for offshore wind change in the Accelerated Decarbonization Scenario compared with the baseline?",
+    "expected": "Up by $39 billion, a 402 percent increase.",
+    "evidence_groups": [
+      [
+        {
+          "page": 52,
+          "printed_page": 42,
+          "element": "Table 5",
+          "evidence": "row \"Wind (offshore)\": +39 ($ billion), +402%"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "In the Accelerated Decarbonization Scenario, capital costs for offshore wind are projected to increase by $39 billion, which represents a 402% change compared to the baseline [ccdr:p052:pypdf:00].",
+    "citations": [
+      {
+        "id": "ccdr:p052:pypdf:00",
+        "page": 52,
+        "printed_page": "42",
+        "element": "text",
+        "label": "",
+        "text": "42 Vietnam Country Climate and Development Report Table 5. Investment Needs and Economic Costs: Accelerated Decarbonization Scenario, 2022–2040 NPV, deviation between CPS (baseline) and ADS $ billion Change Capital costs for new generation and storage +44 +52% Coal -19 - 72% Gas -8 - 42% Solar +21 + 429% Wind (onshore) +8 + 55% Wind (offshore) +39 + 402% Hydropower and other renewables ~0 + 4% Storage (batteries and pumped hydropower) +3 N/A Grid network expansion and upgradation costs +13 +52% Variable operational and maintenance costs +2 +40% Fixed operational and maintenance costs +6 +12% Total system costs +65 56% Minus fuel costs savings -32 -31% Net total system costs +33 +13% Local environmental damage costs -14 -40% Global environmental damage costs -40 -37% Source: World Bank staff analysis based on power sector modeling. Box 7:"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at06",
+    "group": "table",
+    "question": "What were Vietnam's per capita and total electricity consumption in 2020?",
+    "expected": "2,745 kWh per capita and 267.18 TWh in total.",
+    "evidence_groups": [
+      [
+        {
+          "page": 85,
+          "printed_page": 75,
+          "element": "Annex 1 table",
+          "evidence": "Per capita electricity consumption 2020 = 2745 kWh; Total electricity consumption 2020 = 267.18 TWh"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "In 2020, Vietnam's per capita electricity consumption was 2,745 kWh and its total electricity consumption was 267.18 TWh [ccdr:p085:pypdf:02].",
+    "citations": [
+      {
+        "id": "ccdr:p085:pypdf:02",
+        "page": 85,
+        "printed_page": "75",
+        "element": "text",
+        "label": "",
+        "text": "NDC NDC target – 27% below BAU (conditional) MtCO2e - - - - 677 2030 VN NDC Energy Consumption and the Power Sector Per capita electricity consumption kWh 128 1990 613 2005 2745 2020 Our World in Data Total electricity consumption TWh 8.68 1990 51.36 2005 267.18 2020 Our World in Data Energy from renewables % 80.34 1990 87.69 2005 84.78 2020 Our World in Data Energy from fossil fuels % 19.66 1990 12.31 2005 15.22 2020 Our World in Data"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at07",
+    "group": "image",
+    "question": "In the diagram of the new development paradigm, what actions are listed at the centre, between \"Vietnam Today\" and \"Vietnam in 2045\", and which two pathways connect them?",
+    "expected": "Building resilient infrastructure; protecting the most vulnerable; implementing structural reforms to incentivize farmers and firms; pricing carbon; mobilizing financing. The Resilient Pathway and the Decarbonizing Pathway.",
+    "evidence_groups": [
+      [
+        {
+          "page": 12,
+          "printed_page": 2,
+          "element": "Figure 1",
+          "evidence": "centre list of five bullets; left arrow \"Resilient Pathway\", right arrow \"Decarbonizing Pathway\""
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "The two pathways connecting Vietnam Today and Vietnam in 2045 are the Decarbonizing Pathway and the Resilient Pathway [ccdr:p012:pypdf:03]. The actions listed at the centre include building resilient infrastructure, protecting the most vulnerable, implementing structural reforms to incentivize farmers and firms, pricing carbon, and mobilizing financing [ccdr:p012:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p012:pypdf:03",
+        "page": 12,
+        "printed_page": "2",
+        "element": "text",
+        "label": "",
+        "text": "Vietnam Today Decarbonizing Pathway Resilient Pathway Vietnam in 2045 • Building resilient infrastructure • Protecting the most vulnerable • Implementing structural reforms to incentivize farmers and firms • Pricing carbon • Mobilizing financing"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at08",
+    "group": "image",
+    "question": "On the map of extreme hazard exposure of national roads, which hazard affects roads mainly along the coast?",
+    "expected": "Typhoon flooding (right-hand map), with exposure along the northern and central coastline.",
+    "evidence_groups": [
+      [
+        {
+          "page": 34,
+          "printed_page": 24,
+          "element": "Figure 9",
+          "evidence": "right map \"Typhoon flooding\": green shading along the coast only"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "According to the map of extreme hazard susceptibility exposure of national-scale roads in Vietnam, typhoon flooding is the hazard that affects roads mainly along the coast [ccdr:p034:pypdf:00].",
+    "citations": [
+      {
+        "id": "ccdr:p034:pypdf:00",
+        "page": 34,
+        "printed_page": "24",
+        "element": "text",
+        "label": "",
+        "text": "24 Vietnam Country Climate and Development Report Repairing damage to the power grid from extreme weather events, meanwhile, already takes up to two percent of the power sector’s capital expenditures, and those costs are only expected to rise.42 At the same time, higher temperatures and extreme heat will increase cooling needs and thus electricity demand, which translates into higher peak power generation needs. Weather extremes around the world can also impact global fossil fuel markets, with implications for Vietnam’s energy security, as it relies heavily on imported fossil fuels. Figure 9: Extreme hazard susceptibility exposure of national-scale roads in Vietnam Landslide 1,000-year river flooding Typhoon flooding Source: World Bank analysis (Oh et al., 2019).43 Disclaimer:"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at09",
+    "group": "image",
+    "question": "On the map of flood risks in coastal regions, which of the labeled cities lies in the zone with the highest relative flood risk?",
+    "expected": "Da Nang, on the central coast (darkest shading).",
+    "evidence_groups": [
+      [
+        {
+          "page": 38,
+          "printed_page": 28,
+          "element": "Figure 11",
+          "evidence": "labeled cities Hanoi, Haiphong, Da Nang, Ho Chi Minh City, Can Tho; darkest green band on the central coast around Da Nang"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at10",
+    "group": "image",
+    "question": "According to the map of domestic coal production, which province is the major coal producing province and which two places in it are marked?",
+    "expected": "Quang Ninh, with Hongai and Campha marked.",
+    "evidence_groups": [
+      [
+        {
+          "page": 54,
+          "printed_page": 44,
+          "element": "Figure 14",
+          "evidence": "box \"Quang Ninh - Major Coal Producing Province\", red circles Hongai and Campha"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "The major coal producing province is Quang Ninh, and the two places marked within it are Hongai and Campha [ccdr:p054:pypdf:00].",
+    "citations": [
+      {
+        "id": "ccdr:p054:pypdf:00",
+        "page": 54,
+        "printed_page": "44",
+        "element": "text",
+        "label": "",
+        "text": "44 Vietnam Country Climate and Development Report Figure 14: Vietnam’s domestic coal production is concentrated in the northern areas of the country Hà Nội Na Duong Thai Nguyen Hongai Campha Quang Ninh Red River Delta Major Coal Producing Province Da River or Song Da Ca River and Nghe Tinh Source: World Bank based on government information Recommendations yy Facilitate rapid renewable energy deployment (in particular, offshore wind) by improving the regulatory framework, including transparent and competitive procurement procedures (auctions) to encourage private sector participation : Vietnam has witnessed a period of rapid expansion of solar and onshore wind energy in the past few years through premium pricing offered under a feed-in tariff (FIT) policy."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at11",
+    "group": "image",
+    "question": "In the diagram of financing needs and sources for 2022-2040, how much is expected from private sources and what share of GDP per year is that?",
+    "expected": "Private: $184 billion, about 3.4 percent of GDP per year.",
+    "evidence_groups": [
+      [
+        {
+          "page": 71,
+          "printed_page": 61,
+          "element": "Figure 21",
+          "evidence": "left box \"PRIVATE $184 billion ~3.4% of GDP per year\""
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "For the 2022-2040 period, private sources are expected to provide $184 billion, which represents approximately 3.4% of GDP per year [ccdr:p071:pypdf:04].",
+    "citations": [
+      {
+        "id": "ccdr:p071:pypdf:04",
+        "page": 71,
+        "printed_page": "61",
+        "element": "text",
+        "label": "",
+        "text": "FINANCING NEEDS $368 billion Resilient: 4.7% of GDP per year Decarbonizing: 2.1% of GDP per year PRIVATE $184 billion ~3.4%% of GDP per year PUBLIC $130 billion ~2.4% of GDP per year EXTERNAL $54 billion ~1% of GDP per year © Huy Thoai/Shutterstock"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at12",
+    "group": "chart",
+    "question": "Which category had the second-largest estimated cost of climate change in 2020, and how large was it?",
+    "expected": "Labor productivity, $2,807 million (after fishery, $4,219 million).",
+    "evidence_groups": [
+      [
+        {
+          "page": 17,
+          "printed_page": 7,
+          "element": "Figure 3",
+          "evidence": "treemap: Fishery 4219, Labor Productivity 2807, Sea Level Rise 1474, Agriculture 837, ..."
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at13",
+    "group": "chart",
+    "question": "What was the SOEs' share of output in the steel sector in 2018?",
+    "expected": "14 percent.",
+    "evidence_groups": [
+      [
+        {
+          "page": 24,
+          "printed_page": 14,
+          "element": "Figure 7",
+          "evidence": "line end label \"Steel, 14%\" at 2018 (prel.)"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "In 2018, the SOEs' share of output in the steel sector was 14% [ccdr:p024:pypdf:00].",
+    "citations": [
+      {
+        "id": "ccdr:p024:pypdf:00",
+        "page": 24,
+        "printed_page": "14",
+        "element": "text",
+        "label": "",
+        "text": "14 Vietnam Country Climate and Development Report the Mekong Delta, and coastal provinces.27 The deterioration of customers’ collateral and revenue streams would lead to an increase in delinquent loans to weaken the banks. Figure 7: Evolution of SOEs’ share of output in Vietnam’s carbon-intensive industrial sectors (%) 100% 80% 60% 40% 20% 0% 20102005 2012 2014 2016 2018 (prel.) Steel, 14% Passenger transp. 27% Cerment, 33% NPK fertilizers, 55% Coal, 98% Chemical fertilizer 94% Freight transp. 55% Electricity 85% Source: Coste et al., 2020.28 Note: Computed, with data from the General Statistics Office, based on output in tonnes, except electricity (kWh), freight (million tonnes per kilometer) and passenger transport (million person-kilometers). Similarly, the risks for banks have not been evaluated."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at14",
+    "group": "chart",
+    "question": "How much electricity would coal generate in 2040 under CPS and under ADS?",
+    "expected": "About 276 TWh under CPS and 26 TWh under ADS.",
+    "evidence_groups": [
+      [
+        {
+          "page": 51,
+          "printed_page": 41,
+          "element": "Figure 13",
+          "evidence": "left panel coal segments: BAU 550, CPS 276, ADS 26 TWh"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Under the CPS, coal is projected to generate 246 TWh of electricity in 2040, while under the ADS, coal generation is projected to be 63 TWh [ccdr:p051:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p051:pypdf:03",
+        "page": 51,
+        "printed_page": "41",
+        "element": "text",
+        "label": "",
+        "text": "A case in point is the recent oil price hike because of the Ukraine crises (Box 7) Electricity Generated in 2040 (TWh) Power Sector GHG Emissions, MtCO2e, 2020-40 550 276 26 106 188 124 922 788 812 BAU CPS ADS Interconnection Pump Storage Biomass solar PV Offshore Wind Onshore wind Hydro Fuel Oil Gas Coal Storage Nuclear 246 63 0 50 100 150 200 250 300 CPS ADS 2020 2022 2024 2026 2028 2030 2032 2034 2036 2038 2040"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at15",
+    "group": "chart",
+    "question": "Under the NZP with reforms, which sector would see the largest employment increase in 2040, and by how much?",
+    "expected": "Electricity, +23.6 percent relative to BAU.",
+    "evidence_groups": [
+      [
+        {
+          "page": 66,
+          "printed_page": 56,
+          "element": "Figure 20",
+          "evidence": "NZP with reforms bars: Electricity 23.6, Mining 18.4, Services 12.4, ..."
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Under the NZP with reforms, the sector that would see the largest employment increase in 2040 is the electricity sector, with an increase of 28.1 percent [ccdr:p066:pypdf:01].",
+    "citations": [
+      {
+        "id": "ccdr:p066:pypdf:01",
+        "page": 66,
+        "printed_page": "56",
+        "element": "text",
+        "label": "",
+        "text": "2.2 -6.3 1.7 -0.4 0.1 0.4 0. 0.1 23.6 18.4 7.9 9.8 7.4 12.4 - 5.4 - 5.4 - 0.7 -9.4 0. 9.4 18.8 28.1 Electricity Mining Transport Construction Industry Services Commerce Agriculture Inactive % employment change, (deviation from BAU) NZP NZP with reforms Source: World Bank Staff estimates. A key condition for success with a decarbonizing strategy will be flexibility in the labor market, which will require measures to enhance workers’ ability to move across sectors. Full labor market flexibility would magnify the positive impacts of the NZP on the composition of the labor force, as the movement of workers across sectors contributes to a better allocation of resources. Conversely, if displaced workers cannot move quickly into new jobs, the welfare impacts of the transition would be more severe, and growth in renewable energy and other low-carbon sectors might be impaired."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at16",
+    "group": "chart",
+    "question": "How did outstanding green credit change from 2016 to 2020?",
+    "expected": "It rose from $3.7 billion in 2016 to $14.5 billion in 2020.",
+    "evidence_groups": [
+      [
+        {
+          "page": 72,
+          "printed_page": 62,
+          "element": "Figure 22",
+          "evidence": "Green credit outstanding bars: 2016 3.7, 2017 7.8, 2018 10.3, 2019 13.9, 2020 14.5, 2021:Q1 14.5 ($ billion)"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Outstanding green credit in Viet Nam increased from $3.7 billion in 2016 to $14.5 billion in 2020 [ccdr:p072:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p072:pypdf:03",
+        "page": 72,
+        "printed_page": "62",
+        "element": "text",
+        "label": "",
+        "text": "Financial institutions also need clearer information about the requirements for incorporating environmental and social risk assessment into credit underwriting policies and operations. Figure 22: Private climate and green outstanding loans from 2016 to 2021 ($ billion) Sources: FiinResearch and SBV. 3.7 7.8 10.3 13.9 14.5 14.5 0 2016 2017 2018 2019 2020 2021:Q1 Green credit outstanding 0 2019 2020 2020:Q1 Green credit by sector Green agriculture Renewable & clean energy Others (incl. water management, sustainable forestry)"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at17",
+    "group": "multi-hop",
+    "question": "Roughly how much electricity did coal generate in 2020, and how does that compare with coal generation in 2040 under the current policy scenario (CPS)?",
+    "expected": "About 118 TWh in 2020 (59 percent of 200 TWh); under CPS coal would generate about 276 TWh in 2040, more than twice as much.",
+    "evidence_groups": [
+      [
+        {
+          "page": 49,
+          "printed_page": 39,
+          "element": "Figure 12",
+          "evidence": "power produced 2020 = 200 TWh, coal share 59%"
+        },
+        {
+          "page": 49,
+          "printed_page": 39,
+          "element": "text",
+          "evidence": "coal power accounted for ... 59 percent of electricity generation"
+        }
+      ],
+      [
+        {
+          "page": 51,
+          "printed_page": 41,
+          "element": "Figure 13",
+          "evidence": "CPS coal 2040 = 276 TWh"
+        }
+      ]
+    ],
+    "calculation": "0.59 x 200 = 118 TWh; 276 / 118 = 2.3",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at18",
+    "group": "multi-hop",
+    "question": "How much would the $90 carbon tax option (with sectoral investments) cut emissions by 2030, and how would GDP change in 2030 if the NZP were combined with all supporting measures?",
+    "expected": "Emissions 42.8 percent below BAU by 2030; GDP 1.7 percent higher than BAU in 2030.",
+    "evidence_groups": [
+      [
+        {
+          "page": 45,
+          "printed_page": 35,
+          "element": "text",
+          "evidence": "the $90 tax would reduce emissions by 42.8 percent relative to the BAU scenario by 2030"
+        }
+      ],
+      [
+        {
+          "page": 48,
+          "printed_page": 38,
+          "element": "Table 4",
+          "evidence": "NZP with all supporting measures, GDP 2030 = 1.7"
+        },
+        {
+          "page": 48,
+          "printed_page": 38,
+          "element": "text",
+          "evidence": "while increasing GDP by 1.7 percent in 2030"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "The $90 carbon tax option combined with sectoral investments would reduce emissions by 42.8 percent relative to the BAU scenario by 2030 [ccdr:p045:pypdf:03]. Under the net-zero pathway (NZP), Vietnam’s GDP would be 0.6 percent lower in 2030 than in the BAU scenario [ccdr:p045:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p045:pypdf:03",
+        "page": 45,
+        "printed_page": "35",
+        "element": "text",
+        "label": "",
+        "text": "Combined with sectoral investments, the $90 tax would reduce emissions by 42.8 percent relative to the BAU scenario by 2030, and 73.6 percent by 2040. The reduction would mainly be driven by the gradual increase in the carbon tax, technology shifts in manufacturing/ trade, and the transition of the energy sector away from coal. The power sector would make the greatest contributions to GHG emission reductions, followed by manufacturing, transport, and agriculture. Pursuing the net-zero pathway could slow GDP growth. The CGE model shows that under the NZP, Vietnam’s GDP would be 0.6 percent lower in 2030 and 2.2 percent lower in 2040 than in the BAU scenario (a description of main assumptions and key results can be found in Annex 3)."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at19",
+    "group": "multi-hop",
+    "question": "How do transport GHG emissions in 2018 compare with what they are projected to reach by 2030 under BAU?",
+    "expected": "36.32 MtCO2e in 2018; nearly 90 MtCO2e by 2030, about 2.5 times higher.",
+    "evidence_groups": [
+      [
+        {
+          "page": 85,
+          "printed_page": 75,
+          "element": "Annex 1 table",
+          "evidence": "row \"Transportation\" 2018 = 36.32 MtCO2e"
+        }
+      ],
+      [
+        {
+          "page": 56,
+          "printed_page": 46,
+          "element": "text",
+          "evidence": "GHG emissions from transport will grow by 6-7 percent per year to 2030, reaching nearly 90 MtCO2e"
+        }
+      ]
+    ],
+    "calculation": "90 / 36.32 = 2.5",
+    "status": "answered",
+    "answer": "Under the business-as-usual (BAU) scenario, transport GHG emissions are projected to reach nearly 90 MtCO2e by 2030 [ccdr:p056:pypdf:02]. While the report notes that 2018 total national GHG emissions were 364 MtCO2e [ccdr:p017:pypdf:02], it specifies that the projected 2030 transport emissions of nearly 90 MtCO2e are equivalent to about 80 percent of Vietnam’s 2018 power sector emissions [ccdr:p056:pypdf:02].",
+    "citations": [
+      {
+        "id": "ccdr:p056:pypdf:02",
+        "page": 56,
+        "printed_page": "46",
+        "element": "text",
+        "label": "",
+        "text": "In the BAU scenario, these problems will continue to get worse as the transport sector grows:64 yy GHG emissions from transport will grow by 6–7 percent per year to 2030, reaching nearly 90 MtCO2e, equivalent about 80 percent of Vietnam’s 2018 power sector emissions.65 yy Mobility demand and motorization will rise rapidly, with passenger-kilometers increasing by an average of 5.9 percent per year to 2030, and freight tonne-kilometers, by 6.9 percent per year. yy Road transport will continue to dominate, accounting for 80.2 percent of the sector’s emissions, with trucks dominating in freight transport and motorbikes dominating in passenger transport. yy The modal share of public transport will remain persistently low, owing to the low level of network development, the dominance of motorbikes, and the increasing share of car use."
+      },
+      {
+        "id": "ccdr:p017:pypdf:02",
+        "page": 17,
+        "printed_page": "7",
+        "element": "text",
+        "label": "",
+        "text": "In absolute terms, Vietnam’s GHG emissions—364 million tonnes 11 of carbon dioxide equivalent (Mt CO 2e) in 2018— amount to no more than 0.8 percent of global emissions, on par with Malaysia, Thailand, France, and the United Kingdom. GHG emissions per capita were 3.81 tonnes CO2e in 2018, up from 0.79 tonnes in 2000, but still relatively low by regional and global standards (see Table 1 and Figure 5). 8 For more details on GRID, see https://thedocs.worldbank.org/en/ doc/9385bfef1c330ed6ed972dd9e70d0fb7-0200022021/green-resilient-and-inclusive-development-grid. 9 World Bank, 2021, “Accelerating Clean, Green, and Climate-Resilient Growth.” 10 Climate Watch. 2020. “GHG Emissions.” Washington, DC: World Resources Institute. https://www. climatewatchdata.org/ghg-emissions. 11 Throughout this text, the word “tonnes” is used to denote metric tons."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at20",
+    "group": "multi-hop",
+    "question": "How does the current Environmental Protection Tax on gasoline compare with the starting level of the most modest economy-wide carbon tax option analyzed?",
+    "expected": "EPT on gasoline is about $77.60 per tCO2e, while the most modest option starts at about $12 per tCO2e in 2022 (rising to $40 by 2040), so gasoline is taxed about 6.5 times the starting level.",
+    "evidence_groups": [
+      [
+        {
+          "page": 22,
+          "printed_page": 12,
+          "element": "text",
+          "evidence": "is around $0.50 per tCO2e on coal, $77.60 per tCO2e on gasoline, and $32.90 per tCO2e on diesel"
+        }
+      ],
+      [
+        {
+          "page": 45,
+          "printed_page": 35,
+          "element": "text",
+          "evidence": "The most modest option would start at about $12 per tCO 2e in 2022 ... ramp up to $40 per tCO2e by 2040"
+        }
+      ]
+    ],
+    "calculation": "77.60 / 12 = 6.5",
+    "status": "answered",
+    "answer": "The current Environmental Protection Tax on gasoline is $77.60 per tCO2e [ccdr:p022:pypdf:00], which is significantly higher than the $12 per tCO2e starting level of the most modest economy-wide carbon tax option analyzed [ccdr:p045:pypdf:02].",
+    "citations": [
+      {
+        "id": "ccdr:p022:pypdf:00",
+        "page": 22,
+        "printed_page": "12",
+        "element": "text",
+        "label": "",
+        "text": "12 Vietnam Country Climate and Development Report The new strategies have yet to be translated into significant changes in Vietnam’s fiscal policy. For example, some progress has been made toward the development of carbon pricing instruments, but such instruments are not yet implemented at scale. The existing carbon tax — the Environmental Protection Tax (EPT) — is around $0.50 per tCO2e on coal, $77.60 per tCO2e on gasoline, and $32.90 per tCO2e on diesel, lower than most countries and too low to incentivize large-scale decarbonization."
+      },
+      {
+        "id": "ccdr:p045:pypdf:02",
+        "page": 45,
+        "printed_page": "35",
+        "element": "text",
+        "label": "",
+        "text": "Those investments alone would reduce GHG emissions by nine percent in 2030 and 21 percent in 2040 relative to a BAU scenario. However, that is far short of what is required to achieve net zero by 2050. Sectoral investments will need to be supported by carbon pricing (as a tax or through regulations creating an emission trading system) to incentivize businesses and households to shift their behaviors toward low-emitting activities.55 Several options were analyzed for an economywide carbon tax . The most modest option would start at about $12 per tCO 2e in 2022, which is the weighted average of the EPT rate on coal, diesel, and gasoline, and ramp up to $40 per tCO2e by 2040. The two other options are to ramp up to $90 or to $120 per tCO2e by 2040 (from the same starting point). The $90 option appears sufficient to generate the necessary changes in emitting activities."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at21",
+    "group": "text",
+    "question": "How does Vietnam rank on the ND-GAIN index and on the Germanwatch Global Climate Risk Index?",
+    "expected": "127th out of 182 on ND-GAIN, and 13th highest among 180 countries on the Germanwatch index for 2000-19.",
+    "evidence_groups": [
+      [
+        {
+          "page": 16,
+          "printed_page": 6,
+          "element": "text",
+          "evidence": "ranked 127 out of 182 by the Notre Dame Global Adaptation Initiative (ND-GAIN), and 13th highest among 180 countries by the Germanwatch Global Climate Risk Index for 2000-19"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Vietnam is ranked 127 out of 182 countries by the Notre Dame Global Adaptation Initiative (ND-GAIN) and 13th highest among 180 countries by the Germanwatch Global Climate Risk Index for the period 2000–19 [ccdr:p016:pypdf:01].",
+    "citations": [
+      {
+        "id": "ccdr:p016:pypdf:01",
+        "page": 16,
+        "printed_page": "6",
+        "element": "text",
+        "label": "",
+        "text": "The deterioration of existing natural capital has been further exacerbated by insufficient maintenance and increasing climate risks.4 Looking forward, Vietnam will need to shift from an arguably wasteful approach to economic expansion—as producers often use more land, water, wood, energy, and other resources per unit of output than in other countries—to a development model that manages natural capital more sustainably. 1.2. Climate change impacts are eroding Vietnam’s productive capital Vietnam is among the world’s very vulnerable countries, ranked 127 out of 182 by the Notre Dame Global Adaptation Initiative (ND-GAIN), and 13th highest among 180 countries by the Germanwatch Global Climate Risk Index for 2000–19."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at22",
+    "group": "text",
+    "question": "What share of Ca Mau and Kien Giang provinces would a one-meter sea-level rise inundate?",
+    "expected": "79 percent of Ca Mau and 76 percent of Kien Giang.",
+    "evidence_groups": [
+      [
+        {
+          "page": 37,
+          "printed_page": 27,
+          "element": "text",
+          "evidence": "A meter of sea-level rise would inundate 79 percent of the total area of Ca Mau province and 76 percent of Kien Giang province"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "A one-meter sea-level rise would inundate 79 percent of the total area of Ca Mau province and 76 percent of Kien Giang province [ccdr:p037:pypdf:01].",
+    "citations": [
+      {
+        "id": "ccdr:p037:pypdf:01",
+        "page": 37,
+        "printed_page": "27",
+        "element": "text",
+        "label": "",
+        "text": "If sea levels rose by 75–100 centimeters relative to 1980–1999 levels, almost half of the delta area would be inundated. A meter of sea-level rise would inundate 79 percent of the total area of Ca Mau province and 76 percent of Kien Giang province (Figure 10). 48 Without adaptation measures, around 45 percent of the Mekong Delta area will be affected by salinity, at an economic cost of about $17 billion by 2030. Over recent decades, the frequency and intensity of disasters such as flooding, drought, coastal and riverbank erosion, and salinization have increased significantly. These have caused human and property losses, damaged socioeconomic and cultural infrastructure, and negatively impacted living conditions (as evidenced by the fast and accelerating out- migration from the Delta region)."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at23",
+    "group": "text",
+    "question": "According to the International Rice Research Institute model, how much would investing in AWD and related techniques cost and how much would it cut emissions by 2030?",
+    "expected": "Investing $1.4 billion could cut emissions from rice production by 6.8 MtCO2e relative to BAU by 2030.",
+    "evidence_groups": [
+      [
+        {
+          "page": 60,
+          "printed_page": 50,
+          "element": "text",
+          "evidence": "investing $1.4 billion to implement AWD and related techniques could reduce emissions from rice production by 6.8 MtCO2e relative to BAU by 2030"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "According to the International Rice Research Institute's investment model, investing $1.4 billion to implement AWD and related techniques could reduce emissions from rice production by 6.8 MtCO2e relative to business-as-usual by 2030 [ccdr:p060:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p060:pypdf:03",
+        "page": 60,
+        "printed_page": "50",
+        "element": "text",
+        "label": "",
+        "text": "Instead of burning agricultural residues in the field, rice straw could be used for co-firing in coal power plants, which could reduce GHG emissions by three percent.74 Initial estimates using the International Rice Research Institute’s investment model suggest that investing $1.4 billion to implement AWD and related techniques could reduce emissions from rice production by 6.8 MtCO2e relative to BAU by 2030. 75 Similarly, an evaluation of a recent pilot program using 73 OECD. 2021. Agricultural Policy Monitoring and Evaluation 2021: Addressing the Challenges Facing Food Systems. Agricultural Policy Monitoring and Evaluation. Paris: Organisation for Economic Co-operation and Development. doi:10.1787/2d810e01-en. 74 Truong, A.H., and M. Ha-Duong. 2018. “Impact of Co-Firing Straw for Power Generation to Air Quality: A Case Study in Two Coal Power Plants in Vietnam.” IOP Conference Series:"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "at24",
+    "group": "text",
+    "question": "Of the credit institutions reporting to the SBV, how many lack a dedicated green finance unit and how many lack a green credit appraisal procedure?",
+    "expected": "Of 85 credit institutions, 72 lack a dedicated green finance unit and 74 lack a specific green credit appraisal procedure.",
+    "evidence_groups": [
+      [
+        {
+          "page": 72,
+          "printed_page": 62,
+          "element": "text",
+          "evidence": "Of 85 credit institutions reporting to the SBV, 72 lack a dedicated business unit for green finance, and 74 lack a specific procedure on green credit appraisal"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Of the 85 credit institutions reporting to the SBV, 72 lack a dedicated business unit for green finance, and 74 lack a specific procedure on green credit appraisal [ccdr:p072:pypdf:02].",
+    "citations": [
+      {
+        "id": "ccdr:p072:pypdf:02",
+        "page": 72,
+        "printed_page": "62",
+        "element": "text",
+        "label": "",
+        "text": "The main beneficiaries have been agriculture, renewable energy, sustainable water management, and sustainable forestry. The lack of internal procedures for and expertise on green finance assessment is a key challenge for many banks. Of 85 credit institutions reporting to the SBV, 72 lack a dedicated business unit for green finance, and 74 lack a specific procedure on green credit appraisal. Other credit institutions have substantial challenges to develop green finance expertise and integrate the green finance procedures into their existing operations. Another bottleneck has been the mismatch between the short terms of most deposits and the longer terms typically required by green projects. This mismatch increases the funding liquidity risks for commercial banks, undermining their risk appetite and motivation to finance green projects."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ut01",
+    "group": "unanswerable",
+    "question": "How many dengue fever cases in Vietnam were attributed to climate change in 2020?",
+    "expected": "search_and_abstain",
+    "evidence_groups": null,
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ut02",
+    "group": "unanswerable",
+    "question": "How much economic damage did Typhoon Molave cause in Vietnam in 2020?",
+    "expected": "search_and_abstain",
+    "evidence_groups": null,
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ut03",
+    "group": "unanswerable",
+    "question": "At what price per tonne of CO2 did Vietnam's emissions trading system trade in its first year?",
+    "expected": "search_and_abstain",
+    "evidence_groups": null,
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ut04",
+    "group": "unanswerable",
+    "question": "How much green hydrogen production capacity does Vietnam plan to build by 2030?",
+    "expected": "search_and_abstain",
+    "evidence_groups": null,
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ut05",
+    "group": "unanswerable",
+    "question": "What is the annual mean PM2.5 concentration measured in Ho Chi Minh City?",
+    "expected": "search_and_abstain",
+    "evidence_groups": null,
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ut06",
+    "group": "unanswerable",
+    "question": "What are the annual GHG emissions of the Formosa Ha Tinh steel plant?",
+    "expected": "search_and_abstain",
+    "evidence_groups": null,
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  }
+]

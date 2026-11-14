@@ -1,0 +1,690 @@
+[
+  {
+    "query_id": "ad01",
+    "group": "table",
+    "question": "In the cross-country emission overview, what is Thailand's carbon intensity?",
+    "expected": "851.4 tCO2e per million $ of GDP.",
+    "evidence_groups": [
+      [
+        {
+          "page": 18,
+          "printed_page": 8,
+          "element": "Table 1",
+          "evidence": "Thailand row, column \"Carbon intensity (tCO2e/million $GDP)\" = 851.4"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "In the cross-country emission overview, Thailand's carbon intensity is 851.4 tCO2e/million $GDP [ccdr:p018:pypdf:01].",
+    "citations": [
+      {
+        "id": "ccdr:p018:pypdf:01",
+        "page": 18,
+        "printed_page": "8",
+        "element": "text",
+        "label": "",
+        "text": "Cross-Country Emission Overview Country Emissions per capita (tCO2e per capita) Carbon intensity (tCO2e/million $GDP) Total emissions (MtCO2e) % of global emissions United States 17.7 281.5 5,794.3 12.0% Mongolia 17.5 4,250.9 55.7 0.1% Malaysia 12.3 1,081.9 388.1 0.8% OECD 10.8 266.6 14,081.8 29.8% Germany 9.4 195.9 776.61 1.6% China 8.4 842.5 11,705.1 23.9% Papua New Guinea 7.5 2,658.3 64.1 0.1% United Kingdom 6.6 154.2 441.1 0.9% Indonesia 6.4 1,634.8 1703.9 3.6% Thailand 6.2 851.4 431.2 0.9% Lao PDR 5.5 2,151.6 38.6 0.1% France 5.4 129.6 361.4 0.7% Timor-Leste 5.3 4,271.0 6.7 0.0% Myanmar 4.3 3,040.9 231.6 0.5% Cambodia 4.3 2,814.1 69.2 0.1% Vietnam 3.8 1,486.2 364.4 0.8% Philippines 2.2 677.0 234.8 0.5% Source: Climate Watch 12 Climate Watch. 2020. “GHG Emissions.” Washington, DC: World Resources Institute. https://www. climatewatchdata.org/ghg-emissions."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad02",
+    "group": "table",
+    "question": "What is the existing financing for adaptation, as a share of GDP per year and in accumulated NPV terms for 2022-2050?",
+    "expected": "1.8 percent of GDP per year; $136.9 billion in NPV terms.",
+    "evidence_groups": [
+      [
+        {
+          "page": 29,
+          "printed_page": 19,
+          "element": "Table 2",
+          "evidence": "row \"Existing financing\": 1.8 (% of GDP per year), 136.9 ($ billion NPV)"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "The existing financing for adaptation is 1.8 percent of GDP per year, with an accumulated value of $136.9 billion in NPV terms for the period 2022–2050 [ccdr:p029:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p029:pypdf:03",
+        "page": 29,
+        "printed_page": "19",
+        "element": "text",
+        "label": "",
+        "text": "Estimates of incremental financing needs for adaption measures, 2022–2050 Average per year (% of GDP) Accumulated value ($ billion in NPV terms) Incremental financing needs 4.5–5.4 342.3 –410.7 Total financing needs 6.3–7.2 479.2–547.6 Investment needs for resilient private assets 3.0 228.2 New and retrofitting investments for resilient infrastructure 3.0–3.5 228.2–266.2 Financial support to affected people and businesses 0.3–0.7 22.8–53.2 Existing financing 1.8 136.9 Note: NPV is net present value; all those amounts reflect a 6 percent discount rate. 32 Dabla-Norris, E., J. Daniel, M. Nozaki, C. Alonso, V. Balasundharam, M. Bellon, C. Chen, D. Corvino, and J. Kilpatrick. 2021. “Fiscal Policies to Address Climate Change in Asia and the Pacific.” Departmental Paper No 2021/007. Washington, DC: International Monetary Fund."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad03",
+    "group": "table",
+    "question": "Under the net-zero pathway with reduced air pollution, how would GDP change in 2030 relative to the baseline?",
+    "expected": "GDP would be 0.8 percent higher in 2030.",
+    "evidence_groups": [
+      [
+        {
+          "page": 48,
+          "printed_page": 38,
+          "element": "Table 4",
+          "evidence": "row \"NZP with reduced air pollution\", % change in GDP 2030 = 0.8"
+        },
+        {
+          "page": 46,
+          "printed_page": 36,
+          "element": "text",
+          "evidence": "that would result in GDP being 0.8 percent higher in the NZP in 2030 than in the BAU scenario"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Under the net-zero pathway with the consideration of improved labor productivity from reduced air pollution, Vietnam's GDP would be 0.8 percent higher in 2030 than in the baseline scenario [ccdr:p046:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p046:pypdf:03",
+        "page": 46,
+        "printed_page": "36",
+        "element": "text",
+        "label": "",
+        "text": "That, in turn, can improve human health and labor productivity.57 This expected co-benefit was considered in the CGE model by assuming that a one percent decrease in air pollution augments labor productivity by 0.3 percent. 58 As shown in Table 4, that would result in GDP being 0.8 percent higher in the NZP in 2030 than in the BAU scenario. In 2040, GDP would still be lower than in the BAU scenario, but only by one percent, instead of 2.2 percent. Prioritizing actions in areas with severe air pollution, such as around Hanoi, can heighten the economic benefits of decarbonization (see Box 5). 57 OECD. 2016. The Economic Consequences of Outdoor Air Pollution. Paris: Organisation for Economic Co- operation and Development. doi:10.1787/9789264257474-en. 58 Fu, S., V.B. Viard, and P. Zhang. 2021. “Air Pollution and Manufacturing Firm Productivity:"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad04",
+    "group": "table",
+    "question": "In the Accelerated Decarbonization Scenario, how much more would be spent on solar capital costs than in the baseline (CPS), in dollars and in percent?",
+    "expected": "+$21 billion, a 429 percent increase.",
+    "evidence_groups": [
+      [
+        {
+          "page": 52,
+          "printed_page": 42,
+          "element": "Table 5",
+          "evidence": "row \"Solar\": +21 ($ billion), +429% change"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "In the Accelerated Decarbonization Scenario, solar capital costs are $21 billion higher than in the baseline (CPS), representing a 429 percent increase [ccdr:p052:pypdf:00].",
+    "citations": [
+      {
+        "id": "ccdr:p052:pypdf:00",
+        "page": 52,
+        "printed_page": "42",
+        "element": "text",
+        "label": "",
+        "text": "42 Vietnam Country Climate and Development Report Table 5. Investment Needs and Economic Costs: Accelerated Decarbonization Scenario, 2022–2040 NPV, deviation between CPS (baseline) and ADS $ billion Change Capital costs for new generation and storage +44 +52% Coal -19 - 72% Gas -8 - 42% Solar +21 + 429% Wind (onshore) +8 + 55% Wind (offshore) +39 + 402% Hydropower and other renewables ~0 + 4% Storage (batteries and pumped hydropower) +3 N/A Grid network expansion and upgradation costs +13 +52% Variable operational and maintenance costs +2 +40% Fixed operational and maintenance costs +6 +12% Total system costs +65 56% Minus fuel costs savings -32 -31% Net total system costs +33 +13% Local environmental damage costs -14 -40% Global environmental damage costs -40 -37% Source: World Bank staff analysis based on power sector modeling. Box 7:"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad05",
+    "group": "table",
+    "question": "In the prioritization criteria, which combination of urgency and impact describes \"quick wins\"?",
+    "expected": "High urgency and high impact: actions that cannot be postponed and will produce a high and immediate impact.",
+    "evidence_groups": [
+      [
+        {
+          "page": 78,
+          "printed_page": 68,
+          "element": "Table 6",
+          "evidence": "cell High urgency x High impact: \"Actions that cannot be postponed and will produce a high and immediate impact (quick wins)\""
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "In the prioritization criteria, \"quick wins\" are defined as actions that have both high urgency and high impact [ccdr:p078:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p078:pypdf:03",
+        "page": 78,
+        "printed_page": "68",
+        "element": "text",
+        "label": "",
+        "text": "Prioritization criteria Impact High Action that has immediate impact and facilitates the achievement of other development objectives Medium Action with impacts that will are realized over several decades Urgency High Delay in action increases the cost of achieving the same end point Actions that cannot be postponed and will produce a high and immediate impact (quick wins) Actions that may need long-term planning and mobilization of political capital and financing Medium Delay in action does not increase the cost of achieving the same end point Actions that require time to conceive and implement but may deliver high impact Actions that require time to conceive and implement with uncertain impacts The results of this selectivity exercise are summarized in Annex 4."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad06",
+    "group": "table",
+    "question": "What was Vietnam's government effectiveness percentile rank in 2020?",
+    "expected": "61.54 (percentile rank, 2020, WGI).",
+    "evidence_groups": [
+      [
+        {
+          "page": 86,
+          "printed_page": 76,
+          "element": "Annex 1 table",
+          "evidence": "row \"Government effectiveness\", 2020 = 61.54, source WGI"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Vietnam's government effectiveness percentile rank was 61.54 in 2020 [ccdr:p086:pypdf:00] [ccdr:p086:pypdf:01].",
+    "citations": [
+      {
+        "id": "ccdr:p086:pypdf:00",
+        "page": 86,
+        "printed_page": "76",
+        "element": "text",
+        "label": "",
+        "text": "76 Vietnam Country Climate and Development Report Unit # Year # Year # Year Source Energy intensity per unit of GDP kWh 0.94 1990 1.33 2005 1.5 2016 Our World in Data Energy intensity level of primary energy MJ/$2011 PPP GDP 7.55 1990 6.02 2005 5.95 2015 CCDRDB Electricity generation – coal TJ 93,058 1990 371,918 2006 1,560,577 2018 IEA Electricity generation – natural gas TJ 113 1990 214,433 2006 348,091 2018 IEA Electricity generation – oil TJ 113, 489 1990 490, 421 2006 884, 442 2018 IEA Electricity generation – biofuels and waste TJ 522, 123 1990 618, 246 2006 345, 922 2018 IEA Electricity generation – hydropower TJ 19, 328 1990 73, 469 2006 238, 021 2018 IEA Electricity generation – renewables (excluding hydropower) GWh 0 1990 65 2006 181 2015 CCDRDB Population – financial access % 21.37 2011 30.95 2014 30.80 2017 GFI Government effectiveness Percentile rank 40.00 2000 47.06 2005 61"
+      },
+      {
+        "id": "ccdr:p086:pypdf:01",
+        "page": 86,
+        "printed_page": "76",
+        "element": "text",
+        "label": "",
+        "text": ".54 2020 WGI Political stability Percentile rank 62.96 2000 62.14 2005 44.81 2020 WGI a Account at a financial institution or with mobile-money provider (ages 15+); b Percentile rank [0 to 100], higher values = better outcomes. c services include Agriculture and Fisheries; d Poverty headcount ratio at $5.50 a day (2011 PPP); e drinking water defined as “least basic”; f Projection from SSP2-4.5 Ensemble; g Level of spending in protection that minimizes the cost of flooding (prevent expenditure + damages)"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad07",
+    "group": "image",
+    "question": "On the map of extreme hazard exposure of national roads, in which parts of the country is landslide exposure concentrated?",
+    "expected": "In the northern mountainous region and along the central part of the country (central highlands/central provinces); the south shows little landslide exposure.",
+    "evidence_groups": [
+      [
+        {
+          "page": 34,
+          "printed_page": 24,
+          "element": "Figure 9",
+          "evidence": "left map \"Landslide\": orange shading in the north and a dark band along central Vietnam; south grey"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Landslide exposure for national-scale roads is particularly high in the northern mountains of Vietnam [ccdr:p033:pypdf:04].",
+    "citations": [
+      {
+        "id": "ccdr:p033:pypdf:04",
+        "page": 33,
+        "printed_page": "23",
+        "element": "text",
+        "label": "",
+        "text": "Resilient infrastructure Flooding and subsequent landslides are the main hazards threatening Vietnam’s transport and energy infrastructure and services. Although regional vulnerability varies depending on the type of hazard, the risk is particularly high in disaster hotspots that include vulnerable regions along the coast, in the northern mountains, and in the Mekong Delta (Figure 9). Under a high-emission scenario, events that used to occur once in 1,000 years could start occurring in five-year cycles. Climate change will put strains on all types of physical infrastructure in Vietnam. Hazard scenarios show road failure due to river flooding will increase by at least 40 percent by 2030. Similarly, the country’s largest maritime port, in HCMC, is projected to be about five times more prone to frequent flooding in the future. 40 World Bank and Government of Vietnam. 2019."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad08",
+    "group": "image",
+    "question": "According to the financing needs diagram, how much would come from public sources and what share of GDP per year is that?",
+    "expected": "Public: $130 billion, about 2.4 percent of GDP per year.",
+    "evidence_groups": [
+      [
+        {
+          "page": 71,
+          "printed_page": 61,
+          "element": "Figure 21",
+          "evidence": "middle box \"PUBLIC $130 billion ~2.4% of GDP per year\""
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "According to the financing needs diagram, public sources would provide $130 billion, which represents approximately 2.4% of GDP per year [ccdr:p071:pypdf:04].",
+    "citations": [
+      {
+        "id": "ccdr:p071:pypdf:04",
+        "page": 71,
+        "printed_page": "61",
+        "element": "text",
+        "label": "",
+        "text": "FINANCING NEEDS $368 billion Resilient: 4.7% of GDP per year Decarbonizing: 2.1% of GDP per year PRIVATE $184 billion ~3.4%% of GDP per year PUBLIC $130 billion ~2.4% of GDP per year EXTERNAL $54 billion ~1% of GDP per year © Huy Thoai/Shutterstock"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad09",
+    "group": "chart",
+    "question": "What share of businesses reported that climate change caused \"a lot\" of business or production interruption in 2019?",
+    "expected": "16 percent.",
+    "evidence_groups": [
+      [
+        {
+          "page": 23,
+          "printed_page": 13,
+          "element": "Figure 6",
+          "evidence": "bar \"Business/production interruption\": Not at all 11, Just a little 35, Quite a lot 38, A lot 16"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "In 2019, 16 percent of businesses reported that climate change caused a lot of business or production interruption [ccdr:p023:pypdf:00].",
+    "citations": [
+      {
+        "id": "ccdr:p023:pypdf:00",
+        "page": 23,
+        "printed_page": "13",
+        "element": "text",
+        "label": "",
+        "text": "13 Vietnam Country Climate and Development Report Figure 6: Climate change impacts and disaster risks observed by businesses (2019) Business/production interruption Labor productivity reduction Revenue decline Transportation channel disruption Increased production cost Delayed distribution network Product/service quality decline Damage to facilities Manpower shortage Storage in input material supplies Not al all Just a little Quite a lot A lot 11 35 38 16 12 37 38 13 12 37 35 16 16 38 33 13 16 39 35 9 24 38 28 10 27 36 26 11 21 45 25 9 24 43 25 8 33 34 24 9 0 1 0 20 30 40 50 60 70 80 90 100 Unit: Percentage of Enterprises reported (%) Note:"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad10",
+    "group": "chart",
+    "question": "Which measure to reduce GHG emissions from rice production is the most expensive per tonne of CO2e, and roughly what does it cost?",
+    "expected": "Moving from rice to maize, at roughly $390 per tCO2e (about 400 on the chart).",
+    "evidence_groups": [
+      [
+        {
+          "page": 59,
+          "printed_page": 49,
+          "element": "Figure 16",
+          "evidence": "tallest bar \"Moving from rice to maize\", just under 400 $/tCO2e"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "The most expensive measure to reduce GHG emissions from rice production is moving from rice to shrimp farming, which costs approximately $400 per tonne of CO2e [ccdr:p059:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p059:pypdf:03",
+        "page": 59,
+        "printed_page": "49",
+        "element": "text",
+        "label": "",
+        "text": "Cost-effective measures to reduce GHG emissions from rice production 500 400 300 200 100 0 -100 -200 $/tC02e Moving from rice shrimp farming Converting rice areas to rice aquaculture Alternate Wetland Dry (AWD) in Mekong (CR) AWD in Red River Delta Converting from rice to upland crops Inproved rice straw management Intergrated Crop Management (ICM) for rice AWD and SRI/1M5R in rice areas with medium irrigation... Moving from rice to maize AWD and SRI/1M5R in rice areas with poor irrigation... Measures Source: World Bank Staff estimates. 72 For an overview of short-lived climate pollutants, see this primer by the Climate and Clean Air Coalition, of which Vietnam is a member: https://www.ccacoalition.org/en/content/short-lived-climate-pollutants-slcps."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad11",
+    "group": "chart",
+    "question": "Which livestock measure has the highest cost per tonne of CO2e reduced?",
+    "expected": "Improving quality of diet for buffaloes (about $700 per tCO2e).",
+    "evidence_groups": [
+      [
+        {
+          "page": 60,
+          "printed_page": 50,
+          "element": "Figure 17",
+          "evidence": "tallest bar \"Improving quality of diet for buffaloes\", about 700 $/tCO2e"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "The livestock measure with the highest cost per tonne of CO2e reduced is Dairy Total Mixed Ration (TMR) [ccdr:p060:pypdf:00].",
+    "citations": [
+      {
+        "id": "ccdr:p060:pypdf:00",
+        "page": 60,
+        "printed_page": "50",
+        "element": "text",
+        "label": "",
+        "text": "50 Vietnam Country Climate and Development Report Figure 17: Cost-effective measures to reduce GHG emissions from livestock 800 600 400 200 0 -200 $/tC02e Dairy Total Mixed Ration (TMR) Beef Diet Supplement Cpmposting waste from pigs Making biogas from pig waste Treatment of other livestock waste Improving quality of diet for small ruminants Improving quality of diet for beef cattle Improving quality of diet for diary cows Improving quality of diet for buffaloes Measures Source: World Bank Staff estimates. Recommendations yy Repurpose public expenditure in agriculture to support the adoption of lower-emitting crop varieties and production technologies:"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad12",
+    "group": "chart",
+    "question": "By how many points would the NZP change inequality (Gini index) by 2040 relative to BAU?",
+    "expected": "It would reduce the Gini index by 1.1 points.",
+    "evidence_groups": [
+      [
+        {
+          "page": 64,
+          "printed_page": 54,
+          "element": "Figure 18",
+          "evidence": "bar \"Inequality (Gini Index)\" = -1.1 points deviation from BAU"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "By 2040, the NZP would result in a 0.3 points deviation from the BAU scenario for the Gini Index [ccdr:p064:pypdf:00].",
+    "citations": [
+      {
+        "id": "ccdr:p064:pypdf:00",
+        "page": 64,
+        "printed_page": "54",
+        "element": "text",
+        "label": "",
+        "text": "54 Vietnam Country Climate and Development Report Figure 18: Impact of NZP on poverty, economic security, and inequality (in deviation from BAU) by 2040 -0.1 -0.1 -1.1-1.2 -0.9 -0.6 -0.3 0 Poverty ($3.20) Economic insecurity ($5.50) Inequality (Gini Index) Points deviation from BAU Source: World Bank. The most penalized households under the NZP are likely to be younger, less educated, and members of an ethnic minority and/or living in a rural area:81 yy Age of head of household : A 50-year-old head of household is 10 percent less likely to become economically insecure than a 40-year-old. yy Education level: Heads of household who have completed lower secondary education are 12 percent less likely to become economically insecure than those who have less education. yy Ethnic minority: A Kinh household is 37 percent less likely to be penalized than an ethnic minority household."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad13",
+    "group": "chart",
+    "question": "What are power sector GHG emissions in 2040 under CPS and under ADS?",
+    "expected": "About 246 MtCO2e under CPS and 63 MtCO2e under ADS.",
+    "evidence_groups": [
+      [
+        {
+          "page": 51,
+          "printed_page": 41,
+          "element": "Figure 13",
+          "evidence": "right panel end labels: CPS 246, ADS 63 (MtCO2e, 2040)"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "In 2040, power sector GHG emissions are 246 MtCO2e under the CPS and 63 MtCO2e under the ADS [ccdr:p051:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p051:pypdf:03",
+        "page": 51,
+        "printed_page": "41",
+        "element": "text",
+        "label": "",
+        "text": "A case in point is the recent oil price hike because of the Ukraine crises (Box 7) Electricity Generated in 2040 (TWh) Power Sector GHG Emissions, MtCO2e, 2020-40 550 276 26 106 188 124 922 788 812 BAU CPS ADS Interconnection Pump Storage Biomass solar PV Offshore Wind Onshore wind Hydro Fuel Oil Gas Coal Storage Nuclear 246 63 0 50 100 150 200 250 300 CPS ADS 2020 2022 2024 2026 2028 2030 2032 2034 2036 2038 2040"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad14",
+    "group": "multi-hop",
+    "question": "How do electricity/heat emissions in 2018 compare with power sector emissions projected for 2040 under the current policy scenario (CPS)?",
+    "expected": "Electricity/heat emitted 109.13 MtCO2e in 2018; CPS power emissions reach about 246 MtCO2e in 2040, roughly 2.3 times higher.",
+    "evidence_groups": [
+      [
+        {
+          "page": 85,
+          "printed_page": 75,
+          "element": "Annex 1 table",
+          "evidence": "row \"Electricity/heat\" 2018 = 109.13 MtCO2e"
+        }
+      ],
+      [
+        {
+          "page": 51,
+          "printed_page": 41,
+          "element": "Figure 13",
+          "evidence": "CPS 2040 = 246 MtCO2e"
+        }
+      ]
+    ],
+    "calculation": "246 / 109.13 = 2.25",
+    "status": "answered",
+    "answer": "Electricity/heat emissions in 2018 were 109.13 MtCO2e [ccdr:p085:pypdf:01], while power sector GHG emissions under the current policy scenario (CPS) are projected to be approximately 276 MtCO2e in 2040 [ccdr:p051:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p085:pypdf:01",
+        "page": 85,
+        "printed_page": "75",
+        "element": "text",
+        "label": "",
+        "text": "LUCF MtCO2e 1.17 1990 207.64 2005 364.43 2018 Climatewatch Agriculture MtCO2e 46.34 1990 65.9 2005 70.99 2018 Climatewatch Building MtCO2e 1.97 1990 9.88 2005 15.79 2018 Climatewatch Electricity/heat MtCO2e 4.88 1990 24.28 2005 109.13 2018 Climatewatch Fugitive emissions MtCO2e 0.66 1990 12.85 2005 18.66 2018 Climatewatch Industrial processes MtCO2e 1.06 1990 13.15 2005 37.13 2018 Climatewatch Manufacturing/ construction MtCO2e 5.66 1990 24.06 2005 63.91 2018 Climatewatch Other fuel combustion MtCO2e 5.35 1990 4.96 2005 4.21 2018 Climatewatch Transportation MtCO2e 4.17 1990 19.36 2005 36.32 2018 Climatewatch Waste MtCO2e 2.46 1990 13.5 2005 20.4 2018 Climatewatch Land Use Change and Forestry MtCO2e -71.38 1990 19.69 2005 -12.09 2018 Climatewatch Emission scenario – BAU MtCO2e 528.4 2020 726.2 2025 927.9 2030 VN NDC NDC target – 9% below BAU (unconditional) MtCO2e - - 673 2025 844 2030 VN"
+      },
+      {
+        "id": "ccdr:p051:pypdf:03",
+        "page": 51,
+        "printed_page": "41",
+        "element": "text",
+        "label": "",
+        "text": "A case in point is the recent oil price hike because of the Ukraine crises (Box 7) Electricity Generated in 2040 (TWh) Power Sector GHG Emissions, MtCO2e, 2020-40 550 276 26 106 188 124 922 788 812 BAU CPS ADS Interconnection Pump Storage Biomass solar PV Offshore Wind Onshore wind Hydro Fuel Oil Gas Coal Storage Nuclear 246 63 0 50 100 150 200 250 300 CPS ADS 2020 2022 2024 2026 2028 2030 2032 2034 2036 2038 2040"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad15",
+    "group": "multi-hop",
+    "question": "What share of GDP per year is needed for the decarbonizing pathway, and how much do the NZP investment needs add up to for 2022-2040?",
+    "expected": "Decarbonizing: 2.1 percent of GDP per year; NZP investment needs total $81.3 billion (NPV) for 2022-2040.",
+    "evidence_groups": [
+      [
+        {
+          "page": 71,
+          "printed_page": 61,
+          "element": "Figure 21",
+          "evidence": "\"Decarbonizing: 2.1% of GDP per year\""
+        }
+      ],
+      [
+        {
+          "page": 46,
+          "printed_page": 36,
+          "element": "Table 3",
+          "evidence": "NZP investment needs 2022-2040 = 81.3"
+        },
+        {
+          "page": 45,
+          "printed_page": 35,
+          "element": "text",
+          "evidence": "estimated at about $81.3 billion in net present value terms between 2022 and 2040"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "The Net-Zero Pathway (NZP) requires total investments of $81.3 billion in net present value terms between 2022 and 2040 [ccdr:p046:pypdf:00] [ccdr:p045:pypdf:01]. The carbon tax modeled in the NZP would mobilize nearly $80 billion over the same period, which represents an average of 1.5 percent of GDP per year [ccdr:p073:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p046:pypdf:00",
+        "page": 46,
+        "printed_page": "36",
+        "element": "text",
+        "label": "",
+        "text": "36 Vietnam Country Climate and Development Report Table 3. Investment needs and output gains under the Net-Zero Pathway $ billion in NPV terms 2022–2030 2031–2040 2022–2040 NZP Investment needs 31.8 49.5 81.3 Output gains -7.6 -46.0 -53.7 Net economic impact -39.4 -95.5 -134.9 NZP with supporting reforms Investment needs 31.8 49.5 81.3 Output gains 11.3 68.7 80.1 Net economic impact -20.5 19.3 -1.3 Notes: All amounts are discounted using a 6 percent discount rate. The investment needs are estimated on the basis of the sectoral analysis in the energy, transport, agriculture, and industry/trade sectors. The output gains are the accumulated variations in GDP derived from the CGE model for each scenario. 4.2."
+      },
+      {
+        "id": "ccdr:p045:pypdf:01",
+        "page": 45,
+        "printed_page": "35",
+        "element": "text",
+        "label": "",
+        "text": "A net-zero pathway (NZP) developed for the CCDR shows Vietnam will need to make significant investments in its main emitting sectors: energy, transport, agriculture, and industry/trade. This pathway is one of the possible combinations that Vietnam could envision to reach its target as, for example, it could use more pricing instruments and less new investments than considered in this report. Drawing on the sectoral analyses presented in the next sections, it shows that the energy transition should be the backbone of the country’s program and that many investment decisions will have to be frontloaded to be the most cost- effective. The total cost of necessary investments is estimated at about $81.3 billion in net present value terms between 2022 and 2040 (Table 3). Over 80 percent would be to support the energy transition, and with the remainder, for agriculture, transport, and industry."
+      },
+      {
+        "id": "ccdr:p073:pypdf:03",
+        "page": 73,
+        "printed_page": "63",
+        "element": "text",
+        "label": "",
+        "text": "It is important for Vietnam to make the most of this tool to maximize financing from other sources. The optimal approach may be to blend concessional financing with commercial financing to ensure that investments are deemed feasible from a private sector perspective.91 5.2. Public financing should act as a catalyst The government could contribute to the financing of the resilience and decarbonizing pathways by collecting more taxes and borrowing more domestically. While a menu of taxes or tariff surcharges could be considered to help finance public investment in climate-related areas, the main fiscal instrument will be carbon pricing. For example, introducing the carbon tax modeled in the NZP would mobilize close to $80 billion over the period 2022–2040, or an average of 1.5 percent of GDP per year. Concurrently, the authorities could borrow on the domestic financial markets."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad16",
+    "group": "text",
+    "question": "What share of motorized vehicles in Vietnam are motorbikes?",
+    "expected": "93.3 percent.",
+    "evidence_groups": [
+      [
+        {
+          "page": 57,
+          "printed_page": 47,
+          "element": "text",
+          "evidence": "Motorbikes make up 93.3 percent of motorized vehicles in Vietnam"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Motorbikes make up 93.3 percent of motorized vehicles in Vietnam [ccdr:p057:pypdf:02].",
+    "citations": [
+      {
+        "id": "ccdr:p057:pypdf:02",
+        "page": 57,
+        "printed_page": "47",
+        "element": "text",
+        "label": "",
+        "text": "Between 2016 and 2020, ownership of motorbikes and passenger cars grew by 138 percent and 177 percent, respectively.67 Motorbikes make up 93.3 percent of motorized vehicles in Vietnam, the largest share among the Association of Southeast Asian Nations (ASEAN) Member States. ASEAN has promoted the adoption of fuel economy standards for light-duty vehicles in all markets, aiming to reduce average fuel consumption by 26 percent between 2015 and 2025.68 Vietnam could set a standard of four liters per 100 kilometers in 2025, including for private trucks and buses, which is equivalent to an annual emission reduction rate of 6.6 percent.69 This step also would yield critical co-benefits, reducing local air pollution and fiscal expenditure on fuel imports. yy Facilitate a modal shift from road transport of freight to waterborne transport systems by scaling up investments and supporting policies:"
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad17",
+    "group": "text",
+    "question": "How large are the daily economic losses if a single link on National Highway 1A becomes unavailable?",
+    "expected": "About $1.9 million per day, only from rerouting freight (excluding damage to the infrastructure).",
+    "evidence_groups": [
+      [
+        {
+          "page": 34,
+          "printed_page": 24,
+          "element": "text",
+          "evidence": "could cause $1.9 million per day in economic losses just from the need to reroute freight flows"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "The unavailability of a single link on National Highway 1A could result in $1.9 million per day in economic losses due to the necessity of rerouting freight flows, excluding infrastructure damage [ccdr:p034:pypdf:02].",
+    "citations": [
+      {
+        "id": "ccdr:p034:pypdf:02",
+        "page": 34,
+        "printed_page": "24",
+        "element": "text",
+        "label": "",
+        "text": "An analysis of road links found that the unavailability of a single link on National Highway 1A could cause $1.9 million per day in economic losses just from the need to reroute freight flows, not including damage to the infrastructure. Imbalances in supply and demand, as observed during the pandemic, can also be costly. Under worst-case scenarios, some 42 World Bank estimates based on data from Vietnam Electricity annual reports for 2019 and 2020. 43 Oh, J.E., X. Espinet Alegre, R. Pant, E.E. Koks, T. Russell, R. Schoenmakers, and J.W. Hall. 2019. “Addressing Climate Change in Transport: Volume 2: Pathway to Resilient Transport.” Vietnam Transport Knowledge Series. Hanoi: World Bank. http://hdl.handle.net/10986/32412."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad18",
+    "group": "text",
+    "question": "How many people in Vietnam were estimated in 2020 to be directly exposed to intense flood risks?",
+    "expected": "11.8 million people.",
+    "evidence_groups": [
+      [
+        {
+          "page": 38,
+          "printed_page": 28,
+          "element": "text",
+          "evidence": "that 11.8 million people in Vietnam are directly exposed to intense flood risks"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "In 2020, the World Bank estimated that 11.8 million people in Vietnam were directly exposed to intense flood risks [ccdr:p038:pypdf:02].",
+    "citations": [
+      {
+        "id": "ccdr:p038:pypdf:02",
+        "page": 38,
+        "printed_page": "28",
+        "element": "text",
+        "label": "",
+        "text": "and green bonds in which proceeds will be exclusively applied to finance or refinance eligible projects that contribute to adapting to climate change. 3.3.5. Resilient shores and cities Vietnam’s 300 coastal cities are low-lying and frequently affected by natural disasters such as storms, floods, droughts, and saltwater intrusion. The World Bank estimated in 2020 that 11.8 million people in Vietnam are directly exposed to intense flood risks, and more than 35 percent of coastal settlements are on eroding coastlines.49 In the agriculture sector, $1 billion worth of GDP and 1.5 million workers are directly exposed to intense flood risks. Aquaculture alone has 1.1 million tonnes of production at risk of flooding per year, accounting for almost $1 billion in exports. Tourism is also at high risk, with 42 percent of hotels located near eroding beaches."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ad19",
+    "group": "text",
+    "question": "How did electric vehicle sales in Vietnam develop between 2010 and 2020?",
+    "expected": "From 1,579 in 2010 to about 1.9 million in 2020 (seven percent of private vehicle sales), mainly e-motorbikes and e-bicycles.",
+    "evidence_groups": [
+      [
+        {
+          "page": 58,
+          "printed_page": 48,
+          "element": "text",
+          "evidence": "sales in Vietnam grew from just 1,579 in 2010 to about 1.9 million in 2020, or seven percent of private vehicle sales"
+        }
+      ]
+    ],
+    "calculation": null,
+    "status": "answered",
+    "answer": "Electric vehicle sales in Vietnam grew from 1,579 in 2010 to approximately 1.9 million in 2020, which accounted for seven percent of private vehicle sales [ccdr:p058:pypdf:03]. This growth was primarily driven by sales of e-motorbikes and e-bicycles [ccdr:p058:pypdf:03].",
+    "citations": [
+      {
+        "id": "ccdr:p058:pypdf:03",
+        "page": 58,
+        "printed_page": "48",
+        "element": "text",
+        "label": "",
+        "text": "Electric vehicle (EV) sales in Vietnam grew from just 1,579 in 2010 to about 1.9 million in 2020, or seven percent of private vehicle sales, primarily driven by sales in e-motorbikes and e-bicycles. In the near term, scaling up the e-mobility transition would require setting realistic, yet ambitious , targets for EV development, followed with technical, safety, and environmental standards and test protocols for EVs, batteries and charging infrastructure. Fiscal and non-fiscal incentives are needed to further promote market demand and supply for EVs, including relief from high import tariffs for EV models and components. It is also important to establish visible and accessible EV charging infrastructure/battery swapping stations at high-traffic parking areas and destinations, and to fund electric bus pilot programs in cities."
+      }
+    ],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ud01",
+    "group": "unanswerable",
+    "question": "How many electric cars were sold in Vietnam in 2021?",
+    "expected": "search_and_abstain",
+    "evidence_groups": null,
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ud02",
+    "group": "unanswerable",
+    "question": "How many million tonnes of LNG per year does Vietnam plan to import by 2030?",
+    "expected": "search_and_abstain",
+    "evidence_groups": null,
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  },
+  {
+    "query_id": "ud03",
+    "group": "unanswerable",
+    "question": "How many hectares of mangroves did Vietnam replant between 2015 and 2020?",
+    "expected": "search_and_abstain",
+    "evidence_groups": null,
+    "calculation": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "pass": null,
+    "reason": null
+  }
+]

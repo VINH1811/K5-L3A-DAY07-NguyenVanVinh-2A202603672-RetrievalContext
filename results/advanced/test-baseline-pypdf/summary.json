@@ -1,0 +1,30 @@
+{
+  "chunks": "pypdf",
+  "method": "hybrid_rrf",
+  "top_k": 8,
+  "budget_chars": 24000,
+  "max_searches": 3,
+  "context_policy": "interleave",
+  "page_images": false,
+  "model": "gemini-3.1-flash-lite",
+  "split": "test",
+  "N": 30,
+  "status": {
+    "answered": 21,
+    "abstain": 9
+  },
+  "searches_distribution": {
+    "1": 19,
+    "2": 3,
+    "3": 8
+  },
+  "context_sufficient": "22/24",
+  "answerable_abstained": 3,
+  "unanswerable_abstained": "6/6",
+  "errors": 0,
+  "median_seconds": 3.2615607999996428,
+  "total_seconds": 287.32463599999755,
+  "model_calls": 79,
+  "prompt_tokens": 167181,
+  "output_tokens": 3591
+}

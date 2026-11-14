@@ -1,0 +1,29 @@
+{
+  "chunks": "mm",
+  "method": "hybrid_rrf",
+  "top_k": 8,
+  "budget_chars": 24000,
+  "max_searches": 3,
+  "context_policy": "interleave",
+  "page_images": true,
+  "model": "gemini-3.1-flash-lite",
+  "split": "test",
+  "N": 30,
+  "status": {
+    "answered": 25,
+    "abstain": 5
+  },
+  "searches_distribution": {
+    "1": 23,
+    "2": 7
+  },
+  "context_sufficient": "23/24",
+  "answerable_abstained": 0,
+  "unanswerable_abstained": "5/6",
+  "errors": 0,
+  "median_seconds": 7.6818506999998135,
+  "total_seconds": 788.7232508000016,
+  "model_calls": 67,
+  "prompt_tokens": 255501,
+  "output_tokens": 3191
+}

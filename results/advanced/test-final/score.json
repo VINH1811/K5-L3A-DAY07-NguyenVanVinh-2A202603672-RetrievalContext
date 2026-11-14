@@ -1,0 +1,36 @@
+{
+  "run": "results\\advanced\\test-final",
+  "passed": 27,
+  "total": 30,
+  "rate_percent": 90.0,
+  "meets_90_percent": true,
+  "by_group": {
+    "table": "5/6",
+    "image": "4/5",
+    "chart": "5/5",
+    "multi-hop": "3/4",
+    "text": "4/4",
+    "unanswerable": "6/6"
+  },
+  "errors": 0,
+  "failures": [
+    {
+      "query_id": "at04",
+      "group": "table",
+      "status": "answered",
+      "reason": "Không đạt: nêu \"competitiveness gains\" +0.2%; theo Table 4 (tr.48) chính sách đó là -0.6 năm 2040, đúng là \"energy efficiency gains\" +0.2. Citation đúng bảng nhưng không hỗ trợ câu trả lời."
+    },
+    {
+      "query_id": "at09",
+      "group": "image",
+      "status": "answered",
+      "reason": "Không đạt: chọn Can Tho; trên Figure 11 (tr.38) vùng đậm nhất là dải miền Trung quanh Da Nang, Can Tho nằm ở vùng nhạt. Model được gửi ảnh trang 38 nhưng vẫn đọc sai bản đồ."
+    },
+    {
+      "query_id": "at18",
+      "group": "multi-hop",
+      "status": "answered",
+      "reason": "Không đạt vế 2: nêu GDP -0.6% năm 2030 (NZP không cải cách, tr.45) thay vì +1.7% của \"NZP with all supporting measures\" (Table 4, tr.48). Vế 1 (42.8%) đúng."
+    }
+  ]
+}

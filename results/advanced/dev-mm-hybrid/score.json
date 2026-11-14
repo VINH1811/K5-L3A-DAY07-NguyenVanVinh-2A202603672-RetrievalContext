@@ -1,0 +1,42 @@
+{
+  "run": "starter\\results\\adv-dev-mm-hybrid",
+  "passed": 18,
+  "total": 22,
+  "rate_percent": 81.81818181818181,
+  "meets_90_percent": false,
+  "by_group": {
+    "table": "6/6",
+    "image": "2/2",
+    "chart": "3/5",
+    "multi-hop": "0/2",
+    "text": "4/4",
+    "unanswerable": "3/3"
+  },
+  "errors": 0,
+  "failures": [
+    {
+      "query_id": "ad10",
+      "group": "chart",
+      "status": "answered",
+      "reason": "Sai giá trị: nói khoảng $500/tCO2e, cột cao nhất chỉ dưới 400."
+    },
+    {
+      "query_id": "ad11",
+      "group": "chart",
+      "status": "abstain",
+      "reason": "Từ chối dù Figure 17 có đáp án (mô tả trích xuất không nêu giá trị từng cột)."
+    },
+    {
+      "query_id": "ad14",
+      "group": "multi-hop",
+      "status": "answered",
+      "reason": "Không nêu giá trị năm 2018 (\"shown in Figure 4\"), thiếu một vế."
+    },
+    {
+      "query_id": "ad15",
+      "group": "multi-hop",
+      "status": "answered",
+      "reason": "Sai vế 1: nói 6.8% GDP (con số của RNZP) thay vì 2.1% cho decarbonizing."
+    }
+  ]
+}

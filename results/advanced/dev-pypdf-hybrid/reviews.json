@@ -1,0 +1,112 @@
+[
+  {
+    "query_id": "ad01",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad02",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad03",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad04",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad05",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad06",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad07",
+    "pass": false,
+    "reason": "Thiếu: chỉ nêu miền núi phía Bắc, bỏ dải miền Trung trên bản đồ."
+  },
+  {
+    "query_id": "ad08",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad09",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad10",
+    "pass": false,
+    "reason": "Sai biện pháp: \"rice to shrimp farming\" (cột âm), đúng là rice to maize."
+  },
+  {
+    "query_id": "ad11",
+    "pass": false,
+    "reason": "Sai biện pháp: Dairy TMR (cột âm), đúng là diet for buffaloes."
+  },
+  {
+    "query_id": "ad12",
+    "pass": false,
+    "reason": "Sai giá trị: 0.3 điểm, đúng là -1.1."
+  },
+  {
+    "query_id": "ad13",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad14",
+    "pass": false,
+    "reason": "Sai vế 2: 276 MtCO2e (là TWh than của CPS), đúng là 246 MtCO2e."
+  },
+  {
+    "query_id": "ad15",
+    "pass": false,
+    "reason": "Thiếu vế 1: không nêu 2.1% GDP/năm cho decarbonizing pathway."
+  },
+  {
+    "query_id": "ad16",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad17",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad18",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad19",
+    "pass": true,
+    "reason": "Đúng và đủ so với đáp án; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ud01",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  },
+  {
+    "query_id": "ud02",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  },
+  {
+    "query_id": "ud03",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  }
+]

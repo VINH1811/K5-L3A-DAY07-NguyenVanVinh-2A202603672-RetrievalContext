@@ -34,6 +34,10 @@ def default_model() -> str:
     return os.environ.get('GEMINI_MODEL', 'gemini-2.5-flash')
 
 
+class DailyQuotaExceeded(RuntimeError):
+    """The free-tier daily request quota of this model is used up; retrying today is pointless."""
+
+
 def upper_types(schema: Any) -> Any:
     """Gemini's responseSchema uses upper-case OpenAPI type names."""
     if isinstance(schema, dict):
@@ -80,7 +84,9 @@ def generate(contents: list[dict[str, Any]], *, model: str | None = None, system
             out = _request(f'{API}/models/{model}:generateContent', body, timeout)
             break
         except urllib.error.HTTPError as error:
-            detail = error.read().decode('utf-8', 'replace')[:500]
+            detail = error.read().decode('utf-8', 'replace')[:2000]
+            if error.code == 429 and 'PerDay' in detail:
+                raise DailyQuotaExceeded(f'{model}: daily quota exceeded') from None
             if error.code in (429, 500, 502, 503, 504) and retries < max_retries:
                 retries += 1
                 errors.append(error.code)

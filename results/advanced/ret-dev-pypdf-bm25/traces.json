@@ -1,0 +1,1028 @@
+[
+  {
+    "query_id": "ad01",
+    "group": "table",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.3315000001057342,
+    "results": [
+      {
+        "id": "ccdr:p018:pypdf:01",
+        "page": 18,
+        "score": 15.284318809231062,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p006:pypdf:00",
+        "page": 6,
+        "score": 14.056675163085288,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p021:pypdf:03",
+        "page": 21,
+        "score": 11.32214200506061,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p066:pypdf:02",
+        "page": 66,
+        "score": 11.289551722222216,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p062:pypdf:03",
+        "page": 62,
+        "score": 9.99832570502189,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad02",
+    "group": "table",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.9779999997808773,
+    "results": [
+      {
+        "id": "ccdr:p029:pypdf:03",
+        "page": 29,
+        "score": 30.185569266775847,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p029:pypdf:01",
+        "page": 29,
+        "score": 26.843996420148546,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p046:pypdf:00",
+        "page": 46,
+        "score": 16.7791345154749,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p071:pypdf:04",
+        "page": 71,
+        "score": 16.594484739541244,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p073:pypdf:03",
+        "page": 73,
+        "score": 15.334528328666776,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad03",
+    "group": "table",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.8344000000070082,
+    "results": [
+      {
+        "id": "ccdr:p048:pypdf:03",
+        "page": 48,
+        "score": 24.375817484209488,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p045:pypdf:03",
+        "page": 45,
+        "score": 21.552571901963155,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p006:pypdf:00",
+        "page": 6,
+        "score": 17.870306786448232,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p011:pypdf:01",
+        "page": 11,
+        "score": 17.126351939143326,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p046:pypdf:03",
+        "page": 46,
+        "score": 16.541438816772537,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad04",
+    "group": "table",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.7937000002348213,
+    "results": [
+      {
+        "id": "ccdr:p052:pypdf:00",
+        "page": 52,
+        "score": 24.682263593885995,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p050:pypdf:01",
+        "page": 50,
+        "score": 22.872251790814246,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p050:pypdf:02",
+        "page": 50,
+        "score": 20.590333175425258,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p006:pypdf:00",
+        "page": 6,
+        "score": 18.31600020999019,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p051:pypdf:00",
+        "page": 51,
+        "score": 18.233215566849772,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad05",
+    "group": "table",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.3075000001663284,
+    "results": [
+      {
+        "id": "ccdr:p078:pypdf:03",
+        "page": 78,
+        "score": 25.20906041671898,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p078:pypdf:01",
+        "page": 78,
+        "score": 13.422543552601546,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p006:pypdf:00",
+        "page": 6,
+        "score": 11.911991949423994,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p094:pypdf:00",
+        "page": 94,
+        "score": 9.359868716276388,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p078:pypdf:02",
+        "page": 78,
+        "score": 9.24188255619492,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad06",
+    "group": "table",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.0617999996611616,
+    "results": [
+      {
+        "id": "ccdr:p086:pypdf:01",
+        "page": 86,
+        "score": 18.094847802399137,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p086:pypdf:00",
+        "page": 86,
+        "score": 13.976694607395514,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p093:pypdf:01",
+        "page": 93,
+        "score": 12.455060487418812,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p021:pypdf:01",
+        "page": 21,
+        "score": 8.550854322329297,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p066:pypdf:02",
+        "page": 66,
+        "score": 8.131159101994763,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad07",
+    "group": "image",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.4924000001883542,
+    "results": [
+      {
+        "id": "ccdr:p034:pypdf:00",
+        "page": 34,
+        "score": 27.203144179483544,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:pypdf:01",
+        "page": 7,
+        "score": 22.722172172730378,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p035:pypdf:01",
+        "page": 35,
+        "score": 19.42513486458187,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p034:pypdf:01",
+        "page": 34,
+        "score": 13.386220907562816,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p047:pypdf:00",
+        "page": 47,
+        "score": 13.206454485682116,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad08",
+    "group": "image",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.8686000003071968,
+    "results": [
+      {
+        "id": "ccdr:p071:pypdf:04",
+        "page": 71,
+        "score": 22.029967828715122,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p073:pypdf:03",
+        "page": 73,
+        "score": 19.720614603854987,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p029:pypdf:01",
+        "page": 29,
+        "score": 18.911094220435896,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p074:pypdf:01",
+        "page": 74,
+        "score": 17.07687527000442,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:pypdf:03",
+        "page": 7,
+        "score": 15.329663765091889,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad09",
+    "group": "chart",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.5239999997902487,
+    "results": [
+      {
+        "id": "ccdr:p023:pypdf:00",
+        "page": 23,
+        "score": 31.978717026626136,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p093:pypdf:00",
+        "page": 93,
+        "score": 15.759495081176063,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p093:pypdf:01",
+        "page": 93,
+        "score": 14.778834890332885,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p023:pypdf:01",
+        "page": 23,
+        "score": 13.32258221037226,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:pypdf:00",
+        "page": 7,
+        "score": 10.2176550462658,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad10",
+    "group": "chart",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.8890999999712221,
+    "results": [
+      {
+        "id": "ccdr:p059:pypdf:01",
+        "page": 59,
+        "score": 24.915437545734413,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:pypdf:02",
+        "page": 7,
+        "score": 22.242446362141667,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p059:pypdf:03",
+        "page": 59,
+        "score": 20.63033625620256,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p066:pypdf:02",
+        "page": 66,
+        "score": 17.05431790125431,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p045:pypdf:02",
+        "page": 45,
+        "score": 16.530207723764192,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad11",
+    "group": "chart",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.1383000000932952,
+    "results": [
+      {
+        "id": "ccdr:p059:pypdf:01",
+        "page": 59,
+        "score": 21.890921986687328,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p090:pypdf:01",
+        "page": 90,
+        "score": 12.197401290099485,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p040:pypdf:04",
+        "page": 40,
+        "score": 10.55624089294864,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p019:pypdf:02",
+        "page": 19,
+        "score": 8.706852223951767,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p063:pypdf:03",
+        "page": 63,
+        "score": 8.478633014692434,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_all_groups": false
+  },
+  {
+    "query_id": "ad12",
+    "group": "chart",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.872400000138441,
+    "results": [
+      {
+        "id": "ccdr:p063:pypdf:04",
+        "page": 63,
+        "score": 27.986635459516993,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p064:pypdf:00",
+        "page": 64,
+        "score": 25.30209708369211,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p048:pypdf:02",
+        "page": 48,
+        "score": 19.319822115979736,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p045:pypdf:03",
+        "page": 45,
+        "score": 16.598355600053885,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p063:pypdf:03",
+        "page": 63,
+        "score": 15.106580743226932,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad13",
+    "group": "chart",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.5361999999186082,
+    "results": [
+      {
+        "id": "ccdr:p051:pypdf:03",
+        "page": 51,
+        "score": 22.200452185051002,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:pypdf:02",
+        "page": 7,
+        "score": 19.30406433097256,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p051:pypdf:00",
+        "page": 51,
+        "score": 18.32227040004771,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p050:pypdf:01",
+        "page": 50,
+        "score": 17.73442578766002,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p050:pypdf:02",
+        "page": 50,
+        "score": 16.0913396236795,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad14",
+    "group": "multi-hop",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.6329999998561107,
+    "results": [
+      {
+        "id": "ccdr:p050:pypdf:01",
+        "page": 50,
+        "score": 22.46387091821501,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:pypdf:02",
+        "page": 7,
+        "score": 18.466764959752712,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p051:pypdf:03",
+        "page": 51,
+        "score": 17.56113156525711,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p090:pypdf:00",
+        "page": 90,
+        "score": 15.222529765564227,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p050:pypdf:02",
+        "page": 50,
+        "score": 14.878166983702792,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_all_groups": false
+  },
+  {
+    "query_id": "ad15",
+    "group": "multi-hop",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.9706000002770452,
+    "results": [
+      {
+        "id": "ccdr:p006:pypdf:00",
+        "page": 6,
+        "score": 25.023338261908822,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p046:pypdf:00",
+        "page": 46,
+        "score": 21.236606805998342,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p071:pypdf:04",
+        "page": 71,
+        "score": 20.208217118985363,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p092:pypdf:00",
+        "page": 92,
+        "score": 17.86046291231836,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p013:pypdf:01",
+        "page": 13,
+        "score": 17.814115787239796,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad16",
+    "group": "text",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.1180999999851338,
+    "results": [
+      {
+        "id": "ccdr:p057:pypdf:02",
+        "page": 57,
+        "score": 18.152813519755426,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p057:pypdf:00",
+        "page": 57,
+        "score": 12.667663870098199,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p056:pypdf:02",
+        "page": 56,
+        "score": 11.048138897883366,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p031:pypdf:02",
+        "page": 31,
+        "score": 8.43012979691048,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p057:pypdf:01",
+        "page": 57,
+        "score": 7.552815011370715,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad17",
+    "group": "text",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.2928000001011242,
+    "results": [
+      {
+        "id": "ccdr:p034:pypdf:02",
+        "page": 34,
+        "score": 27.608603076313504,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p053:pypdf:04",
+        "page": 53,
+        "score": 14.887319356709078,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p058:pypdf:00",
+        "page": 58,
+        "score": 13.314586506372438,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p019:pypdf:01",
+        "page": 19,
+        "score": 11.80998175219535,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p027:pypdf:01",
+        "page": 27,
+        "score": 10.600491065296733,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad18",
+    "group": "text",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.7553999996380298,
+    "results": [
+      {
+        "id": "ccdr:p038:pypdf:02",
+        "page": 38,
+        "score": 32.14483873454949,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p038:pypdf:03",
+        "page": 38,
+        "score": 22.19135869276375,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p007:pypdf:01",
+        "page": 7,
+        "score": 15.535401432714908,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p023:pypdf:03",
+        "page": 23,
+        "score": 12.768562259455438,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p041:pypdf:00",
+        "page": 41,
+        "score": 11.595365059215027,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  },
+  {
+    "query_id": "ad19",
+    "group": "text",
+    "chunks": "pypdf",
+    "method": "bm25",
+    "top_k": 5,
+    "budget_chars": 9000,
+    "max_searches": 3,
+    "context_policy": "interleave",
+    "page_images": false,
+    "model": null,
+    "split": "dev",
+    "elapsed_ms": 1.8084999996972329,
+    "results": [
+      {
+        "id": "ccdr:p058:pypdf:03",
+        "page": 58,
+        "score": 24.367206912775863,
+        "rank": 1,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p057:pypdf:01",
+        "page": 57,
+        "score": 10.383196356941884,
+        "rank": 2,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p058:pypdf:02",
+        "page": 58,
+        "score": 10.164529306553101,
+        "rank": 3,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p011:pypdf:02",
+        "page": 11,
+        "score": 8.715174833085042,
+        "rank": 4,
+        "element": "text"
+      },
+      {
+        "id": "ccdr:p018:pypdf:00",
+        "page": 18,
+        "score": 8.32137032760004,
+        "rank": 5,
+        "element": "text"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_all_groups": true
+  }
+]

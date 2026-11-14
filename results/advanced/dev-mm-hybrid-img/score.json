@@ -1,0 +1,36 @@
+{
+  "run": "starter\\results\\adv-dev-mm-hybrid-img",
+  "passed": 19,
+  "total": 22,
+  "rate_percent": 86.36363636363636,
+  "meets_90_percent": false,
+  "by_group": {
+    "table": "5/6",
+    "image": "2/2",
+    "chart": "4/5",
+    "multi-hop": "1/2",
+    "text": "4/4",
+    "unanswerable": "3/3"
+  },
+  "errors": 0,
+  "failures": [
+    {
+      "query_id": "ad06",
+      "group": "table",
+      "status": "abstain",
+      "reason": "Từ chối dù tài liệu có đáp án: 2 lượt tìm không lấy được bảng phụ lục tr.86 (lỗi retrieval)."
+    },
+    {
+      "query_id": "ad12",
+      "group": "chart",
+      "status": "answered",
+      "reason": "Nêu \"1.1 point deviation\" nhưng không nói Gini giảm; thiếu chiều thay đổi."
+    },
+    {
+      "query_id": "ad14",
+      "group": "multi-hop",
+      "status": "answered",
+      "reason": "Sai: lấy \"khoảng 150 MtCO2e\" ước lượng từ Figure 4 thay vì 109.13 MtCO2e trong bảng Annex 1 (tr.85)."
+    }
+  ]
+}

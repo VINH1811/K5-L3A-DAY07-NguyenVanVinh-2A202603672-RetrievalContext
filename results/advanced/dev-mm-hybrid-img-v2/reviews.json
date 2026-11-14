@@ -1,0 +1,112 @@
+[
+  {
+    "query_id": "ad01",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad02",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad03",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad04",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad05",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad06",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad07",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad08",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad09",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad10",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad11",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad12",
+    "pass": true,
+    "reason": "Đúng: -1.1 điểm Gini so với BAU (có dấu âm)."
+  },
+  {
+    "query_id": "ad13",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad14",
+    "pass": true,
+    "reason": "Đúng: nêu 109.13 MtCO2e (2018, Annex 1 tr.85) và 246 MtCO2e (CPS 2040, Figure 13). Không nêu tỷ lệ ~2.3 lần nhưng có đủ hai giá trị để so sánh."
+  },
+  {
+    "query_id": "ad15",
+    "pass": true,
+    "reason": "Đúng: 2.1% GDP/năm (Figure 21 tr.71 và bảng phụ lục tr.92) và $81.3 tỷ NPV (Table 3 tr.46)."
+  },
+  {
+    "query_id": "ad16",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad17",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad18",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ad19",
+    "pass": true,
+    "reason": "Đúng và đủ; citation trỏ đúng trang/vùng evidence."
+  },
+  {
+    "query_id": "ud01",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  },
+  {
+    "query_id": "ud02",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  },
+  {
+    "query_id": "ud03",
+    "pass": true,
+    "reason": "Từ chối đúng, không thêm khẳng định."
+  }
+]

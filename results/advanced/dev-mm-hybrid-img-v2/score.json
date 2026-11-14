@@ -1,0 +1,17 @@
+{
+  "run": "starter\\results\\adv-dev-mm-hybrid-img-v2",
+  "passed": 22,
+  "total": 22,
+  "rate_percent": 100.0,
+  "meets_90_percent": true,
+  "by_group": {
+    "table": "6/6",
+    "image": "2/2",
+    "chart": "5/5",
+    "multi-hop": "2/2",
+    "text": "4/4",
+    "unanswerable": "3/3"
+  },
+  "errors": 0,
+  "failures": []
+}

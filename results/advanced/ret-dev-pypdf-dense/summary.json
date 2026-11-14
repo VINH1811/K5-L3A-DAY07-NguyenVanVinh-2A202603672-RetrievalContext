@@ -1,0 +1,23 @@
+{
+  "chunks": "pypdf",
+  "method": "dense",
+  "top_k": 5,
+  "budget_chars": 9000,
+  "max_searches": 3,
+  "context_policy": "interleave",
+  "page_images": false,
+  "model": null,
+  "split": "dev",
+  "N": 19,
+  "hit1": 15,
+  "hit3": 19,
+  "context_all_groups": 18,
+  "by_group": {
+    "chart": "5/5",
+    "image": "2/2",
+    "multi-hop": "1/2",
+    "table": "6/6",
+    "text": "4/4"
+  },
+  "median_ms": 91.45410000019183
+}
