@@ -1,0 +1,6 @@
+# Same stack as Day 6 so the query embedding matches the stored index.
+chromadb>=1
+sentence-transformers>=6.1
+# google/embeddinggemma-2 loads its image processors even for text-only use.
+Pillow
+torchvision

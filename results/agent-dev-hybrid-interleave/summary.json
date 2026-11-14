@@ -1,0 +1,33 @@
+{
+  "model": "qwen2.5:7b",
+  "method": "hybrid_rrf",
+  "top_k": 3,
+  "budget_chars": 3000,
+  "max_searches": 3,
+  "context_policy": "interleave",
+  "use_filter": false,
+  "split": "dev",
+  "num_gpu": 0,
+  "N": 17,
+  "status": {
+    "answered": 15,
+    "abstain": 2
+  },
+  "tool_use": 17,
+  "searches_distribution": {
+    "1": 15,
+    "2": 1,
+    "3": 1
+  },
+  "fallback_first_search": 0,
+  "context_hit": 15,
+  "answerable_N": 15,
+  "answerable_abstained": 0,
+  "unanswerable_abstained": 2,
+  "unanswerable_N": 2,
+  "median_seconds": 34.05870930000128,
+  "total_seconds": 643.8976074000002,
+  "prompt_tokens": 30864,
+  "output_tokens": 1479,
+  "service_cost_usd": 0
+}

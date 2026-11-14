@@ -1,0 +1,130 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Agent từ chối một câu có đáp án trong tài liệu: chấm 0 theo BENCHMARK.md. Query thứ ba trùng query thứ hai nên agent dừng."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng một phần: nêu ngân hàng được chọn có vốn mạnh được vượt trần, thiếu điều kiện \"đạt 80 percent hạn mức trước tháng 8\" và ý không cần xin phép. Chunk được trích hỗ trợ phần đã nêu."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Agent từ chối một câu có đáp án trong tài liệu: chấm 0 theo BENCHMARK.md. Model kết luận không đủ bằng chứng sau 1 lượt tìm, không đưa query mới."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "u01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Agent trả đúng câu từ chối cố định, không thêm khẳng định nào."
+  },
+  {
+    "query_id": "u02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Agent trả đúng câu từ chối cố định, không thêm khẳng định nào."
+  }
+]

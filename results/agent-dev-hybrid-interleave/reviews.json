@@ -1,0 +1,135 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 0,
+    "citation_support": [
+      false
+    ],
+    "reason": "Sai: trả lời \"36 percent\", đáp án là 71,2 percent. \"36\" là số chú thích đứng ngay trước \"71.2 percent\" trong chunk. Chunk được trích chứa đáp án đúng nhưng không hỗ trợ con số agent nêu."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 1,
+    "citation_support": [
+      false
+    ],
+    "reason": "Nội dung đúng (47 cảng, 95 percent) nhưng chunk được trích (p44:003) chỉ nói 44 cảng còn lại chiếm 5 percent, không nêu 47 cảng hay 95 percent; câu chứa đáp án nằm ở p44:000, có trong context nhưng không được trích."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "u01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Agent trả đúng câu từ chối cố định, không thêm khẳng định nào."
+  },
+  {
+    "query_id": "u02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Agent trả đúng câu từ chối cố định, không thêm khẳng định nào."
+  }
+]

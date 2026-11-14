@@ -1,0 +1,398 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "answerable": true,
+    "question": "By how much did Vietnam's exports contract in the first half of 2023?",
+    "expected_answer": "By 12 percent year-on-year.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 11,
+        "evidence": "exports contracting by 12 percent (y/y) in the first half of 2023"
+      },
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 19,
+        "evidence": "exports contracting by 12 percent (y/y) in the first half of 2023"
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "answerable": true,
+    "question": "How large were the economic losses from the power outages in northern Vietnam in May and June 2023?",
+    "expected_answer": "About 0.3 percent of GDP (about US$1.4 billion).",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 11,
+        "evidence": "losses estimated at 0.3 percent of GDP"
+      },
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 22,
+        "evidence": "power outages is about US$1.4 billion (or 0.3 percent of GDP)"
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "answerable": true,
+    "question": "What share of surveyed companies said they had laid off at least 5 percent of their workers in early 2023?",
+    "expected_answer": "71.2 percent.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 12,
+        "evidence": "71.2 percent reported a cut of at least 5 percent of their labor force"
+      },
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 24,
+        "evidence": "71.2 percent of surveyed enterprises reported a cut of at least 5 percent in labor"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "direct",
+    "answerable": true,
+    "question": "How many seaports does Vietnam have, and what share of cargo passes through the three main ones?",
+    "expected_answer": "47 seaports; 95 percent of cargo goes through three ports.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 44,
+        "evidence": "Vietnam has 47 seaports of all sizes across provinces, but 95 percent of cargo goes through three ports"
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "paraphrase",
+    "answerable": true,
+    "question": "How far behind schedule and how far over budget were the big transport projects that the World Bank reviewed?",
+    "expected_answer": "On average five years late and double the original cost.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 42,
+        "evidence": "found an average delay of five years, and an average cost overrun of double the original cost"
+      },
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 16,
+        "evidence": "found an average delay time of five years, and an average cost overrun double the original cost"
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "condition",
+    "answerable": true,
+    "question": "Under Circular 02/2023/TT-NHNN, which borrowers may have their bank loans restructured?",
+    "expected_answer": "Borrowers facing payment difficulties, but only those assessed as capable of repaying principal and/or interest under the restructured term.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 30,
+        "evidence": "facing payment difficulties, but that have been assessed as capable of repaying the principal and/or interest"
+      },
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 12,
+        "evidence": "facing payment difficulties but who have been assessed to be capable to repay principal and/or interest"
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "direct",
+    "answerable": true,
+    "question": "What annual GDP growth does the government estimate Vietnam must maintain during 2021-2030 to reach its development goals?",
+    "expected_answer": "7 percent a year (and 6.5 to 7.5 percent through 2031-2050).",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 39,
+        "evidence": "growth must be maintained at 7 percent during 2021–2030"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "answerable": true,
+    "question": "What was Viet Nam's real GDP growth in 2024?",
+    "expected_answer": "7.1 percent.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 11,
+        "evidence": "real GDP growth reached 7.1 percent in 2024"
+      },
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 19,
+        "evidence": "real GDP growth reached 7.1 percent in 2024"
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "direct",
+    "answerable": true,
+    "question": "How many electric vehicle chargers are estimated to be needed by 2030?",
+    "expected_answer": "About 800,000 units by 2030 (2.7 million by 2040, 6.3 million by 2050).",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 52,
+        "evidence": "chargers needed to support targeted EV uptake estimated at 800,000 units by 2030"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "paraphrase",
+    "answerable": true,
+    "question": "From which years does the report suggest stopping sales of new petrol-engine mopeds and motorcycles?",
+    "expected_answer": "New ICE mopeds from 2027 and motorcycles from 2030.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 58,
+        "evidence": "banning new ICE mopeds from 2027 and motorcycles from 2030"
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "condition",
+    "answerable": true,
+    "question": "Under what conditions could banks exceed their credit growth quota in 2024 without asking for approval?",
+    "expected_answer": "Only selected banks with stronger capital bases, and only once they had reached 80 percent of their limit by August.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 31,
+        "evidence": "allowing selected banks with stronger capital bases to exceed their quotas once they reached 80 percent of their limit by August"
+      }
+    ],
+    "note": "The executive summary repeats this, but the sentence runs across pages 13-14, so neither page alone carries both conditions; it is not accepted as an alternative."
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "direct",
+    "answerable": true,
+    "question": "What share of Viet Nam's total greenhouse gas emissions came from the transport sector in 2021?",
+    "expected_answer": "7.2 percent (32.9 MtCO2eq).",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 42,
+        "evidence": "or 7.2 percent of total economy-wide GHG emissions"
+      },
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 16,
+        "evidence": "or 7.2 percent of total economy- wide GHG emissions"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "paraphrase",
+    "answerable": true,
+    "question": "Which three pathways does the report model for the uptake of electric vehicles?",
+    "expected_answer": "Business-as-Usual (BAU), Stated Policy Scenario (SPS) and Accelerated Decarbonization Scenario (ADS).",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 47,
+        "evidence": "Business-as-Usual (BAU) Scenario, Stated Policy Scenario (SPS) and Accelerated Decarbonization Scenario (ADS)"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata",
+    "answerable": true,
+    "question": "How did the banking system's non-performing loan ratio change?",
+    "expected_answer": "It rose from 1.9 percent in December 2022 to 2.9 percent in March 2023.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 12,
+        "evidence": "rising from 1.9 percent in December 2022 to 2.9 percent in March 2023"
+      },
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 30,
+        "evidence": "NPLs increased from 1.9 percent by December 2022 to 2.9 percent in by March 2023"
+      }
+    ],
+    "filter": {
+      "year": 2023
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "metadata",
+    "answerable": true,
+    "question": "What was headline inflation, and how did it compare with the central bank's target?",
+    "expected_answer": "3.6 percent in 2024, below the SBV target of 4-4.5 percent.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 31,
+        "evidence": "Headline inflation reached 3.6 percent in 2024, undershooting the SBV target of 4–4.5 percent"
+      }
+    ],
+    "filter": {
+      "year": 2025
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "direct",
+    "answerable": true,
+    "question": "How did the share of subnational governments in total government expenditure change between 1992 and 2022?",
+    "expected_answer": "It rose from 26 percent in 1992 to almost 60 percent in 2022.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 42,
+        "evidence": "increased from 26 percent in 1992 to almost 60 percent in 2022"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "paraphrase",
+    "answerable": true,
+    "question": "By how much could moving passengers and freight to other transport modes cut the extra power generation needed for EV charging?",
+    "expected_answer": "By 9-11 percent, with a modal shift of 35 percent by 2050.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 52,
+        "evidence": "could reduce the required additional generation supply by 9–11 percent"
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "condition",
+    "answerable": true,
+    "question": "Do Vietnam's construction regulations require climate change risks to be examined early in project preparation?",
+    "expected_answer": "No. They recognize the need to consider climate risks, but there is no regulatory requirement to examine them early, e.g. at feasibility study and appraisal.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 51,
+        "evidence": "there is no regulatory requirement to examine climate change risks early in project preparation"
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "metadata",
+    "answerable": true,
+    "question": "How fast did credit grow?",
+    "expected_answer": "Credit growth reached the government's target of 15 percent by the end of 2024.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 13,
+        "evidence": "Credit growth picked up during 2024, reaching the government’s target of 15 percent by the end of the year"
+      },
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 31,
+        "evidence": "Credit growth picked up during 2024, reaching the government’s target of 15 percent by the end of the year"
+      }
+    ],
+    "filter": {
+      "year": 2025
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "direct",
+    "answerable": true,
+    "question": "What GDP growth does the World Bank forecast for Viet Nam in 2025 and 2026?",
+    "expected_answer": "6.8 percent in 2025 and 6.5 percent in 2026.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 15,
+        "evidence": "GDP growth is forecast to moderate to 6.8 percent in 2025 before settling at 6.5 percent in 2026"
+      },
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 37,
+        "evidence": "GDP growth is forecast to moderate to 6.8 percent in 2025 before settling at 6.5 percent in 2026"
+      }
+    ]
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "type": "unanswerable",
+    "answerable": false,
+    "question": "How many electric cars did VinFast sell in Viet Nam in 2024?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14 by regex search (case-insensitive) over all 370 chunks of index day6_B: 'vin\\s*fast|vingroup' -> 0 chunks; 'e-?car sales|electric car sales|EV sales|cars sold' -> 0 chunks. The 2025 report discusses e-mobility targets and stock shares but names no manufacturer's sales."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "type": "unanswerable",
+    "answerable": false,
+    "question": "What level did the VN-Index stock index close at by the end of 2024?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14 by regex search (case-insensitive) over all 370 chunks of index day6_B: '\\bVN[\\s-]*Index\\b|stock (market|exchange|index)|securities market|share prices?' -> 0 chunks. The reports cover banking, credit and bonds but not the stock index."
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "type": "unanswerable",
+    "answerable": false,
+    "question": "In which year is Long Thanh International Airport expected to open?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14 by regex search (case-insensitive) over all 370 chunks of index day6_B: 'long\\s+th[aà]nh' -> 0 chunks; 'airport' -> 2 chunks (2023 report p44), which only describe the number and concentration of airports, with no opening date for any airport."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "unanswerable",
+    "answerable": false,
+    "question": "How many kilometres of metro lines were operating in Ho Chi Minh City in 2024?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14 by regex search (case-insensitive) over all 370 chunks of index day6_B: 'metro\\b|urban rail|subway|\\bMRT\\b' -> 0 chunks; 'railway' -> 5 chunks, all about intercity rail neglect or modal shift, none giving metro length in any city."
+  }
+]

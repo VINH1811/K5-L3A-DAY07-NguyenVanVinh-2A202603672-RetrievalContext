@@ -1,5 +1,7 @@
 # Day 7 — Agentic RAG
 
+> **Bài làm của 2A202603672 Nguyễn Văn Vinh:** [báo cáo](report/individual/2A202603672_NguyenVanVinh.md) · [cách chạy và code](src/README.md) · [benchmark](data/questions.json) · [kết quả, trace và nhãn](results/)
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

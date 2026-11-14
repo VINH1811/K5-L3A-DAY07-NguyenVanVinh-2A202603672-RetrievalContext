@@ -1,0 +1,933 @@
+[
+  {
+    "id": "ad01",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "In the cross-country emission overview, what is Thailand's carbon intensity?",
+    "expected_answer": "851.4 tCO2e per million $ of GDP.",
+    "evidence_groups": [
+      [
+        {
+          "page": 18,
+          "printed_page": 8,
+          "element": "Table 1",
+          "evidence": "Thailand row, column \"Carbon intensity (tCO2e/million $GDP)\" = 851.4"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad02",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "What is the existing financing for adaptation, as a share of GDP per year and in accumulated NPV terms for 2022-2050?",
+    "expected_answer": "1.8 percent of GDP per year; $136.9 billion in NPV terms.",
+    "evidence_groups": [
+      [
+        {
+          "page": 29,
+          "printed_page": 19,
+          "element": "Table 2",
+          "evidence": "row \"Existing financing\": 1.8 (% of GDP per year), 136.9 ($ billion NPV)"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad03",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "Under the net-zero pathway with reduced air pollution, how would GDP change in 2030 relative to the baseline?",
+    "expected_answer": "GDP would be 0.8 percent higher in 2030.",
+    "evidence_groups": [
+      [
+        {
+          "page": 48,
+          "printed_page": 38,
+          "element": "Table 4",
+          "evidence": "row \"NZP with reduced air pollution\", % change in GDP 2030 = 0.8"
+        },
+        {
+          "page": 46,
+          "printed_page": 36,
+          "element": "text",
+          "evidence": "that would result in GDP being 0.8 percent higher in the NZP in 2030 than in the BAU scenario"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad04",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "In the Accelerated Decarbonization Scenario, how much more would be spent on solar capital costs than in the baseline (CPS), in dollars and in percent?",
+    "expected_answer": "+$21 billion, a 429 percent increase.",
+    "evidence_groups": [
+      [
+        {
+          "page": 52,
+          "printed_page": 42,
+          "element": "Table 5",
+          "evidence": "row \"Solar\": +21 ($ billion), +429% change"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad05",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "In the prioritization criteria, which combination of urgency and impact describes \"quick wins\"?",
+    "expected_answer": "High urgency and high impact: actions that cannot be postponed and will produce a high and immediate impact.",
+    "evidence_groups": [
+      [
+        {
+          "page": 78,
+          "printed_page": 68,
+          "element": "Table 6",
+          "evidence": "cell High urgency x High impact: \"Actions that cannot be postponed and will produce a high and immediate impact (quick wins)\""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad06",
+    "split": "dev",
+    "group": "table",
+    "answerable": true,
+    "question": "What was Vietnam's government effectiveness percentile rank in 2020?",
+    "expected_answer": "61.54 (percentile rank, 2020, WGI).",
+    "evidence_groups": [
+      [
+        {
+          "page": 86,
+          "printed_page": 76,
+          "element": "Annex 1 table",
+          "evidence": "row \"Government effectiveness\", 2020 = 61.54, source WGI"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad07",
+    "split": "dev",
+    "group": "image",
+    "answerable": true,
+    "question": "On the map of extreme hazard exposure of national roads, in which parts of the country is landslide exposure concentrated?",
+    "expected_answer": "In the northern mountainous region and along the central part of the country (central highlands/central provinces); the south shows little landslide exposure.",
+    "evidence_groups": [
+      [
+        {
+          "page": 34,
+          "printed_page": 24,
+          "element": "Figure 9",
+          "evidence": "left map \"Landslide\": orange shading in the north and a dark band along central Vietnam; south grey"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad08",
+    "split": "dev",
+    "group": "image",
+    "answerable": true,
+    "question": "According to the financing needs diagram, how much would come from public sources and what share of GDP per year is that?",
+    "expected_answer": "Public: $130 billion, about 2.4 percent of GDP per year.",
+    "evidence_groups": [
+      [
+        {
+          "page": 71,
+          "printed_page": 61,
+          "element": "Figure 21",
+          "evidence": "middle box \"PUBLIC $130 billion ~2.4% of GDP per year\""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad09",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "What share of businesses reported that climate change caused \"a lot\" of business or production interruption in 2019?",
+    "expected_answer": "16 percent.",
+    "evidence_groups": [
+      [
+        {
+          "page": 23,
+          "printed_page": 13,
+          "element": "Figure 6",
+          "evidence": "bar \"Business/production interruption\": Not at all 11, Just a little 35, Quite a lot 38, A lot 16"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad10",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "Which measure to reduce GHG emissions from rice production is the most expensive per tonne of CO2e, and roughly what does it cost?",
+    "expected_answer": "Moving from rice to maize, at roughly $390 per tCO2e (about 400 on the chart).",
+    "evidence_groups": [
+      [
+        {
+          "page": 59,
+          "printed_page": 49,
+          "element": "Figure 16",
+          "evidence": "tallest bar \"Moving from rice to maize\", just under 400 $/tCO2e"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad11",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "Which livestock measure has the highest cost per tonne of CO2e reduced?",
+    "expected_answer": "Improving quality of diet for buffaloes (about $700 per tCO2e).",
+    "evidence_groups": [
+      [
+        {
+          "page": 60,
+          "printed_page": 50,
+          "element": "Figure 17",
+          "evidence": "tallest bar \"Improving quality of diet for buffaloes\", about 700 $/tCO2e"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad12",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "By how many points would the NZP change inequality (Gini index) by 2040 relative to BAU?",
+    "expected_answer": "It would reduce the Gini index by 1.1 points.",
+    "evidence_groups": [
+      [
+        {
+          "page": 64,
+          "printed_page": 54,
+          "element": "Figure 18",
+          "evidence": "bar \"Inequality (Gini Index)\" = -1.1 points deviation from BAU"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad13",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true,
+    "question": "What are power sector GHG emissions in 2040 under CPS and under ADS?",
+    "expected_answer": "About 246 MtCO2e under CPS and 63 MtCO2e under ADS.",
+    "evidence_groups": [
+      [
+        {
+          "page": 51,
+          "printed_page": 41,
+          "element": "Figure 13",
+          "evidence": "right panel end labels: CPS 246, ADS 63 (MtCO2e, 2040)"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad14",
+    "split": "dev",
+    "group": "multi-hop",
+    "answerable": true,
+    "question": "How do electricity/heat emissions in 2018 compare with power sector emissions projected for 2040 under the current policy scenario (CPS)?",
+    "expected_answer": "Electricity/heat emitted 109.13 MtCO2e in 2018; CPS power emissions reach about 246 MtCO2e in 2040, roughly 2.3 times higher.",
+    "evidence_groups": [
+      [
+        {
+          "page": 85,
+          "printed_page": 75,
+          "element": "Annex 1 table",
+          "evidence": "row \"Electricity/heat\" 2018 = 109.13 MtCO2e"
+        }
+      ],
+      [
+        {
+          "page": 51,
+          "printed_page": 41,
+          "element": "Figure 13",
+          "evidence": "CPS 2040 = 246 MtCO2e"
+        }
+      ]
+    ],
+    "calculation": "246 / 109.13 = 2.25"
+  },
+  {
+    "id": "ad15",
+    "split": "dev",
+    "group": "multi-hop",
+    "answerable": true,
+    "question": "What share of GDP per year is needed for the decarbonizing pathway, and how much do the NZP investment needs add up to for 2022-2040?",
+    "expected_answer": "Decarbonizing: 2.1 percent of GDP per year; NZP investment needs total $81.3 billion (NPV) for 2022-2040.",
+    "evidence_groups": [
+      [
+        {
+          "page": 71,
+          "printed_page": 61,
+          "element": "Figure 21",
+          "evidence": "\"Decarbonizing: 2.1% of GDP per year\""
+        }
+      ],
+      [
+        {
+          "page": 46,
+          "printed_page": 36,
+          "element": "Table 3",
+          "evidence": "NZP investment needs 2022-2040 = 81.3"
+        },
+        {
+          "page": 45,
+          "printed_page": 35,
+          "element": "text",
+          "evidence": "estimated at about $81.3 billion in net present value terms between 2022 and 2040"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad16",
+    "split": "dev",
+    "group": "text",
+    "answerable": true,
+    "question": "What share of motorized vehicles in Vietnam are motorbikes?",
+    "expected_answer": "93.3 percent.",
+    "evidence_groups": [
+      [
+        {
+          "page": 57,
+          "printed_page": 47,
+          "element": "text",
+          "evidence": "Motorbikes make up 93.3 percent of motorized vehicles in Vietnam"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad17",
+    "split": "dev",
+    "group": "text",
+    "answerable": true,
+    "question": "How large are the daily economic losses if a single link on National Highway 1A becomes unavailable?",
+    "expected_answer": "About $1.9 million per day, only from rerouting freight (excluding damage to the infrastructure).",
+    "evidence_groups": [
+      [
+        {
+          "page": 34,
+          "printed_page": 24,
+          "element": "text",
+          "evidence": "could cause $1.9 million per day in economic losses just from the need to reroute freight flows"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad18",
+    "split": "dev",
+    "group": "text",
+    "answerable": true,
+    "question": "How many people in Vietnam were estimated in 2020 to be directly exposed to intense flood risks?",
+    "expected_answer": "11.8 million people.",
+    "evidence_groups": [
+      [
+        {
+          "page": 38,
+          "printed_page": 28,
+          "element": "text",
+          "evidence": "that 11.8 million people in Vietnam are directly exposed to intense flood risks"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ad19",
+    "split": "dev",
+    "group": "text",
+    "answerable": true,
+    "question": "How did electric vehicle sales in Vietnam develop between 2010 and 2020?",
+    "expected_answer": "From 1,579 in 2010 to about 1.9 million in 2020 (seven percent of private vehicle sales), mainly e-motorbikes and e-bicycles.",
+    "evidence_groups": [
+      [
+        {
+          "page": 58,
+          "printed_page": 48,
+          "element": "text",
+          "evidence": "sales in Vietnam grew from just 1,579 in 2010 to about 1.9 million in 2020, or seven percent of private vehicle sales"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ud01",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "How many electric cars were sold in Vietnam in 2021?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14: regex over the pypdf text of all 100 pages, plus reading the pages that mention the topic. EV sales are given only for 2010 and 2020 (p58: 1,579 and 1.9 million, mostly e-motorbikes and e-bicycles); 'electric car' appears only as a measure label in Figure 15 (p57). No 2021 figure and no car-only figure."
+  },
+  {
+    "id": "ud02",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "How many million tonnes of LNG per year does Vietnam plan to import by 2030?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14: regex over the pypdf text of all 100 pages, plus reading the pages that mention the topic. 'LNG' -> 1 page (p56), which discusses policy reforms and selectivity for LNG facilities with no import volume or year target."
+  },
+  {
+    "id": "ud03",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "How many hectares of mangroves did Vietnam replant between 2015 and 2020?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14: regex over the pypdf text of all 100 pages, plus reading the pages that mention the topic. 'hectare|ha' -> pages 8 (a name), 60 (AWD rice, VND per ha), 61 (forest value per hectare); 'mangrove' -> 10 pages, none with an area or replanting figure."
+  },
+  {
+    "id": "at01",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "In the cross-country emission overview, what are Indonesia's total emissions and its share of global emissions?",
+    "expected_answer": "1,703.9 MtCO2e, or 3.6 percent of global emissions.",
+    "evidence_groups": [
+      [
+        {
+          "page": 18,
+          "printed_page": 8,
+          "element": "Table 1",
+          "evidence": "Indonesia row: total emissions 1703.9 MtCO2e, % of global emissions 3.6%"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at02",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "What are the estimated financing needs for financial support to affected people and businesses for 2022-2050?",
+    "expected_answer": "0.3-0.7 percent of GDP per year, or $22.8-53.2 billion accumulated in NPV terms.",
+    "evidence_groups": [
+      [
+        {
+          "page": 29,
+          "printed_page": 19,
+          "element": "Table 2",
+          "evidence": "row \"Financial support to affected people and businesses\": 0.3-0.7, 22.8-53.2"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at03",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Under the NZP with supporting reforms, what are the output gains and the net economic impact for 2031-2040?",
+    "expected_answer": "Output gains of $68.7 billion and a net economic impact of +$19.3 billion (NPV).",
+    "evidence_groups": [
+      [
+        {
+          "page": 46,
+          "printed_page": 36,
+          "element": "Table 3",
+          "evidence": "NZP with supporting reforms, 2031-2040: Output gains 68.7, Net economic impact 19.3"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at04",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "Apart from combining all supporting measures, which single supporting policy would leave GDP higher than the baseline in 2040 under the NZP, and by how much?",
+    "expected_answer": "Energy efficiency gains: GDP +0.2 percent in 2040 (all other single policies are negative in 2040).",
+    "evidence_groups": [
+      [
+        {
+          "page": 48,
+          "printed_page": 38,
+          "element": "Table 4",
+          "evidence": "% change in GDP 2040: reduced air pollution -1.0, competitiveness -0.6, energy efficiency 0.2, labor mobility -0.2, low crowding out -0.9; all measures 3.3"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at05",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "How much would capital costs for offshore wind change in the Accelerated Decarbonization Scenario compared with the baseline?",
+    "expected_answer": "Up by $39 billion, a 402 percent increase.",
+    "evidence_groups": [
+      [
+        {
+          "page": 52,
+          "printed_page": 42,
+          "element": "Table 5",
+          "evidence": "row \"Wind (offshore)\": +39 ($ billion), +402%"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at06",
+    "split": "test",
+    "group": "table",
+    "answerable": true,
+    "question": "What were Vietnam's per capita and total electricity consumption in 2020?",
+    "expected_answer": "2,745 kWh per capita and 267.18 TWh in total.",
+    "evidence_groups": [
+      [
+        {
+          "page": 85,
+          "printed_page": 75,
+          "element": "Annex 1 table",
+          "evidence": "Per capita electricity consumption 2020 = 2745 kWh; Total electricity consumption 2020 = 267.18 TWh"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at07",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "In the diagram of the new development paradigm, what actions are listed at the centre, between \"Vietnam Today\" and \"Vietnam in 2045\", and which two pathways connect them?",
+    "expected_answer": "Building resilient infrastructure; protecting the most vulnerable; implementing structural reforms to incentivize farmers and firms; pricing carbon; mobilizing financing. The Resilient Pathway and the Decarbonizing Pathway.",
+    "evidence_groups": [
+      [
+        {
+          "page": 12,
+          "printed_page": 2,
+          "element": "Figure 1",
+          "evidence": "centre list of five bullets; left arrow \"Resilient Pathway\", right arrow \"Decarbonizing Pathway\""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at08",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "On the map of extreme hazard exposure of national roads, which hazard affects roads mainly along the coast?",
+    "expected_answer": "Typhoon flooding (right-hand map), with exposure along the northern and central coastline.",
+    "evidence_groups": [
+      [
+        {
+          "page": 34,
+          "printed_page": 24,
+          "element": "Figure 9",
+          "evidence": "right map \"Typhoon flooding\": green shading along the coast only"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at09",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "On the map of flood risks in coastal regions, which of the labeled cities lies in the zone with the highest relative flood risk?",
+    "expected_answer": "Da Nang, on the central coast (darkest shading).",
+    "evidence_groups": [
+      [
+        {
+          "page": 38,
+          "printed_page": 28,
+          "element": "Figure 11",
+          "evidence": "labeled cities Hanoi, Haiphong, Da Nang, Ho Chi Minh City, Can Tho; darkest green band on the central coast around Da Nang"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at10",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "According to the map of domestic coal production, which province is the major coal producing province and which two places in it are marked?",
+    "expected_answer": "Quang Ninh, with Hongai and Campha marked.",
+    "evidence_groups": [
+      [
+        {
+          "page": 54,
+          "printed_page": 44,
+          "element": "Figure 14",
+          "evidence": "box \"Quang Ninh - Major Coal Producing Province\", red circles Hongai and Campha"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at11",
+    "split": "test",
+    "group": "image",
+    "answerable": true,
+    "question": "In the diagram of financing needs and sources for 2022-2040, how much is expected from private sources and what share of GDP per year is that?",
+    "expected_answer": "Private: $184 billion, about 3.4 percent of GDP per year.",
+    "evidence_groups": [
+      [
+        {
+          "page": 71,
+          "printed_page": 61,
+          "element": "Figure 21",
+          "evidence": "left box \"PRIVATE $184 billion ~3.4% of GDP per year\""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at12",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Which category had the second-largest estimated cost of climate change in 2020, and how large was it?",
+    "expected_answer": "Labor productivity, $2,807 million (after fishery, $4,219 million).",
+    "evidence_groups": [
+      [
+        {
+          "page": 17,
+          "printed_page": 7,
+          "element": "Figure 3",
+          "evidence": "treemap: Fishery 4219, Labor Productivity 2807, Sea Level Rise 1474, Agriculture 837, ..."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at13",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "What was the SOEs' share of output in the steel sector in 2018?",
+    "expected_answer": "14 percent.",
+    "evidence_groups": [
+      [
+        {
+          "page": 24,
+          "printed_page": 14,
+          "element": "Figure 7",
+          "evidence": "line end label \"Steel, 14%\" at 2018 (prel.)"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at14",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "How much electricity would coal generate in 2040 under CPS and under ADS?",
+    "expected_answer": "About 276 TWh under CPS and 26 TWh under ADS.",
+    "evidence_groups": [
+      [
+        {
+          "page": 51,
+          "printed_page": 41,
+          "element": "Figure 13",
+          "evidence": "left panel coal segments: BAU 550, CPS 276, ADS 26 TWh"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at15",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "Under the NZP with reforms, which sector would see the largest employment increase in 2040, and by how much?",
+    "expected_answer": "Electricity, +23.6 percent relative to BAU.",
+    "evidence_groups": [
+      [
+        {
+          "page": 66,
+          "printed_page": 56,
+          "element": "Figure 20",
+          "evidence": "NZP with reforms bars: Electricity 23.6, Mining 18.4, Services 12.4, ..."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at16",
+    "split": "test",
+    "group": "chart",
+    "answerable": true,
+    "question": "How did outstanding green credit change from 2016 to 2020?",
+    "expected_answer": "It rose from $3.7 billion in 2016 to $14.5 billion in 2020.",
+    "evidence_groups": [
+      [
+        {
+          "page": 72,
+          "printed_page": 62,
+          "element": "Figure 22",
+          "evidence": "Green credit outstanding bars: 2016 3.7, 2017 7.8, 2018 10.3, 2019 13.9, 2020 14.5, 2021:Q1 14.5 ($ billion)"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at17",
+    "split": "test",
+    "group": "multi-hop",
+    "answerable": true,
+    "question": "Roughly how much electricity did coal generate in 2020, and how does that compare with coal generation in 2040 under the current policy scenario (CPS)?",
+    "expected_answer": "About 118 TWh in 2020 (59 percent of 200 TWh); under CPS coal would generate about 276 TWh in 2040, more than twice as much.",
+    "evidence_groups": [
+      [
+        {
+          "page": 49,
+          "printed_page": 39,
+          "element": "Figure 12",
+          "evidence": "power produced 2020 = 200 TWh, coal share 59%"
+        },
+        {
+          "page": 49,
+          "printed_page": 39,
+          "element": "text",
+          "evidence": "coal power accounted for ... 59 percent of electricity generation"
+        }
+      ],
+      [
+        {
+          "page": 51,
+          "printed_page": 41,
+          "element": "Figure 13",
+          "evidence": "CPS coal 2040 = 276 TWh"
+        }
+      ]
+    ],
+    "calculation": "0.59 x 200 = 118 TWh; 276 / 118 = 2.3"
+  },
+  {
+    "id": "at18",
+    "split": "test",
+    "group": "multi-hop",
+    "answerable": true,
+    "question": "How much would the $90 carbon tax option (with sectoral investments) cut emissions by 2030, and how would GDP change in 2030 if the NZP were combined with all supporting measures?",
+    "expected_answer": "Emissions 42.8 percent below BAU by 2030; GDP 1.7 percent higher than BAU in 2030.",
+    "evidence_groups": [
+      [
+        {
+          "page": 45,
+          "printed_page": 35,
+          "element": "text",
+          "evidence": "the $90 tax would reduce emissions by 42.8 percent relative to the BAU scenario by 2030"
+        }
+      ],
+      [
+        {
+          "page": 48,
+          "printed_page": 38,
+          "element": "Table 4",
+          "evidence": "NZP with all supporting measures, GDP 2030 = 1.7"
+        },
+        {
+          "page": 48,
+          "printed_page": 38,
+          "element": "text",
+          "evidence": "while increasing GDP by 1.7 percent in 2030"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at19",
+    "split": "test",
+    "group": "multi-hop",
+    "answerable": true,
+    "question": "How do transport GHG emissions in 2018 compare with what they are projected to reach by 2030 under BAU?",
+    "expected_answer": "36.32 MtCO2e in 2018; nearly 90 MtCO2e by 2030, about 2.5 times higher.",
+    "evidence_groups": [
+      [
+        {
+          "page": 85,
+          "printed_page": 75,
+          "element": "Annex 1 table",
+          "evidence": "row \"Transportation\" 2018 = 36.32 MtCO2e"
+        }
+      ],
+      [
+        {
+          "page": 56,
+          "printed_page": 46,
+          "element": "text",
+          "evidence": "GHG emissions from transport will grow by 6-7 percent per year to 2030, reaching nearly 90 MtCO2e"
+        }
+      ]
+    ],
+    "calculation": "90 / 36.32 = 2.5"
+  },
+  {
+    "id": "at20",
+    "split": "test",
+    "group": "multi-hop",
+    "answerable": true,
+    "question": "How does the current Environmental Protection Tax on gasoline compare with the starting level of the most modest economy-wide carbon tax option analyzed?",
+    "expected_answer": "EPT on gasoline is about $77.60 per tCO2e, while the most modest option starts at about $12 per tCO2e in 2022 (rising to $40 by 2040), so gasoline is taxed about 6.5 times the starting level.",
+    "evidence_groups": [
+      [
+        {
+          "page": 22,
+          "printed_page": 12,
+          "element": "text",
+          "evidence": "is around $0.50 per tCO2e on coal, $77.60 per tCO2e on gasoline, and $32.90 per tCO2e on diesel"
+        }
+      ],
+      [
+        {
+          "page": 45,
+          "printed_page": 35,
+          "element": "text",
+          "evidence": "The most modest option would start at about $12 per tCO 2e in 2022 ... ramp up to $40 per tCO2e by 2040"
+        }
+      ]
+    ],
+    "calculation": "77.60 / 12 = 6.5"
+  },
+  {
+    "id": "at21",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "How does Vietnam rank on the ND-GAIN index and on the Germanwatch Global Climate Risk Index?",
+    "expected_answer": "127th out of 182 on ND-GAIN, and 13th highest among 180 countries on the Germanwatch index for 2000-19.",
+    "evidence_groups": [
+      [
+        {
+          "page": 16,
+          "printed_page": 6,
+          "element": "text",
+          "evidence": "ranked 127 out of 182 by the Notre Dame Global Adaptation Initiative (ND-GAIN), and 13th highest among 180 countries by the Germanwatch Global Climate Risk Index for 2000-19"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at22",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "What share of Ca Mau and Kien Giang provinces would a one-meter sea-level rise inundate?",
+    "expected_answer": "79 percent of Ca Mau and 76 percent of Kien Giang.",
+    "evidence_groups": [
+      [
+        {
+          "page": 37,
+          "printed_page": 27,
+          "element": "text",
+          "evidence": "A meter of sea-level rise would inundate 79 percent of the total area of Ca Mau province and 76 percent of Kien Giang province"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at23",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "According to the International Rice Research Institute model, how much would investing in AWD and related techniques cost and how much would it cut emissions by 2030?",
+    "expected_answer": "Investing $1.4 billion could cut emissions from rice production by 6.8 MtCO2e relative to BAU by 2030.",
+    "evidence_groups": [
+      [
+        {
+          "page": 60,
+          "printed_page": 50,
+          "element": "text",
+          "evidence": "investing $1.4 billion to implement AWD and related techniques could reduce emissions from rice production by 6.8 MtCO2e relative to BAU by 2030"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "at24",
+    "split": "test",
+    "group": "text",
+    "answerable": true,
+    "question": "Of the credit institutions reporting to the SBV, how many lack a dedicated green finance unit and how many lack a green credit appraisal procedure?",
+    "expected_answer": "Of 85 credit institutions, 72 lack a dedicated green finance unit and 74 lack a specific green credit appraisal procedure.",
+    "evidence_groups": [
+      [
+        {
+          "page": 72,
+          "printed_page": 62,
+          "element": "text",
+          "evidence": "Of 85 credit institutions reporting to the SBV, 72 lack a dedicated business unit for green finance, and 74 lack a specific procedure on green credit appraisal"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "ut01",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "How many dengue fever cases in Vietnam were attributed to climate change in 2020?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14: regex over the pypdf text of all 100 pages, plus reading the pages that mention the topic. 'dengue|malaria' -> 0 pages. Health impacts are discussed only as air pollution deaths, heat mortality (p40) and a $235 million health cost (Figure 3)."
+  },
+  {
+    "id": "ut02",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "How much economic damage did Typhoon Molave cause in Vietnam in 2020?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14: regex over the pypdf text of all 100 pages, plus reading the pages that mention the topic. 'Molave' -> 0 pages; no named typhoon or storm appears ('(Typhoon|Storm) <Name>' -> 0). Storm losses are given only as averages (p28: $2.4 billion per year)."
+  },
+  {
+    "id": "ut03",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "At what price per tonne of CO2 did Vietnam's emissions trading system trade in its first year?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14: regex over the pypdf text of all 100 pages, plus reading the pages that mention the topic. 'emission(s) trading|ETS' -> pages 22, 45, 79, 95: the trading system is described as under preparation or recommended; no traded price. Carbon prices given are tax options and the EPT."
+  },
+  {
+    "id": "ut04",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "How much green hydrogen production capacity does Vietnam plan to build by 2030?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14: regex over the pypdf text of all 100 pages, plus reading the pages that mention the topic. 'hydrogen' -> 0 pages."
+  },
+  {
+    "id": "ut05",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "What is the annual mean PM2.5 concentration measured in Ho Chi Minh City?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14: regex over the pypdf text of all 100 pages, plus reading the pages that mention the topic. 'PM2.5' -> pages 19, 47, 79, 90: national averages and Hanoi only; no page mentions both HCMC and PM2.5."
+  },
+  {
+    "id": "ut06",
+    "split": "test",
+    "group": "unanswerable",
+    "answerable": false,
+    "question": "What are the annual GHG emissions of the Formosa Ha Tinh steel plant?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked on 2026-11-14: regex over the pypdf text of all 100 pages, plus reading the pages that mention the topic. 'Formosa|steel plant' -> 0 pages; steel appears only as a sector (e.g. SOE share in Figure 7)."
+  }
+]

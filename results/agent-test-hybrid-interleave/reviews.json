@@ -1,0 +1,62 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Context có chunk 2023-08 tr.42 (para800:001) chứa nguyên câu evidence, kèm nguồn và trang.",
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Context có chunk 2025-03 tr.52 (para800:001) chứa \"9–11 percent\" và điều kiện modal shift 35 percent đến 2050.",
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 0,
+    "citation_support": [],
+    "context_grade": 2,
+    "context_reason": "Context có chunk 2023-08 tr.51 (para800:001) chứa câu \"there is no regulatory requirement...\" kèm điều kiện về feasibility study và appraisal.",
+    "reason": "Agent từ chối dù context có evidence (chấm 0). Câu hỏi dạng có/không với đáp án \"không\"; model coi câu \"there is no regulatory requirement\" là không chứa đáp án."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Context có chunk 2025-03 tr.31 (para800:000) chứa câu về tăng trưởng tín dụng đạt mục tiêu 15 percent cuối năm 2024.",
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "context_reason": "Context có chunk 2025-03 tr.15 (para800:001) chứa câu dự báo 6.8 percent năm 2025 và 6.5 percent năm 2026.",
+    "reason": "Đúng và đủ so với đáp án chuẩn; đoạn được trích nêu đúng con số/điều kiện."
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Agent trả đúng câu từ chối cố định sau 1 lượt tìm, không thêm khẳng định nào."
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Agent trả đúng câu từ chối cố định sau 1 lượt tìm, không thêm khẳng định nào."
+  }
+]

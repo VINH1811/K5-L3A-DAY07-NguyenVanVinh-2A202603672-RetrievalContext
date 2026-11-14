@@ -1,0 +1,183 @@
+[
+  {
+    "query_id": "q16",
+    "answerable": true,
+    "question": "How did the share of subnational governments in total government expenditure change between 1992 and 2022?",
+    "expected_answer": "It rose from 26 percent in 1992 to almost 60 percent in 2022.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 42,
+        "evidence": "increased from 26 percent in 1992 to almost 60 percent in 2022"
+      }
+    ],
+    "absence_reason": null,
+    "status": "answered",
+    "answer": "The share of subnational governments in total government expenditures increased from 26 percent in 1992 to almost 60 percent in 2022. [wb-taking-stock-2023-08:p0042:para800:001]",
+    "citations": [
+      {
+        "id": "wb-taking-stock-2023-08:p0042:para800:001",
+        "page": 42,
+        "source_id": "wb-taking-stock-2023-08",
+        "text": "Increasing capital spending decentralization\nPublic investment efficiency is also affected by Vietnam’s fragmented intergovernmental\nsystem and increasingly decentralized capital spending. Since the early 1990s, the Vietnamese\nGovernment has embarked on a policy of rapid spending decentralization. Within the unitary set of rules\nand norms applied across the country, the share of subnational governments’ (SNGs) in total government\nexpenditures increased from 26 percent in 1992 to almost 60 percent in 2022. 80 This spending is\nsignificantly higher than the international average (21.5 percent) and the lower middle-income economies’\naverage (18.8 percent) and Asia Pacific region (33.7 percent)."
+      }
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "reason": null
+  },
+  {
+    "query_id": "q17",
+    "answerable": true,
+    "question": "By how much could moving passengers and freight to other transport modes cut the extra power generation needed for EV charging?",
+    "expected_answer": "By 9-11 percent, with a modal shift of 35 percent by 2050.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 52,
+        "evidence": "could reduce the required additional generation supply by 9–11 percent"
+      }
+    ],
+    "absence_reason": null,
+    "status": "answered",
+    "answer": "A modal shift among these segments at a scale of 35 percent by 2050 could reduce the required additional generation supply by 9–11 percent across the SPS and ADS pathways. [wb-taking-stock-2025-03:p0052:para800:001]",
+    "citations": [
+      {
+        "id": "wb-taking-stock-2025-03:p0052:para800:001",
+        "page": 52,
+        "source_id": "wb-taking-stock-2025-03",
+        "text": "With around half (53 percent) of total EV charging demand over 2035–50\nexpected to come from private electric passenger cars and small trucks for intercity freight transport,\nthese segments have larger batteries and travel longer distances than e-2Ws, leading to substantially\nlarger charging requirements vis-à-vis e-2Ws. To preserve transport sector decarbonization efforts,\nthe government will need to actively shift demand in cities from private passenger cars to electrified\npublic transit and e-truck usage to railway or waterway transport for freight. A modal shift among\nthese segments at a scale of 35 percent by 2050 could reduce the required additional generation\nsupply by 9–11 percent across the SPS and ADS pathways.\nSource: World Bank calculations.\nNote: EN = Generation;"
+      }
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "reason": null
+  },
+  {
+    "query_id": "q18",
+    "answerable": true,
+    "question": "Do Vietnam's construction regulations require climate change risks to be examined early in project preparation?",
+    "expected_answer": "No. They recognize the need to consider climate risks, but there is no regulatory requirement to examine them early, e.g. at feasibility study and appraisal.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2023-08",
+        "page": 51,
+        "evidence": "there is no regulatory requirement to examine climate change risks early in project preparation"
+      }
+    ],
+    "absence_reason": null,
+    "status": "answered",
+    "answer": "There is no regulatory requirement to examine climate change risks early in project preparation, such as during preparation of the feasibility study and appraisal, when it is more efficient to develop, analyze, and integrate adaptive responses. [wb-taking-stock-2023-08:p0051:para800:001]",
+    "citations": [
+      {
+        "id": "wb-taking-stock-2023-08:p0051:para800:001",
+        "page": 51,
+        "source_id": "wb-taking-stock-2023-08",
+        "text": "Project appraisals for large projects\nrequire environmental impact assessments. Notionally, in relation to climate change and responses, this\nshould consider both the impacts of and on the project. While procedures for construction projects in the\nConstruction Law and supporting regulations recognize the need to consider climate change risks and\nadaptation, there is no regulatory requirement to examine climate change risks early in project preparation,\nsuch as during preparation of the feasibility study and appraisal, when it is more efficient to develop,\nanalyze, and integrate adaptive responses.\nGoing forward, Vietnam will need to sustain its level of public investment, rationalize its\ncomposition, and enhance the efficiency and effectiveness of PIM and IGF institutions."
+      }
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "reason": null
+  },
+  {
+    "query_id": "q19",
+    "answerable": true,
+    "question": "How fast did credit grow?",
+    "expected_answer": "Credit growth reached the government's target of 15 percent by the end of 2024.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 13,
+        "evidence": "Credit growth picked up during 2024, reaching the government’s target of 15 percent by the end of the year"
+      },
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 31,
+        "evidence": "Credit growth picked up during 2024, reaching the government’s target of 15 percent by the end of the year"
+      }
+    ],
+    "absence_reason": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": null,
+    "reason": null
+  },
+  {
+    "query_id": "q20",
+    "answerable": true,
+    "question": "What GDP growth does the World Bank forecast for Viet Nam in 2025 and 2026?",
+    "expected_answer": "6.8 percent in 2025 and 6.5 percent in 2026.",
+    "gold": [
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 15,
+        "evidence": "GDP growth is forecast to moderate to 6.8 percent in 2025 before settling at 6.5 percent in 2026"
+      },
+      {
+        "source_id": "wb-taking-stock-2025-03",
+        "page": 37,
+        "evidence": "GDP growth is forecast to moderate to 6.8 percent in 2025 before settling at 6.5 percent in 2026"
+      }
+    ],
+    "absence_reason": null,
+    "status": "answered",
+    "answer": "Viet Nam’s GDP growth is forecast to moderate to 6.8 percent in 2025 before settling at 6.5 percent in 2026 [wb-taking-stock-2025-03:p0015:para800:001]",
+    "citations": [
+      {
+        "id": "wb-taking-stock-2025-03:p0015:para800:001",
+        "page": 15,
+        "source_id": "wb-taking-stock-2025-03",
+        "text": "Selected economic indicators, Viet Nam 2021–26\n2025f\n6.8\n7.1\n4.5\n8.4\n12.1\n12.7\n3.5\n1.8\n-1.4\n34.2\n2024e\n7.1\n6.6\n4.5\n7.3\n15.5\n16.1\n3.5\n1.9\n1.8\n35.6\n2026f\n6.5\n7.3\n4.4\n8.1\n5.5\n6.3\n3.5\n1.7\n-1.0\n32.4\nIndicator\nGDP growth (%)\nGrowth of expenditure components\nPrivate consumption\nPublic consumption\nInvestment\nExports\nImports\nConsumer Price Index (average, %)\nCurrent account balance (% of GDP)\nFiscal balance (*) (% of GDP)\nPublic & publicly guaranteed debt (**) (% of GDP)\n2021\n2.6\n2.0\n4.7\n3.7\n13.9\n15.8\n1.8\n-2.2\n-1.4\n42.5\n2023\n5.0\n3.5\n4.9\n4.1\n-2.5\n-4.3\n3.3\n6.1\n-2.4\n36.0\n2022\n8.0\n7.8\n3.6\n5.8\n4.9\n2.2\n3.1\n0.3\n0.7\n37.1\nViet Nam’s GDP growth is forecast to\nmoderate to 6.8 percent in 2025 before\nsettling at 6.5 percent in 2026 (Table 0.1)."
+      }
+    ],
+    "answer_grade": null,
+    "citation_support": [
+      null
+    ],
+    "abstention_correct": null,
+    "reason": null
+  },
+  {
+    "query_id": "u03",
+    "answerable": false,
+    "question": "In which year is Long Thanh International Airport expected to open?",
+    "expected_answer": null,
+    "gold": null,
+    "absence_reason": "Checked on 2026-11-14 by regex search (case-insensitive) over all 370 chunks of index day6_B: 'long\\s+th[aà]nh' -> 0 chunks; 'airport' -> 2 chunks (2023 report p44), which only describe the number and concentration of airports, with no opening date for any airport.",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": null,
+    "reason": null
+  },
+  {
+    "query_id": "u04",
+    "answerable": false,
+    "question": "How many kilometres of metro lines were operating in Ho Chi Minh City in 2024?",
+    "expected_answer": null,
+    "gold": null,
+    "absence_reason": "Checked on 2026-11-14 by regex search (case-insensitive) over all 370 chunks of index day6_B: 'metro\\b|urban rail|subway|\\bMRT\\b' -> 0 chunks; 'railway' -> 5 chunks, all about intercity rail neglect or modal shift, none giving metro length in any city.",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": null,
+    "reason": null
+  }
+]

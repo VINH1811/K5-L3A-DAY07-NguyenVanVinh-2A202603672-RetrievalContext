@@ -1,0 +1,15 @@
+{
+  "strategy": "dense",
+  "split": "dev",
+  "N": 15,
+  "top_k": 3,
+  "budget_chars": 3000,
+  "use_filter": true,
+  "hit1": 11,
+  "hit3": 15,
+  "context_hit": 15,
+  "avg_context_chars": 2542,
+  "median_ms": 81.21120000032533,
+  "load_seconds": 13.041547000000719,
+  "service_cost_usd": 0
+}

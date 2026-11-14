@@ -1,0 +1,2381 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "By how much did Vietnam's exports contract in the first half of 2023?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "exports contracted by 12 percent (y/y) in the first half of 2023 [wb-taking-stock-2023-08:p0011:para800:001]",
+    "citations": [
+      "wb-taking-stock-2023-08:p0011:para800:001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Vietnam exports first half 2023 contraction percentage",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2023-08:p0011:para800:001",
+            "text": "The slowdown was led by a sharp deterioration\nin external demand with exports contracting\nby 12 percent (y/y) in the first half of 2023. This\nin turn weighed on the performance of the\nexport sector, which is estimated to account for\n50 percent of Vietnam’s GDP. 2 Simultaneously,\ndomestic demand moderated due to fading base\neffects3 from last year’s post-COVID rebound and\nweakening consumer confidence. Growth in final\nconsumption expenditure 4 slowed to 2.7 percent\n(y/y) in the first half of the year, compared with\n6.1 percent (y/y) in the first half of 2022.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 11,
+            "metadata": {
+              "char_end": 1365,
+              "year": 2023,
+              "section": "overview",
+              "char_start": 801,
+              "document_type": "economic_update"
+            },
+            "score": 0.8542455434799194,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0026:para800:002",
+            "text": "The contraction in exports (-12 percent y/y) in the first half of 2023 (Figure\n1.15), was due to a broad-based decline in exports of key manufacturing products, including electronics\n(-13.9 percent), machinery (-8.6 percent), textiles (-15.8 percent) and footwear (-16.9 percent), to principal\nmarkets such as the United States (-21.3 percent y/y in the first five months) and European Union (-9.6\npercent y/y in the first five months). 41 Total imports contracted more sharply than exports, falling by 17.9\npercent (y/y) during the first half of 2023, with second quarter imports declining by 20.2 percent (y/y).\n41 Vietnam Customs, Haver Analytics, and World Bank staff calculations",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 26,
+            "metadata": {
+              "section": "economic_developments",
+              "char_start": 1125,
+              "char_end": 1809,
+              "document_type": "economic_update",
+              "year": 2023
+            },
+            "score": 0.8347686529159546,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0019:para800:001",
+            "text": "Vietnam’s economic growth decelerated sharply\nAfter registering 8 percent real GDP growth in 2022, economic growth decelerated sharply\nin the first semester of 2023, reflecting a slump in external and weaker domestic demand.\nVietnam’s real GDP growth slowed to 3.7 percent (y/y) during the first semester of 2023, 19 well below\ngrowth posted during the same period in 2022 (6.4 percent, y/y) (Figure 1.3). The slowdown was led by a\ndeterioration of external demand with exports contracting by 12 percent (y/y) in the first half of 2023, in\nturn weighing on the performance of the export sector, which is estimated to account for 50 percent of\nVietnam’s GDP directly and indirectly. 20 Simultaneously, domestic demand also moderated after the last’s\nI. RECENT ECONOMIC DEVELOPMENTS\nFigure 1.1.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 19,
+            "metadata": {
+              "document_type": "economic_update",
+              "char_end": 1417,
+              "char_start": 625,
+              "section": "economic_developments",
+              "year": 2023
+            },
+            "score": 0.8317944407463074,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2023-08:p0011:para800:001 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 11]\nThe slowdown was led by a sharp deterioration\nin external demand with exports contracting\nby 12 percent (y/y) in the first half of 2023. This\nin turn weighed on the performance of the\nexport sector, which is estimated to account for\n50 percent of Vietnam’s GDP. 2 Simultaneously,\ndomestic demand moderated due to fading base\neffects3 from last year’s post-COVID rebound and\nweakening consumer confidence. Growth in final\nconsumption expenditure 4 slowed to 2.7 percent\n(y/y) in the first half of the year, compared with\n6.1 percent (y/y) in the first half of 2022.\n\n[wb-taking-stock-2023-08:p0026:para800:002 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 26]\nThe contraction in exports (-12 percent y/y) in the first half of 2023 (Figure\n1.15), was due to a broad-based decline in exports of key manufacturing products, including electronics\n(-13.9 percent), machinery (-8.6 percent), textiles (-15.8 percent) and footwear (-16.9 percent), to principal\nmarkets such as the United States (-21.3 percent y/y in the first five months) and European Union (-9.6\npercent y/y in the first five months). 41 Total imports contracted more sharply than exports, falling by 17.9\npercent (y/y) during the first half of 2023, with second quarter imports declining by 20.2 percent (y/y).\n41 Vietnam Customs, Haver Analytics, and World Bank staff calculations\n\n[wb-taking-stock-2023-08:p0019:para800:001 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 19]\nVietnam’s economic growth decelerated sharply\nAfter registering 8 percent real GDP growth in 2022, economic growth decelerated sharply\nin the first semester of 2023, reflecting a slump in external and weaker domestic demand.\nVietnam’s real GDP growth slowed to 3.7 percent (y/y) during the first semester of 2023, 19 well below\ngrowth posted during the same period in 2022 (6.4 percent, y/y) (Figure 1.3). The slowdown was led by a\ndeterioration of external demand with exports contracting by 12 percent (y/y) in the first half of 2023, in\nturn weighing on the performance of the export sector, which is estimated to account for 50 percent of\nVietnam’s GDP directly and indirectly. 20 Simultaneously, domestic demand also moderated after the last’s\nI. RECENT ECONOMIC DEVELOPMENTS\nFigure 1.1.",
+        "context_ids": [
+          "wb-taking-stock-2023-08:p0011:para800:001",
+          "wb-taking-stock-2023-08:p0026:para800:002",
+          "wb-taking-stock-2023-08:p0019:para800:001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "Vietnam exports first half 2023 contraction percentage"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2023-08:p0011:para800:001",
+      "wb-taking-stock-2023-08:p0026:para800:002",
+      "wb-taking-stock-2023-08:p0019:para800:001"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_p7jr7zki",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "Vietnam exports first half 2023 contraction percentage"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 382,
+        "output_tokens": 30,
+        "seconds": 7.7602744,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"exports contracted by 12 percent (y/y) in the first half of 2023 [1]\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1211,
+        "output_tokens": 48,
+        "seconds": 26.5147977,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1593,
+    "output_tokens": 78,
+    "seconds": 34.5195406999992,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "How large were the economic losses from the power outages in northern Vietnam in May and June 2023?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "The preliminary estimate of economic costs for the May-June power outages is about US$1.4 billion (or 0.3 percent of GDP). [wb-taking-stock-2023-08:p0022:para800:002]",
+    "citations": [
+      "wb-taking-stock-2023-08:p0022:para800:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "economic losses power outages northern Vietnam 2023-05-01 2023-06-30",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2023-08:p0022:para800:002",
+            "text": "The preliminary estimate of economic costs for the May-June power outages is about US$1.4 billion (or 0.3 percent of\nGDP).29 In a small industry survey, businesses in the north reported losses of up to 10 percent of revenues.30 Based on\nthe estimated supply deficit through June, unserved energy will also result in lost revenues for Vietnam Electricity\n(EVN) of approximately US$75 million.31\nSupply imbalances are currently a northern issue, where demand has been growing at a higher rate (10 percent\ncompared to 8.5 percent nationwide) and becoming more seasonal in May-July.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 22,
+            "metadata": {
+              "section": "economic_developments",
+              "document_type": "economic_update",
+              "char_start": 1101,
+              "char_end": 1679,
+              "year": 2023
+            },
+            "score": 0.8323303461074829,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0022:para800:001",
+            "text": "However, during May and June 2023, northern Vietnam experienced recurrent power outages that affected\nhouseholds and enterprises on a large scale. In May 2023, a peak demand supply deficit of 5.4GW occurred.28 The\nsituation improved over June, and was resolved in July due to increased water availability. Power shortages during\ndry season already occurred in the summer of 2022 with an estimated peak demand supply deficit of 1.8GW.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 22,
+            "metadata": {
+              "year": 2023,
+              "char_start": 667,
+              "section": "economic_developments",
+              "document_type": "economic_update",
+              "char_end": 1100
+            },
+            "score": 0.8110764026641846,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0021:para800:003",
+            "text": "that affected northern Vietnam in May and June 2023 disrupted production and are estimated to have\nhad a negative 0.3 percent impact on GDP (Box 1.1).\nFigure 1.5. Industrial Production Index and Exports\nPercent (y/y, NSA)\nSource: GSO and World Bank staff calculations\nNote: Industry includes construction\nJun-20 Jun-21 Jun-22 Jun-23\nFigure 1.6.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 21,
+            "metadata": {
+              "char_end": 2530,
+              "year": 2023,
+              "section": "economic_developments",
+              "document_type": "economic_update",
+              "char_start": 2186
+            },
+            "score": 0.7732369303703308,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2023-08:p0022:para800:002 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 22]\nThe preliminary estimate of economic costs for the May-June power outages is about US$1.4 billion (or 0.3 percent of\nGDP).29 In a small industry survey, businesses in the north reported losses of up to 10 percent of revenues.30 Based on\nthe estimated supply deficit through June, unserved energy will also result in lost revenues for Vietnam Electricity\n(EVN) of approximately US$75 million.31\nSupply imbalances are currently a northern issue, where demand has been growing at a higher rate (10 percent\ncompared to 8.5 percent nationwide) and becoming more seasonal in May-July.\n\n[wb-taking-stock-2023-08:p0022:para800:001 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 22]\nHowever, during May and June 2023, northern Vietnam experienced recurrent power outages that affected\nhouseholds and enterprises on a large scale. In May 2023, a peak demand supply deficit of 5.4GW occurred.28 The\nsituation improved over June, and was resolved in July due to increased water availability. Power shortages during\ndry season already occurred in the summer of 2022 with an estimated peak demand supply deficit of 1.8GW.\n\n[wb-taking-stock-2023-08:p0021:para800:003 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 21]\nthat affected northern Vietnam in May and June 2023 disrupted production and are estimated to have\nhad a negative 0.3 percent impact on GDP (Box 1.1).\nFigure 1.5. Industrial Production Index and Exports\nPercent (y/y, NSA)\nSource: GSO and World Bank staff calculations\nNote: Industry includes construction\nJun-20 Jun-21 Jun-22 Jun-23\nFigure 1.6.",
+        "context_ids": [
+          "wb-taking-stock-2023-08:p0022:para800:002",
+          "wb-taking-stock-2023-08:p0022:para800:001",
+          "wb-taking-stock-2023-08:p0021:para800:003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "economic losses power outages northern Vietnam 2023-05-01 2023-06-30"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2023-08:p0022:para800:002",
+      "wb-taking-stock-2023-08:p0022:para800:001",
+      "wb-taking-stock-2023-08:p0021:para800:003"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_50e1rz7k",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "economic losses power outages northern Vietnam 2023-05-01 2023-06-30"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 387,
+        "output_tokens": 47,
+        "seconds": 10.3721706,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"The preliminary estimate of economic costs for the May-June power outages is about US$1.4 billion (or 0.3 percent of GDP). [1]\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1026,
+        "output_tokens": 59,
+        "seconds": 25.5923755,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1413,
+    "output_tokens": 106,
+    "seconds": 36.08995959999993,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "What share of surveyed companies said they had laid off at least 5 percent of their workers in early 2023?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "71.2 percent of surveyed enterprises reported a cut of at least 5 percent in labor [wb-taking-stock-2023-08:p0024:para800:001]",
+    "citations": [
+      "wb-taking-stock-2023-08:p0024:para800:001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "2023 layoffs percentage surveyed companies",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2023-08:p0024:para800:001",
+            "text": "According to an\nApril 2023 survey by the Private Sector Development Committee, 36 71.2 percent of surveyed enterprises\nreported a cut of at least 5 percent in labor, while 60.1 percent revealed a reduction in revenue of at\nleast 20 percent during the first four months of 2023. Of the enterprises surveyed, 59.2 percent reported\nreductions in orders. Looking ahead, more than 80 percent of enterprises anticipated worsening\neconomic and business conditions during the remaining months of 2023. Mirroring the survey results,\nlabor data from all 63 provinces published by the Ministry of Labor, Invalids and Social Affairs revealed\nan estimated 59 percent 37 increase in claims for unemployment benefits between the first and second\nquarters of 2023.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 24,
+            "metadata": {
+              "char_end": 1372,
+              "year": 2023,
+              "document_type": "economic_update",
+              "char_start": 624,
+              "section": "economic_developments"
+            },
+            "score": 0.7496222257614136,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0012:para800:000",
+            "text": "12\nTAKING STOCK AUGUST 2023\nby the Private Sector Development Committee, 60.1\npercent of firms reported a reduction in revenue of at\nleast 20 percent during the first four months of 2023\nand 59.2 percent reported reduction in orders. 71.2\npercent reported a cut of at least 5 percent of their\nlabor force in the first four months of the year.5 At the\nnational level, growth in employment slowed from\n2.2 percent (y/y) in the first quarter of 2023 to just\n1.4 percent (y/y) in the second quarter of 2023, well\nbelow an average pre-covid level of about 4 percent.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 12,
+            "metadata": {
+              "year": 2023,
+              "char_start": 0,
+              "document_type": "economic_update",
+              "char_end": 561,
+              "section": "overview"
+            },
+            "score": 0.7072107791900635,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0023:para800:002",
+            "text": "Following\na gradual improvement in 2022, the labor force participation rate flattened at 68.9 percent during the first\nsemester of 2023, still below the average level recorded for 2019 (71.1 percent). Lackluster labor market\nconditions were mirrored by flat average income in the first semester of 2023 (Figure 1.11).\n29 Based on an estimated unserved demand of 36GWh in 2022 and about 900GWh estimated for May-June 2023 (NLDC operational reports and\nWorld Bank estimates).\n30 Anonymous surveys conducted by EuroCham among its members in June 2023.\n31 Applying the average sales price of 8.05 c/kWh to the 900GWh of estimated unserved energy for 2023.\n32 Hydro and coal-based generation respectively accounts for about 45 percent (13GW) and 50 percent (14GW) of the energy mix.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 23,
+            "metadata": {
+              "year": 2023,
+              "document_type": "economic_update",
+              "char_start": 1374,
+              "section": "economic_developments",
+              "char_end": 2151
+            },
+            "score": 0.6960361003875732,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2023-08:p0024:para800:001 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 24]\nAccording to an\nApril 2023 survey by the Private Sector Development Committee, 36 71.2 percent of surveyed enterprises\nreported a cut of at least 5 percent in labor, while 60.1 percent revealed a reduction in revenue of at\nleast 20 percent during the first four months of 2023. Of the enterprises surveyed, 59.2 percent reported\nreductions in orders. Looking ahead, more than 80 percent of enterprises anticipated worsening\neconomic and business conditions during the remaining months of 2023. Mirroring the survey results,\nlabor data from all 63 provinces published by the Ministry of Labor, Invalids and Social Affairs revealed\nan estimated 59 percent 37 increase in claims for unemployment benefits between the first and second\nquarters of 2023.\n\n[wb-taking-stock-2023-08:p0012:para800:000 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 12]\n12\nTAKING STOCK AUGUST 2023\nby the Private Sector Development Committee, 60.1\npercent of firms reported a reduction in revenue of at\nleast 20 percent during the first four months of 2023\nand 59.2 percent reported reduction in orders. 71.2\npercent reported a cut of at least 5 percent of their\nlabor force in the first four months of the year.5 At the\nnational level, growth in employment slowed from\n2.2 percent (y/y) in the first quarter of 2023 to just\n1.4 percent (y/y) in the second quarter of 2023, well\nbelow an average pre-covid level of about 4 percent.\n\n[wb-taking-stock-2023-08:p0023:para800:002 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 23]\nFollowing\na gradual improvement in 2022, the labor force participation rate flattened at 68.9 percent during the first\nsemester of 2023, still below the average level recorded for 2019 (71.1 percent). Lackluster labor market\nconditions were mirrored by flat average income in the first semester of 2023 (Figure 1.11).\n29 Based on an estimated unserved demand of 36GWh in 2022 and about 900GWh estimated for May-June 2023 (NLDC operational reports and\nWorld Bank estimates).\n30 Anonymous surveys conducted by EuroCham among its members in June 2023.\n31 Applying the average sales price of 8.05 c/kWh to the 900GWh of estimated unserved energy for 2023.\n32 Hydro and coal-based generation respectively accounts for about 45 percent (13GW) and 50 percent (14GW) of the energy mix.",
+        "context_ids": [
+          "wb-taking-stock-2023-08:p0024:para800:001",
+          "wb-taking-stock-2023-08:p0012:para800:000",
+          "wb-taking-stock-2023-08:p0023:para800:002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "2023 layoffs percentage surveyed companies"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2023-08:p0024:para800:001",
+      "wb-taking-stock-2023-08:p0012:para800:000",
+      "wb-taking-stock-2023-08:p0023:para800:002"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_0q9r1pwz",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "2023 layoffs percentage surveyed companies"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 389,
+        "output_tokens": 26,
+        "seconds": 7.4853295,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"71.2 percent of surveyed enterprises reported a cut of at least 5 percent in labor [1]\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1242,
+        "output_tokens": 46,
+        "seconds": 27.466496,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1631,
+    "output_tokens": 72,
+    "seconds": 35.08733409999968,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "How many seaports does Vietnam have, and what share of cargo passes through the three main ones?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "Vietnam has 47 seaports of all sizes, but 95 percent of cargo goes through three ports invested and operated by the Ministry of Transport [wb-taking-stock-2023-08:p0044:para800:000].",
+    "citations": [
+      "wb-taking-stock-2023-08:p0044:para800:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Vietnam seaports cargo share",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2023-08:p0044:para800:000",
+            "text": "44\nTAKING STOCK AUGUST 2023\nseaports, airports, and hydro-power generation. Vietnam has 47 seaports of all sizes across provinces, but\n95 percent of cargo goes through three ports invested and operated by the Ministry of Transport. 82 While\nthere are 22 airports nationwide, only eight are considered international and the remainder can only accept\nsmaller, narrow body aircrafts. 83 Most airports are loss-making and unable to even cover operations and\nmaintenance (O&M) costs. In just three Central Highlands provinces (Dak Nong, Gia Lai and Kon Tum), 256\nsmall and medium-scale hydropower plants were approved and are being operated without fully consulting\nthe affected stakeholders.\nIn addition, public asset management (PAM) remains inadequate.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 44,
+            "metadata": {
+              "char_end": 750,
+              "year": 2023,
+              "section": "special_focus",
+              "char_start": 0,
+              "document_type": "economic_update"
+            },
+            "score": 0.7586228847503662,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0016:para800:000",
+            "text": "vi I TAKING STOCK MARCH 2025\nViet Nam has set ambitious goals to\ndecarbonize its economy by 2050. At the\nUnited Nation’s Climate Change Conference\nin Glasgow in November 2021 (COP26),\nthe Prime Minister of Viet Nam made an\nambitious pledge to achieve economy-\nwide net zero emissions by 2050, which\nset into motion plans to decarbonize the\ntransportation sector.\nThe energy sector is the biggest contributor\nto GHG emissions, of which transport is\na main driver. Without decarbonation, this\nshare would rise significantly with the rapid\nincrease in car use. The transport sector in\nViet Nam accounted for about 32.9 million\ntons of carbon dioxide equivalent (MtCO2eq)\nin 2021, or 7.2 percent of total economy-\nwide GHG emissions, the majority of which\nare generated from road transport.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 16,
+            "metadata": {
+              "char_end": 786,
+              "section": "overview",
+              "year": 2025,
+              "document_type": "economic_update",
+              "char_start": 0
+            },
+            "score": 0.74519282579422,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0042:para800:000",
+            "text": "32 I TAKING STOCK MARCH 2025\nFigure 2.1. Share of GHG emissions by vehicle segments in Viet Nam, 2020\n28%\n6%\n1%\n11%\n54%\nTwo-wheelers\nPassenger cars\nCity Buses\nIntercity Bus/Coach\nTrucks\nSource: Ministry of Transport, Viet Nam, and World Bank calculations\nViet Nam has set ambitious goals to decarbonize its economy by 2050. The prime minister of Viet\nNam’s pledge at COP2623 in 2021 to achieve economy-wide net-zero emissions by 2050 has set into\nmotion plans to decarbonize the transport sector.\nThe energy sector is the biggest contributor to GHG emissions, of which transport is a main driver.\nWithout decarbonation, this share would rise significantly with the rapid increase in car use.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 42,
+            "metadata": {
+              "year": 2025,
+              "char_end": 691,
+              "document_type": "economic_update",
+              "section": "special_focus",
+              "char_start": 0
+            },
+            "score": 0.7272709608078003,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2023-08:p0044:para800:000 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 44]\n44\nTAKING STOCK AUGUST 2023\nseaports, airports, and hydro-power generation. Vietnam has 47 seaports of all sizes across provinces, but\n95 percent of cargo goes through three ports invested and operated by the Ministry of Transport. 82 While\nthere are 22 airports nationwide, only eight are considered international and the remainder can only accept\nsmaller, narrow body aircrafts. 83 Most airports are loss-making and unable to even cover operations and\nmaintenance (O&M) costs. In just three Central Highlands provinces (Dak Nong, Gia Lai and Kon Tum), 256\nsmall and medium-scale hydropower plants were approved and are being operated without fully consulting\nthe affected stakeholders.\nIn addition, public asset management (PAM) remains inadequate.\n\n[wb-taking-stock-2025-03:p0016:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 16]\nvi I TAKING STOCK MARCH 2025\nViet Nam has set ambitious goals to\ndecarbonize its economy by 2050. At the\nUnited Nation’s Climate Change Conference\nin Glasgow in November 2021 (COP26),\nthe Prime Minister of Viet Nam made an\nambitious pledge to achieve economy-\nwide net zero emissions by 2050, which\nset into motion plans to decarbonize the\ntransportation sector.\nThe energy sector is the biggest contributor\nto GHG emissions, of which transport is\na main driver. Without decarbonation, this\nshare would rise significantly with the rapid\nincrease in car use. The transport sector in\nViet Nam accounted for about 32.9 million\ntons of carbon dioxide equivalent (MtCO2eq)\nin 2021, or 7.2 percent of total economy-\nwide GHG emissions, the majority of which\nare generated from road transport.\n\n[wb-taking-stock-2025-03:p0042:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 42]\n32 I TAKING STOCK MARCH 2025\nFigure 2.1. Share of GHG emissions by vehicle segments in Viet Nam, 2020\n28%\n6%\n1%\n11%\n54%\nTwo-wheelers\nPassenger cars\nCity Buses\nIntercity Bus/Coach\nTrucks\nSource: Ministry of Transport, Viet Nam, and World Bank calculations\nViet Nam has set ambitious goals to decarbonize its economy by 2050. The prime minister of Viet\nNam’s pledge at COP2623 in 2021 to achieve economy-wide net-zero emissions by 2050 has set into\nmotion plans to decarbonize the transport sector.\nThe energy sector is the biggest contributor to GHG emissions, of which transport is a main driver.\nWithout decarbonation, this share would rise significantly with the rapid increase in car use.",
+        "context_ids": [
+          "wb-taking-stock-2023-08:p0044:para800:000",
+          "wb-taking-stock-2025-03:p0016:para800:000",
+          "wb-taking-stock-2025-03:p0042:para800:000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "Vietnam seaports cargo share"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2023-08:p0044:para800:000",
+      "wb-taking-stock-2025-03:p0016:para800:000",
+      "wb-taking-stock-2025-03:p0042:para800:000"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_1bm9sbbm",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "Vietnam seaports cargo share"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 384,
+        "output_tokens": 26,
+        "seconds": 7.250697,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"Vietnam has 47 seaports of all sizes, but 95 percent of cargo goes through three ports invested and operated by the Ministry of Transport [1].\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1231,
+        "output_tokens": 60,
+        "seconds": 29.4670836,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1615,
+    "output_tokens": 86,
+    "seconds": 36.83228489999965,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "How far behind schedule and how far over budget were the big transport projects that the World Bank reviewed?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "The average delay time was five years, and the average cost overrun was double the original cost at the design and budget allocation stage [wb-taking-stock-2023-08:p0016:para800:001].",
+    "citations": [
+      "wb-taking-stock-2023-08:p0016:para800:001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "transport projects schedule budget over review World Bank",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2023-08:p0016:para800:001",
+            "text": "The large\ndifferences between budgeted and actual spending\n(23 percent), and the consequential high capital\nexpenditure carried over from one year to the next,\nare significantly larger than in many peer countries,\nand way beyond international good practices which\nsuggest the variation levels to be below 5 percent. 14\nPublic investment management (PIM) inefficiency\nis also manifested in significant project completion\ndelays and cost overruns. A recent World Bank\nreview15 of selected, large-scale transport projects\nfound an average delay time of five years, and an\naverage cost overrun double the original cost at the\ndesign and budget allocation stage.\nIn addition, public asset management remains\ninadequate.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 16,
+            "metadata": {
+              "char_start": 798,
+              "char_end": 1512,
+              "document_type": "economic_update",
+              "year": 2023,
+              "section": "overview"
+            },
+            "score": 0.745506763458252,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0015:para800:000",
+            "text": "ELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I v\nSource: GSO; MoF; SBV; IMF; and World Bank staff calculations.\nNote: e = estimate; f = forecast,*: excluding unallocated expenditures and following Government Finance Statistics\n(GFS),**: calculated based on the approved fiscal plan for 2025 and three-year fiscal plan for 2025–27.\nTable 0.1.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 15,
+            "metadata": {
+              "section": "overview",
+              "char_start": 0,
+              "year": 2025,
+              "char_end": 353,
+              "document_type": "economic_update"
+            },
+            "score": 0.743134081363678,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0042:para800:000",
+            "text": "42\nTAKING STOCK AUGUST 2023\nonly 77 percent of allocations spent (Figure 2.4). The differences between budgeted and actual spending (23\npercent) and the resulting capital expenditure carried over from one year to the next (18 to 31 percent of total\ncapital expenditures) are significantly larger than in many peer countries, and way above international good\npractices which suggest budget deviations to remain below 5 percent.78 PIM inefficiency is also manifested\nin significant project completion delays and cost overruns. A recent World Bank review 79 of selected large-\nscale transport projects found an average delay of five years, and an average cost overrun of double the\noriginal cost at the design and budget allocation stage.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 42,
+            "metadata": {
+              "section": "special_focus",
+              "char_end": 735,
+              "char_start": 0,
+              "document_type": "economic_update",
+              "year": 2023
+            },
+            "score": 0.7325937747955322,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2023-08:p0016:para800:001 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 16]\nThe large\ndifferences between budgeted and actual spending\n(23 percent), and the consequential high capital\nexpenditure carried over from one year to the next,\nare significantly larger than in many peer countries,\nand way beyond international good practices which\nsuggest the variation levels to be below 5 percent. 14\nPublic investment management (PIM) inefficiency\nis also manifested in significant project completion\ndelays and cost overruns. A recent World Bank\nreview15 of selected, large-scale transport projects\nfound an average delay time of five years, and an\naverage cost overrun double the original cost at the\ndesign and budget allocation stage.\nIn addition, public asset management remains\ninadequate.\n\n[wb-taking-stock-2025-03:p0015:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 15]\nELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I v\nSource: GSO; MoF; SBV; IMF; and World Bank staff calculations.\nNote: e = estimate; f = forecast,*: excluding unallocated expenditures and following Government Finance Statistics\n(GFS),**: calculated based on the approved fiscal plan for 2025 and three-year fiscal plan for 2025–27.\nTable 0.1.\n\n[wb-taking-stock-2023-08:p0042:para800:000 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 42]\n42\nTAKING STOCK AUGUST 2023\nonly 77 percent of allocations spent (Figure 2.4). The differences between budgeted and actual spending (23\npercent) and the resulting capital expenditure carried over from one year to the next (18 to 31 percent of total\ncapital expenditures) are significantly larger than in many peer countries, and way above international good\npractices which suggest budget deviations to remain below 5 percent.78 PIM inefficiency is also manifested\nin significant project completion delays and cost overruns. A recent World Bank review 79 of selected large-\nscale transport projects found an average delay of five years, and an average cost overrun of double the\noriginal cost at the design and budget allocation stage.",
+        "context_ids": [
+          "wb-taking-stock-2023-08:p0016:para800:001",
+          "wb-taking-stock-2025-03:p0015:para800:000",
+          "wb-taking-stock-2023-08:p0042:para800:000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "transport projects schedule budget over review World Bank"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2023-08:p0016:para800:001",
+      "wb-taking-stock-2025-03:p0015:para800:000",
+      "wb-taking-stock-2023-08:p0042:para800:000"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_m8kdqibs",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "transport projects schedule budget over review World Bank"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 383,
+        "output_tokens": 26,
+        "seconds": 7.2491363,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"The average delay time was five years, and the average cost overrun was double the original cost at the design and budget allocation stage [1].\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1069,
+        "output_tokens": 53,
+        "seconds": 25.3415474,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1452,
+    "output_tokens": 79,
+    "seconds": 32.71717459999945,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "Under Circular 02/2023/TT-NHNN, which borrowers may have their bank loans restructured?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "borrowers facing payment difficulties but who have been assessed to be capable to repay principal and/or interest according to the restructured repayment term [wb-taking-stock-2023-08:p0030:para800:002]",
+    "citations": [
+      "wb-taking-stock-2023-08:p0030:para800:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Circular 02/2023/TT-NHNN borrowers restructured loans",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2023-08:p0012:para800:005",
+            "text": "The 2023 mid-year fiscal\nbalance registered a smaller estimated surplus (1.5\npercent of GDP) than a year ago (5.2 percent of GDP)\n5 Private Sector Development Committee, April 2023.\n6 The Southeast Region includes Ho Chi Minh City and Provinces of Dong Nai, Binh Duong, Ba Ria – Vung Tau, Binh Phuoc and Tay Ninh,\ncontributing about 32 percent of GDP. The region is home to 18.7 million people or about 19 percent of Vietnam population.\n7 Ministry of Labor, Invalids and Social Affairs, June 2023\n8 Circular 02/2023/TT-NHNN allows banks to restructure loans and stagger provisions over multiple financial years when owed by borrowers\nwhich are facing payment difficulties but who have been assessed to be capable to repay principal and/or interest according to the restructured\nrepayment term.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 12,
+            "metadata": {
+              "year": 2023,
+              "section": "overview",
+              "char_start": 3313,
+              "char_end": 4106,
+              "document_type": "economic_update"
+            },
+            "score": 0.7245694398880005,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0030:para800:002",
+            "text": "49\nThe government also relaxed the rules pertaining to buy-backs of corporate bonds by credit institutions\nto ease a liquidity problem in the bond market. 50\n45 Source: State Bank of Vietnam, FiinGroup, and World Bank staff calculation.\n46 Adjusted NPLs, which include loans held at Vietnam Asset Management company and restructured loans, stood at 5.0 percent in Q1-2023.\n47 Decree 08/2023/ND-CP amending and supplementing several provisions in Decree 65/2022/ND-CP.\n48 Circular 02/2023/TT-NHNN allows banks to restructure loans and stagger provisions over multiple financial years when owed by borrowers\nfacing payment difficulties, but that have been assessed as capable of repaying the principal and/or interest according to the restructured\nrepayment term.\n49 Ibid 22.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 30,
+            "metadata": {
+              "section": "economic_developments",
+              "year": 2023,
+              "char_start": 1393,
+              "char_end": 2166,
+              "document_type": "economic_update"
+            },
+            "score": 0.7242076396942139,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0030:para800:001",
+            "text": "In a bid to stimulate credit growth and address pressures on banking sector balance sheets,\nthe authorities adopted supportive policies, including renewed regulatory forbearance. In\nMarch 2023, the government issued regulations allowing restructuring of corporate bonds and delaying\nadditional rules for issuances as introduced in a previous regulation, providing short-term relief to\nborrowers and alleviating challenges in refinancing maturing bonds. 47 In April, the SBV re-introduced\nforbearance measures 48 first applied during the pandemic until June 2022. To further support social\nhousing and industrial real estate development, SBV reduced capital charges on loan to these sectors.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 30,
+            "metadata": {
+              "section": "economic_developments",
+              "char_end": 1392,
+              "year": 2023,
+              "char_start": 702,
+              "document_type": "economic_update"
+            },
+            "score": 0.7044566869735718,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2023-08:p0012:para800:005 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 12]\nThe 2023 mid-year fiscal\nbalance registered a smaller estimated surplus (1.5\npercent of GDP) than a year ago (5.2 percent of GDP)\n5 Private Sector Development Committee, April 2023.\n6 The Southeast Region includes Ho Chi Minh City and Provinces of Dong Nai, Binh Duong, Ba Ria – Vung Tau, Binh Phuoc and Tay Ninh,\ncontributing about 32 percent of GDP. The region is home to 18.7 million people or about 19 percent of Vietnam population.\n7 Ministry of Labor, Invalids and Social Affairs, June 2023\n8 Circular 02/2023/TT-NHNN allows banks to restructure loans and stagger provisions over multiple financial years when owed by borrowers\nwhich are facing payment difficulties but who have been assessed to be capable to repay principal and/or interest according to the restructured\nrepayment term.\n\n[wb-taking-stock-2023-08:p0030:para800:002 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 30]\n49\nThe government also relaxed the rules pertaining to buy-backs of corporate bonds by credit institutions\nto ease a liquidity problem in the bond market. 50\n45 Source: State Bank of Vietnam, FiinGroup, and World Bank staff calculation.\n46 Adjusted NPLs, which include loans held at Vietnam Asset Management company and restructured loans, stood at 5.0 percent in Q1-2023.\n47 Decree 08/2023/ND-CP amending and supplementing several provisions in Decree 65/2022/ND-CP.\n48 Circular 02/2023/TT-NHNN allows banks to restructure loans and stagger provisions over multiple financial years when owed by borrowers\nfacing payment difficulties, but that have been assessed as capable of repaying the principal and/or interest according to the restructured\nrepayment term.\n49 Ibid 22.\n\n[wb-taking-stock-2023-08:p0030:para800:001 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 30]\nIn a bid to stimulate credit growth and address pressures on banking sector balance sheets,\nthe authorities adopted supportive policies, including renewed regulatory forbearance. In\nMarch 2023, the government issued regulations allowing restructuring of corporate bonds and delaying\nadditional rules for issuances as introduced in a previous regulation, providing short-term relief to\nborrowers and alleviating challenges in refinancing maturing bonds. 47 In April, the SBV re-introduced\nforbearance measures 48 first applied during the pandemic until June 2022. To further support social\nhousing and industrial real estate development, SBV reduced capital charges on loan to these sectors.",
+        "context_ids": [
+          "wb-taking-stock-2023-08:p0012:para800:005",
+          "wb-taking-stock-2023-08:p0030:para800:002",
+          "wb-taking-stock-2023-08:p0030:para800:001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "Circular 02/2023/TT-NHNN borrowers restructured loans"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2023-08:p0012:para800:005",
+      "wb-taking-stock-2023-08:p0030:para800:002",
+      "wb-taking-stock-2023-08:p0030:para800:001"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_p1v2fox2",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "Circular 02/2023/TT-NHNN borrowers restructured loans"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 389,
+        "output_tokens": 36,
+        "seconds": 8.7455483,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"borrowers facing payment difficulties but who have been assessed to be capable to repay principal and/or interest according to the restructured repayment term [2]\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1217,
+        "output_tokens": 53,
+        "seconds": 27.8156282,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1606,
+    "output_tokens": 89,
+    "seconds": 36.69730049999998,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "What annual GDP growth does the government estimate Vietnam must maintain during 2021-2030 to reach its development goals?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "annual gross domestic product (GDP) growth must be maintained at 7 percent during 2021–2030 [wb-taking-stock-2023-08:p0039:para800:000]",
+    "citations": [
+      "wb-taking-stock-2023-08:p0039:para800:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Vietnam GDP growth 2021-2030 development goals",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2023-08:p0039:para800:000",
+            "text": "39\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\nPublic investment level low compared to growing needs\nVietnam, in seeking to reach upper middle-income status by 2030 and high-income status by\n2045,67 aspires to become a modern and industrialized nation with a higher quality of life for\nits citizens. To achieve these ambitious development goals, the government estimates that annual gross\ndomestic product (GDP) growth must be maintained at 7 percent during 2021–2030 and 6.5 to 7.5 percent\nthrough 2031–2050. 68 The country also needs to ensure that gross capital investments from all sectors\naccount for 32 to 35 percent of GDP on average from 2021 until 2030, including government investment at\nan average of 7.3 percent of GDP annually to support infrastructure development during this period.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 39,
+            "metadata": {
+              "year": 2023,
+              "section": "special_focus",
+              "char_end": 794,
+              "char_start": 0,
+              "document_type": "economic_update"
+            },
+            "score": 0.8201433420181274,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0015:para800:004",
+            "text": "Vietnam, in seeking to reach upper middle-\nincome status by 2030 and high-income\nstatus by 2045, aspires to become a modern\nand industrialized nation with a higher\nquality of life for its citizens. To achieve this\nambitious development goal, the Vietnamese\nGovernment estimates that it needs to invest\nan average of 7.3 percent of GDP annually into\ninfrastructure during the 2021-2030 period. 10\nDespite growing needs, Vietnam’s public\ninvestments have been on a declining trend from\n8 percent of GDP in 2011 to 6 percent in 2022.\nWhile every effort should be made to reverse this\ntrend, 11 improving the efficiency of investment\nis also key, as it would have a major impact on\naggregate productivity growth and GDP levels.\nSPECIAL FOCUS: MAKING PUBLIC\nINVESTMENT WORK FOR GROWTH",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 15,
+            "metadata": {
+              "year": 2023,
+              "char_start": 2755,
+              "document_type": "economic_update",
+              "char_end": 3534,
+              "section": "overview"
+            },
+            "score": 0.8125495910644531,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0015:para800:001",
+            "text": "Selected economic indicators, Viet Nam 2021–26\n2025f\n6.8\n7.1\n4.5\n8.4\n12.1\n12.7\n3.5\n1.8\n-1.4\n34.2\n2024e\n7.1\n6.6\n4.5\n7.3\n15.5\n16.1\n3.5\n1.9\n1.8\n35.6\n2026f\n6.5\n7.3\n4.4\n8.1\n5.5\n6.3\n3.5\n1.7\n-1.0\n32.4\nIndicator\nGDP growth (%)\nGrowth of expenditure components\nPrivate consumption\nPublic consumption\nInvestment\nExports\nImports\nConsumer Price Index (average, %)\nCurrent account balance (% of GDP)\nFiscal balance (*) (% of GDP)\nPublic & publicly guaranteed debt (**) (% of GDP)\n2021\n2.6\n2.0\n4.7\n3.7\n13.9\n15.8\n1.8\n-2.2\n-1.4\n42.5\n2023\n5.0\n3.5\n4.9\n4.1\n-2.5\n-4.3\n3.3\n6.1\n-2.4\n36.0\n2022\n8.0\n7.8\n3.6\n5.8\n4.9\n2.2\n3.1\n0.3\n0.7\n37.1\nViet Nam’s GDP growth is forecast to\nmoderate to 6.8 percent in 2025 before\nsettling at 6.5 percent in 2026 (Table 0.1).",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 15,
+            "metadata": {
+              "char_start": 354,
+              "char_end": 1086,
+              "year": 2025,
+              "document_type": "economic_update",
+              "section": "overview"
+            },
+            "score": 0.7922329306602478,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2023-08:p0039:para800:000 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 39]\n39\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\nPublic investment level low compared to growing needs\nVietnam, in seeking to reach upper middle-income status by 2030 and high-income status by\n2045,67 aspires to become a modern and industrialized nation with a higher quality of life for\nits citizens. To achieve these ambitious development goals, the government estimates that annual gross\ndomestic product (GDP) growth must be maintained at 7 percent during 2021–2030 and 6.5 to 7.5 percent\nthrough 2031–2050. 68 The country also needs to ensure that gross capital investments from all sectors\naccount for 32 to 35 percent of GDP on average from 2021 until 2030, including government investment at\nan average of 7.3 percent of GDP annually to support infrastructure development during this period.\n\n[wb-taking-stock-2023-08:p0015:para800:004 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 15]\nVietnam, in seeking to reach upper middle-\nincome status by 2030 and high-income\nstatus by 2045, aspires to become a modern\nand industrialized nation with a higher\nquality of life for its citizens. To achieve this\nambitious development goal, the Vietnamese\nGovernment estimates that it needs to invest\nan average of 7.3 percent of GDP annually into\ninfrastructure during the 2021-2030 period. 10\nDespite growing needs, Vietnam’s public\ninvestments have been on a declining trend from\n8 percent of GDP in 2011 to 6 percent in 2022.\nWhile every effort should be made to reverse this\ntrend, 11 improving the efficiency of investment\nis also key, as it would have a major impact on\naggregate productivity growth and GDP levels.\nSPECIAL FOCUS: MAKING PUBLIC\nINVESTMENT WORK FOR GROWTH\n\n[wb-taking-stock-2025-03:p0015:para800:001 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 15]\nSelected economic indicators, Viet Nam 2021–26\n2025f\n6.8\n7.1\n4.5\n8.4\n12.1\n12.7\n3.5\n1.8\n-1.4\n34.2\n2024e\n7.1\n6.6\n4.5\n7.3\n15.5\n16.1\n3.5\n1.9\n1.8\n35.6\n2026f\n6.5\n7.3\n4.4\n8.1\n5.5\n6.3\n3.5\n1.7\n-1.0\n32.4\nIndicator\nGDP growth (%)\nGrowth of expenditure components\nPrivate consumption\nPublic consumption\nInvestment\nExports\nImports\nConsumer Price Index (average, %)\nCurrent account balance (% of GDP)\nFiscal balance (*) (% of GDP)\nPublic & publicly guaranteed debt (**) (% of GDP)\n2021\n2.6\n2.0\n4.7\n3.7\n13.9\n15.8\n1.8\n-2.2\n-1.4\n42.5\n2023\n5.0\n3.5\n4.9\n4.1\n-2.5\n-4.3\n3.3\n6.1\n-2.4\n36.0\n2022\n8.0\n7.8\n3.6\n5.8\n4.9\n2.2\n3.1\n0.3\n0.7\n37.1\nViet Nam’s GDP growth is forecast to\nmoderate to 6.8 percent in 2025 before\nsettling at 6.5 percent in 2026 (Table 0.1).",
+        "context_ids": [
+          "wb-taking-stock-2023-08:p0039:para800:000",
+          "wb-taking-stock-2023-08:p0015:para800:004",
+          "wb-taking-stock-2025-03:p0015:para800:001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "Vietnam GDP growth 2021-2030 development goals"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2023-08:p0039:para800:000",
+      "wb-taking-stock-2023-08:p0015:para800:004",
+      "wb-taking-stock-2025-03:p0015:para800:001"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_8cnui2is",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "Vietnam GDP growth 2021-2030 development goals"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 391,
+        "output_tokens": 34,
+        "seconds": 8.5540408,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"annual gross domestic product (GDP) growth must be maintained at 7 percent during 2021–2030 [1]\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1499,
+        "output_tokens": 54,
+        "seconds": 34.3067569,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1890,
+    "output_tokens": 88,
+    "seconds": 42.97858330000054,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "What was Viet Nam's real GDP growth in 2024?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "Viet Nam’s real GDP growth reached 7.1 percent in 2024 [wb-taking-stock-2025-03:p0019:para800:000]",
+    "citations": [
+      "wb-taking-stock-2025-03:p0019:para800:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Viet Nam real GDP growth 2024",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03:p0019:para800:000",
+            "text": "ELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 9\nGrowth accelerated in 2024 driven by a strong rebound in\nexports\nViet Nam’s real GDP growth reached 7.1 percent in 2024, driven by a strong rebound in exports,\noutpacing most regional peers. GDP growth is estimated to be the highest of developing countries in\nEast Asia in 2024, including ASEAN countries, surpassing the government’s target of 6–6.5 percent 2\n(Figure 1.1). External demand weakened in 2023, leading to a trade contraction and a slowdown in GDP\ngrowth to 5 percent real GDP. This was followed by a sharp rebound in 2024 with exports and imports\ngrowing by 15.5 and 16.1 percent, respectively.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 19,
+            "metadata": {
+              "char_end": 669,
+              "section": "economic_developments",
+              "document_type": "economic_update",
+              "char_start": 0,
+              "year": 2025
+            },
+            "score": 0.8251608610153198,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0038:para800:003",
+            "text": "Selected economic indicators, Viet Nam 2021–26\n2025f\n6.8\n7.1\n4.5\n8.4\n12.1\n12.7\n3.5\n1.8\n-1.4\n34.2\n2024e\n7.1\n6.6\n4.5\n7.3\n15.5\n16.1\n3.5\n1.9\n1.8\n35.6\n2026f\n6.5\n7.3\n4.4\n8.1\n5.5\n6.3\n3.5\n1.7\n-1.0\n32.4\nIndicator\nGDP growth (%)\nGrowth of expenditure components\nPrivate consumption\nPublic consumption\nInvestment\nExports\nImports\nConsumer Price Index (average, %)\nCurrent account balance (% of GDP)\nFiscal balance (*) (% of GDP)\nPublic & publicly guaranteed debt (**) (% of GDP)\n2021\n2.6\n2.0\n4.7\n3.7\n13.9\n15.8\n1.8\n-2.2\n-1.4\n42.5\n2023\n5.0\n3.5\n4.9\n4.1\n-2.5\n-4.3\n3.3\n6.1\n-2.4\n36.0\n2022\n8.0\n7.8\n3.6\n5.8\n4.9\n2.2\n3.1\n0.3\n0.7\n37.1",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 38,
+            "metadata": {
+              "char_end": 2437,
+              "document_type": "economic_update",
+              "section": "economic_developments",
+              "year": 2025,
+              "char_start": 1826
+            },
+            "score": 0.8199691772460938,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0015:para800:001",
+            "text": "Selected economic indicators, Viet Nam 2021–26\n2025f\n6.8\n7.1\n4.5\n8.4\n12.1\n12.7\n3.5\n1.8\n-1.4\n34.2\n2024e\n7.1\n6.6\n4.5\n7.3\n15.5\n16.1\n3.5\n1.9\n1.8\n35.6\n2026f\n6.5\n7.3\n4.4\n8.1\n5.5\n6.3\n3.5\n1.7\n-1.0\n32.4\nIndicator\nGDP growth (%)\nGrowth of expenditure components\nPrivate consumption\nPublic consumption\nInvestment\nExports\nImports\nConsumer Price Index (average, %)\nCurrent account balance (% of GDP)\nFiscal balance (*) (% of GDP)\nPublic & publicly guaranteed debt (**) (% of GDP)\n2021\n2.6\n2.0\n4.7\n3.7\n13.9\n15.8\n1.8\n-2.2\n-1.4\n42.5\n2023\n5.0\n3.5\n4.9\n4.1\n-2.5\n-4.3\n3.3\n6.1\n-2.4\n36.0\n2022\n8.0\n7.8\n3.6\n5.8\n4.9\n2.2\n3.1\n0.3\n0.7\n37.1\nViet Nam’s GDP growth is forecast to\nmoderate to 6.8 percent in 2025 before\nsettling at 6.5 percent in 2026 (Table 0.1).",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 15,
+            "metadata": {
+              "char_end": 1086,
+              "char_start": 354,
+              "year": 2025,
+              "document_type": "economic_update",
+              "section": "overview"
+            },
+            "score": 0.8164918422698975,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03:p0019:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 19]\nELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 9\nGrowth accelerated in 2024 driven by a strong rebound in\nexports\nViet Nam’s real GDP growth reached 7.1 percent in 2024, driven by a strong rebound in exports,\noutpacing most regional peers. GDP growth is estimated to be the highest of developing countries in\nEast Asia in 2024, including ASEAN countries, surpassing the government’s target of 6–6.5 percent 2\n(Figure 1.1). External demand weakened in 2023, leading to a trade contraction and a slowdown in GDP\ngrowth to 5 percent real GDP. This was followed by a sharp rebound in 2024 with exports and imports\ngrowing by 15.5 and 16.1 percent, respectively.\n\n[wb-taking-stock-2025-03:p0038:para800:003 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 38]\nSelected economic indicators, Viet Nam 2021–26\n2025f\n6.8\n7.1\n4.5\n8.4\n12.1\n12.7\n3.5\n1.8\n-1.4\n34.2\n2024e\n7.1\n6.6\n4.5\n7.3\n15.5\n16.1\n3.5\n1.9\n1.8\n35.6\n2026f\n6.5\n7.3\n4.4\n8.1\n5.5\n6.3\n3.5\n1.7\n-1.0\n32.4\nIndicator\nGDP growth (%)\nGrowth of expenditure components\nPrivate consumption\nPublic consumption\nInvestment\nExports\nImports\nConsumer Price Index (average, %)\nCurrent account balance (% of GDP)\nFiscal balance (*) (% of GDP)\nPublic & publicly guaranteed debt (**) (% of GDP)\n2021\n2.6\n2.0\n4.7\n3.7\n13.9\n15.8\n1.8\n-2.2\n-1.4\n42.5\n2023\n5.0\n3.5\n4.9\n4.1\n-2.5\n-4.3\n3.3\n6.1\n-2.4\n36.0\n2022\n8.0\n7.8\n3.6\n5.8\n4.9\n2.2\n3.1\n0.3\n0.7\n37.1\n\n[wb-taking-stock-2025-03:p0015:para800:001 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 15]\nSelected economic indicators, Viet Nam 2021–26\n2025f\n6.8\n7.1\n4.5\n8.4\n12.1\n12.7\n3.5\n1.8\n-1.4\n34.2\n2024e\n7.1\n6.6\n4.5\n7.3\n15.5\n16.1\n3.5\n1.9\n1.8\n35.6\n2026f\n6.5\n7.3\n4.4\n8.1\n5.5\n6.3\n3.5\n1.7\n-1.0\n32.4\nIndicator\nGDP growth (%)\nGrowth of expenditure components\nPrivate consumption\nPublic consumption\nInvestment\nExports\nImports\nConsumer Price Index (average, %)\nCurrent account balance (% of GDP)\nFiscal balance (*) (% of GDP)\nPublic & publicly guaranteed debt (**) (% of GDP)\n2021\n2.6\n2.0\n4.7\n3.7\n13.9\n15.8\n1.8\n-2.2\n-1.4\n42.5\n2023\n5.0\n3.5\n4.9\n4.1\n-2.5\n-4.3\n3.3\n6.1\n-2.4\n36.0\n2022\n8.0\n7.8\n3.6\n5.8\n4.9\n2.2\n3.1\n0.3\n0.7\n37.1\nViet Nam’s GDP growth is forecast to\nmoderate to 6.8 percent in 2025 before\nsettling at 6.5 percent in 2026 (Table 0.1).",
+        "context_ids": [
+          "wb-taking-stock-2025-03:p0019:para800:000",
+          "wb-taking-stock-2025-03:p0038:para800:003",
+          "wb-taking-stock-2025-03:p0015:para800:001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "Viet Nam real GDP growth 2024"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2025-03:p0019:para800:000",
+      "wb-taking-stock-2025-03:p0038:para800:003",
+      "wb-taking-stock-2025-03:p0015:para800:001"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_dgen8i48",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "Viet Nam real GDP growth 2024"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 378,
+        "output_tokens": 28,
+        "seconds": 6.9598689,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"Viet Nam’s real GDP growth reached 7.1 percent in 2024 [1]\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1624,
+        "output_tokens": 45,
+        "seconds": 34.7246439,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 2002,
+    "output_tokens": 73,
+    "seconds": 41.79242150000027,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "answerable": true,
+    "question": "How many electric vehicle chargers are estimated to be needed by 2030?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "electric vehicle chargers 2030 Viet Nam",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03:p0043:para800:000",
+            "text": "ELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 33\nSource: Decision 876/QD-TTg, 2022\n2024–30, and 71 million between 2031–50. Addressed in a timely and coherent manner, this will lead\nto growth in the entire EV value chain from vehicle and battery production and maintenance, to charging\ninfrastructure and recycling. Such growth has the potential to generate employment opportunities in\nall associated sub-sectors.\nResponding to environmental and economic imperatives, the government has set targets for electric\nmobility (-mobility) by 2050 related to electrification of vehicle stocks, production, and charging\ninfrastructure.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 43,
+            "metadata": {
+              "char_start": 0,
+              "year": 2025,
+              "document_type": "economic_update",
+              "section": "special_focus",
+              "char_end": 640
+            },
+            "score": 0.8112637400627136,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0059:para800:002",
+            "text": "Beyond 2030, emphasize the\nintroduction of government subsidies to provide preferrable interest rates for commercial loans\nfor e-trucks and min e-bus purchases.\n• Charging infrastructure: During 2025–35, the government is encouraged to accelerate\ndevelopment of the public charging network. Between 2025–27, public charging networks should\nbe prioritized in the five special class cities (Ha Noi, Hai Phong, Da Nang, Ho Chi Minh City, and\nCan Tho). Between 2027–30, expanding the public charging network to non-urban areas should\nbe a key focus, with increased density post-2030 in urban and non-urban areas in preparation for\nanticipated large e-PC uptake after 2035.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 59,
+            "metadata": {
+              "section": "special_focus",
+              "year": 2025,
+              "document_type": "economic_update",
+              "char_end": 2031,
+              "char_start": 1363
+            },
+            "score": 0.8062231540679932,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0050:para800:001",
+            "text": "(i) numbers of EVs in circulation,\n(ii) transport activity (vehicle-km-travelled) by EVs and (iii) energy efficiency of EV batteries and\neffectiveness of transmission and distribution networks.\nWhile EV charging is not expected to impose major pressure on Viet Nam’s power sector before\n2030, its impact will subsequently intensify. To 2030, EV charging demand even under the more\nambitious ADS pathway will require only 2.1 percent of generation supply in addition to PDP8 targets\nwhich can be accommodated by increasing planned generation surplus margins. This is because\nEV uptake during this period will be mainly dominated by e-2Ws, which operate on small batteries\nand cover short distances in general.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 50,
+            "metadata": {
+              "year": 2025,
+              "char_start": 660,
+              "section": "special_focus",
+              "char_end": 1368,
+              "document_type": "economic_update"
+            },
+            "score": 0.8042150735855103,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03:p0043:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 43]\nELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 33\nSource: Decision 876/QD-TTg, 2022\n2024–30, and 71 million between 2031–50. Addressed in a timely and coherent manner, this will lead\nto growth in the entire EV value chain from vehicle and battery production and maintenance, to charging\ninfrastructure and recycling. Such growth has the potential to generate employment opportunities in\nall associated sub-sectors.\nResponding to environmental and economic imperatives, the government has set targets for electric\nmobility (-mobility) by 2050 related to electrification of vehicle stocks, production, and charging\ninfrastructure.\n\n[wb-taking-stock-2025-03:p0059:para800:002 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 59]\nBeyond 2030, emphasize the\nintroduction of government subsidies to provide preferrable interest rates for commercial loans\nfor e-trucks and min e-bus purchases.\n• Charging infrastructure: During 2025–35, the government is encouraged to accelerate\ndevelopment of the public charging network. Between 2025–27, public charging networks should\nbe prioritized in the five special class cities (Ha Noi, Hai Phong, Da Nang, Ho Chi Minh City, and\nCan Tho). Between 2027–30, expanding the public charging network to non-urban areas should\nbe a key focus, with increased density post-2030 in urban and non-urban areas in preparation for\nanticipated large e-PC uptake after 2035.\n\n[wb-taking-stock-2025-03:p0050:para800:001 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 50]\n(i) numbers of EVs in circulation,\n(ii) transport activity (vehicle-km-travelled) by EVs and (iii) energy efficiency of EV batteries and\neffectiveness of transmission and distribution networks.\nWhile EV charging is not expected to impose major pressure on Viet Nam’s power sector before\n2030, its impact will subsequently intensify. To 2030, EV charging demand even under the more\nambitious ADS pathway will require only 2.1 percent of generation supply in addition to PDP8 targets\nwhich can be accommodated by increasing planned generation surplus margins. This is because\nEV uptake during this period will be mainly dominated by e-2Ws, which operate on small batteries\nand cover short distances in general.",
+        "context_ids": [
+          "wb-taking-stock-2025-03:p0043:para800:000",
+          "wb-taking-stock-2025-03:p0059:para800:002",
+          "wb-taking-stock-2025-03:p0050:para800:001"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "electric vehicle chargers 2030 target Viet Nam",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03:p0043:para800:000",
+            "text": "ELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 33\nSource: Decision 876/QD-TTg, 2022\n2024–30, and 71 million between 2031–50. Addressed in a timely and coherent manner, this will lead\nto growth in the entire EV value chain from vehicle and battery production and maintenance, to charging\ninfrastructure and recycling. Such growth has the potential to generate employment opportunities in\nall associated sub-sectors.\nResponding to environmental and economic imperatives, the government has set targets for electric\nmobility (-mobility) by 2050 related to electrification of vehicle stocks, production, and charging\ninfrastructure.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 43,
+            "metadata": {
+              "char_start": 0,
+              "char_end": 640,
+              "section": "special_focus",
+              "document_type": "economic_update",
+              "year": 2025
+            },
+            "score": 0.8263100385665894,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0050:para800:001",
+            "text": "(i) numbers of EVs in circulation,\n(ii) transport activity (vehicle-km-travelled) by EVs and (iii) energy efficiency of EV batteries and\neffectiveness of transmission and distribution networks.\nWhile EV charging is not expected to impose major pressure on Viet Nam’s power sector before\n2030, its impact will subsequently intensify. To 2030, EV charging demand even under the more\nambitious ADS pathway will require only 2.1 percent of generation supply in addition to PDP8 targets\nwhich can be accommodated by increasing planned generation surplus margins. This is because\nEV uptake during this period will be mainly dominated by e-2Ws, which operate on small batteries\nand cover short distances in general.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 50,
+            "metadata": {
+              "section": "special_focus",
+              "char_end": 1368,
+              "char_start": 660,
+              "document_type": "economic_update",
+              "year": 2025
+            },
+            "score": 0.8143232464790344,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0059:para800:002",
+            "text": "Beyond 2030, emphasize the\nintroduction of government subsidies to provide preferrable interest rates for commercial loans\nfor e-trucks and min e-bus purchases.\n• Charging infrastructure: During 2025–35, the government is encouraged to accelerate\ndevelopment of the public charging network. Between 2025–27, public charging networks should\nbe prioritized in the five special class cities (Ha Noi, Hai Phong, Da Nang, Ho Chi Minh City, and\nCan Tho). Between 2027–30, expanding the public charging network to non-urban areas should\nbe a key focus, with increased density post-2030 in urban and non-urban areas in preparation for\nanticipated large e-PC uptake after 2035.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 59,
+            "metadata": {
+              "char_end": 2031,
+              "year": 2025,
+              "document_type": "economic_update",
+              "char_start": 1363,
+              "section": "special_focus"
+            },
+            "score": 0.8130472302436829,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03:p0043:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 43]\nELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 33\nSource: Decision 876/QD-TTg, 2022\n2024–30, and 71 million between 2031–50. Addressed in a timely and coherent manner, this will lead\nto growth in the entire EV value chain from vehicle and battery production and maintenance, to charging\ninfrastructure and recycling. Such growth has the potential to generate employment opportunities in\nall associated sub-sectors.\nResponding to environmental and economic imperatives, the government has set targets for electric\nmobility (-mobility) by 2050 related to electrification of vehicle stocks, production, and charging\ninfrastructure.\n\n[wb-taking-stock-2025-03:p0059:para800:002 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 59]\nBeyond 2030, emphasize the\nintroduction of government subsidies to provide preferrable interest rates for commercial loans\nfor e-trucks and min e-bus purchases.\n• Charging infrastructure: During 2025–35, the government is encouraged to accelerate\ndevelopment of the public charging network. Between 2025–27, public charging networks should\nbe prioritized in the five special class cities (Ha Noi, Hai Phong, Da Nang, Ho Chi Minh City, and\nCan Tho). Between 2027–30, expanding the public charging network to non-urban areas should\nbe a key focus, with increased density post-2030 in urban and non-urban areas in preparation for\nanticipated large e-PC uptake after 2035.\n\n[wb-taking-stock-2025-03:p0050:para800:001 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 50]\n(i) numbers of EVs in circulation,\n(ii) transport activity (vehicle-km-travelled) by EVs and (iii) energy efficiency of EV batteries and\neffectiveness of transmission and distribution networks.\nWhile EV charging is not expected to impose major pressure on Viet Nam’s power sector before\n2030, its impact will subsequently intensify. To 2030, EV charging demand even under the more\nambitious ADS pathway will require only 2.1 percent of generation supply in addition to PDP8 targets\nwhich can be accommodated by increasing planned generation surplus margins. This is because\nEV uptake during this period will be mainly dominated by e-2Ws, which operate on small batteries\nand cover short distances in general.",
+        "context_ids": [
+          "wb-taking-stock-2025-03:p0043:para800:000",
+          "wb-taking-stock-2025-03:p0059:para800:002",
+          "wb-taking-stock-2025-03:p0050:para800:001"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "n_searches": 2,
+    "queries": [
+      "electric vehicle chargers 2030 Viet Nam",
+      "electric vehicle chargers 2030 target Viet Nam"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2025-03:p0043:para800:000",
+      "wb-taking-stock-2025-03:p0059:para800:002",
+      "wb-taking-stock-2025-03:p0050:para800:001"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_4qnbu9vx",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "electric vehicle chargers 2030 Viet Nam"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 381,
+        "output_tokens": 29,
+        "seconds": 7.079456,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": false,\n  \"answer\": \"INSUFFICIENT_EVIDENCE\",\n  \"next_query\": \"electric vehicle chargers 2030 target Viet Nam\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1150,
+        "output_tokens": 44,
+        "seconds": 23.9927407,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": false,\n  \"answer\": \"\",\n  \"next_query\": \"electric vehicle chargers 2030 target Viet Nam\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1164,
+        "output_tokens": 37,
+        "seconds": 22.5987411,
+        "fallback": "repeated_query_abstain"
+      }
+    ],
+    "prompt_tokens": 2695,
+    "output_tokens": 110,
+    "seconds": 53.869915299999775,
+    "service_cost_usd": 0,
+    "context_hit": false,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "From which years does the report suggest stopping sales of new petrol-engine mopeds and motorcycles?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "Sales of new petrol-engine mopeds will be banned from 2027 and motorcycles from 2030 [wb-taking-stock-2025-03:p0058:para800:002]",
+    "citations": [
+      "wb-taking-stock-2025-03:p0058:para800:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "stop sales petrol-engine mopeds motorcycles years",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03:p0044:para800:000",
+            "text": "34 I TAKING STOCK MARCH 2025\nFigure 2.2. Motorization rate for two-wheelers and passenger cars 2010–2022\n254\n357\n518\n4 10 22\n0\n100\n200\n300\n400\n500\n600\n2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022\nActive Two-wheelers Active Passenger cars\nSource: World Bank calculations\nTransitioning into electric motorbikes and leapfrogging into\nEV cars\nBetween 2024 and 2035, Viet Nam’s e-mobility transition will primarily be driven by the transition\nof the two-wheeler (2W) segment to electric 2Ws (e-2Ws) given they will remain the dominant\nvehicle choice until 2035. In 2022, registered 2Ws in Viet Nam totaled 72.16 million (94 percent\nof total registered vehicles stock).",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 44,
+            "metadata": {
+              "document_type": "economic_update",
+              "char_end": 683,
+              "section": "special_focus",
+              "year": 2025,
+              "char_start": 0
+            },
+            "score": 0.6792950630187988,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0058:para800:002",
+            "text": "2) Create demand for e-2Ws by banning new ICE mopeds from 2027 and motorcycles from 2030,\nmandatory e-2W uptake by government-owned and taxi 2Ws, mandatory e-2W sales targets of 40\nand 80 percent by 2025 and 2030, respectively in urban areas and 20 and 50 percent by 2025 and\n2030, respectively in non-urban areas. 3) Reduce the cost premium of e-2Ws versus ICE variants\nvia preferential loans and non-fiscal measures including reserved road rights, priority parking and\nregistration privileges. To achieve the ADS pathway for e-2Ws, the key lever is implementing SPS\npathway policy actions faster and more decisively, particularly rolling out demand incentives and\naccelerating development of charging and battery swapping facilities.\n• E-PCs:",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 58,
+            "metadata": {
+              "char_end": 2189,
+              "document_type": "economic_update",
+              "year": 2025,
+              "section": "special_focus",
+              "char_start": 1445
+            },
+            "score": 0.6567721962928772,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0045:para800:003",
+            "text": "Projected vehicle annual sales by segments 2023–50 (units)\n0\n1,000,000\n2,000,000\n3,000,000\n4,000,000\n5,000,000\n6,000,000\n7,000,000\n8,000,000\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030\n2031\n2032\n2033\n2034\n2035\n2036\n2037\n2038\n2039\n2040\n2041\n2042\n2043\n2044\n2045\n2046\n2047\n2048\n2049\n2050\nTotal two-wheelers (2Ws) Total passenger cars (PCs) Trucks Buses and Coaches\nAnnual Sales of PCs\nReach Parity with 2Ws\nSource: World Bank calculations",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 45,
+            "metadata": {
+              "year": 2025,
+              "section": "special_focus",
+              "char_start": 1905,
+              "document_type": "economic_update",
+              "char_end": 2336
+            },
+            "score": 0.6501602530479431,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03:p0044:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 44]\n34 I TAKING STOCK MARCH 2025\nFigure 2.2. Motorization rate for two-wheelers and passenger cars 2010–2022\n254\n357\n518\n4 10 22\n0\n100\n200\n300\n400\n500\n600\n2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022\nActive Two-wheelers Active Passenger cars\nSource: World Bank calculations\nTransitioning into electric motorbikes and leapfrogging into\nEV cars\nBetween 2024 and 2035, Viet Nam’s e-mobility transition will primarily be driven by the transition\nof the two-wheeler (2W) segment to electric 2Ws (e-2Ws) given they will remain the dominant\nvehicle choice until 2035. In 2022, registered 2Ws in Viet Nam totaled 72.16 million (94 percent\nof total registered vehicles stock).\n\n[wb-taking-stock-2025-03:p0058:para800:002 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 58]\n2) Create demand for e-2Ws by banning new ICE mopeds from 2027 and motorcycles from 2030,\nmandatory e-2W uptake by government-owned and taxi 2Ws, mandatory e-2W sales targets of 40\nand 80 percent by 2025 and 2030, respectively in urban areas and 20 and 50 percent by 2025 and\n2030, respectively in non-urban areas. 3) Reduce the cost premium of e-2Ws versus ICE variants\nvia preferential loans and non-fiscal measures including reserved road rights, priority parking and\nregistration privileges. To achieve the ADS pathway for e-2Ws, the key lever is implementing SPS\npathway policy actions faster and more decisively, particularly rolling out demand incentives and\naccelerating development of charging and battery swapping facilities.\n• E-PCs:\n\n[wb-taking-stock-2025-03:p0045:para800:003 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 45]\nProjected vehicle annual sales by segments 2023–50 (units)\n0\n1,000,000\n2,000,000\n3,000,000\n4,000,000\n5,000,000\n6,000,000\n7,000,000\n8,000,000\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030\n2031\n2032\n2033\n2034\n2035\n2036\n2037\n2038\n2039\n2040\n2041\n2042\n2043\n2044\n2045\n2046\n2047\n2048\n2049\n2050\nTotal two-wheelers (2Ws) Total passenger cars (PCs) Trucks Buses and Coaches\nAnnual Sales of PCs\nReach Parity with 2Ws\nSource: World Bank calculations",
+        "context_ids": [
+          "wb-taking-stock-2025-03:p0044:para800:000",
+          "wb-taking-stock-2025-03:p0058:para800:002",
+          "wb-taking-stock-2025-03:p0045:para800:003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "stop sales petrol-engine mopeds motorcycles years"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2025-03:p0044:para800:000",
+      "wb-taking-stock-2025-03:p0058:para800:002",
+      "wb-taking-stock-2025-03:p0045:para800:003"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_afuw7pm0",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "stop sales petrol-engine mopeds motorcycles years"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 381,
+        "output_tokens": 26,
+        "seconds": 6.7275487,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"Sales of new petrol-engine mopeds will be banned from 2027 and motorcycles from 2030 [2]\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1413,
+        "output_tokens": 51,
+        "seconds": 30.2179271,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1794,
+    "output_tokens": 77,
+    "seconds": 37.04679010000018,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "Under what conditions could banks exceed their credit growth quota in 2024 without asking for approval?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "Selected banks with a strong capital base could expand loan bases beyond the predetermined indicative credit growth caps in 2024 [wb-taking-stock-2025-03:p0013:para800:004].",
+    "citations": [
+      "wb-taking-stock-2025-03:p0013:para800:004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "2024 credit growth quota conditions banks approval",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03:p0013:para800:004",
+            "text": "Credit growth ceilings in recent years have\nprovided an incentive for banks to extend\ncredit to maintain their quotas, creating\nbunching by year end. These efforts\nto meet the credit ceiling could create\ninefficiencies by allocating resources to\nunproductive activities and distorting asset\nprices. However, in 2024, the SBV started\nto introduce a more flexible approach to its\ncredit growth caps, allowing selected banks\nwith a strong capital base to expand loan\nbases beyond the predetermined indicative",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 13,
+            "metadata": {
+              "section": "overview",
+              "char_end": 3344,
+              "year": 2025,
+              "document_type": "economic_update",
+              "char_start": 2839
+            },
+            "score": 0.8008967041969299,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0031:para800:000",
+            "text": "ELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 21\nCredit growth picked up during 2024, reaching the government’s target of 15 percent by the end of\nthe year. Credit growth increased in the second half of the year, driven by wholesale and retail trade,\nmanufacturing, and real estate (Figure 1.25). Credit growth ceilings, a monetary and macroprudential\ntool to control inflation and excessive growth, have provided an incentive for banks to extend credit\nto maintain their indicative quotas, creating bunching by year end. These efforts to meet the credit\nceiling could create inefficiencies by allocating resource to unproductive activities and distorting asset\nprices.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 31,
+            "metadata": {
+              "document_type": "economic_update",
+              "char_start": 0,
+              "year": 2025,
+              "section": "economic_developments",
+              "char_end": 682
+            },
+            "score": 0.7553056478500366,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0014:para800:005",
+            "text": "As credit demand has\nremained persistently low despite interest rate\ncuts, further reducing interest rates may not have\nthe desired effect of incentivizing credit growth.\nAlso, further interest rate cuts would increase\nthe interest rate differential with global markets,\npotentially putting pressure on the exchange rate.\nz Addressing heightened financial risks and\nfinancial sector vulnerabilities requires\nreforms to improve bank capital adequacy\n9 Of planned budget approved by the National Assembly, as of December 31, 2022.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 14,
+            "metadata": {
+              "year": 2023,
+              "section": "overview",
+              "char_end": 3823,
+              "document_type": "economic_update",
+              "char_start": 3295
+            },
+            "score": 0.7382082939147949,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03:p0013:para800:004 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 13]\nCredit growth ceilings in recent years have\nprovided an incentive for banks to extend\ncredit to maintain their quotas, creating\nbunching by year end. These efforts\nto meet the credit ceiling could create\ninefficiencies by allocating resources to\nunproductive activities and distorting asset\nprices. However, in 2024, the SBV started\nto introduce a more flexible approach to its\ncredit growth caps, allowing selected banks\nwith a strong capital base to expand loan\nbases beyond the predetermined indicative\n\n[wb-taking-stock-2025-03:p0031:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 31]\nELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 21\nCredit growth picked up during 2024, reaching the government’s target of 15 percent by the end of\nthe year. Credit growth increased in the second half of the year, driven by wholesale and retail trade,\nmanufacturing, and real estate (Figure 1.25). Credit growth ceilings, a monetary and macroprudential\ntool to control inflation and excessive growth, have provided an incentive for banks to extend credit\nto maintain their indicative quotas, creating bunching by year end. These efforts to meet the credit\nceiling could create inefficiencies by allocating resource to unproductive activities and distorting asset\nprices.\n\n[wb-taking-stock-2023-08:p0014:para800:005 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 14]\nAs credit demand has\nremained persistently low despite interest rate\ncuts, further reducing interest rates may not have\nthe desired effect of incentivizing credit growth.\nAlso, further interest rate cuts would increase\nthe interest rate differential with global markets,\npotentially putting pressure on the exchange rate.\nz Addressing heightened financial risks and\nfinancial sector vulnerabilities requires\nreforms to improve bank capital adequacy\n9 Of planned budget approved by the National Assembly, as of December 31, 2022.",
+        "context_ids": [
+          "wb-taking-stock-2025-03:p0013:para800:004",
+          "wb-taking-stock-2025-03:p0031:para800:000",
+          "wb-taking-stock-2023-08:p0014:para800:005"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "2024 credit growth quota conditions banks approval"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2025-03:p0013:para800:004",
+      "wb-taking-stock-2025-03:p0031:para800:000",
+      "wb-taking-stock-2023-08:p0014:para800:005"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_m40gk2rx",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "2024 credit growth quota conditions banks approval"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 384,
+        "output_tokens": 28,
+        "seconds": 6.9514921,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"Selected banks with a strong capital base could expand loan bases beyond the predetermined indicative credit growth caps in 2024 [1].\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1026,
+        "output_tokens": 52,
+        "seconds": 22.6853747,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1410,
+    "output_tokens": 80,
+    "seconds": 29.7631595999992,
+    "service_cost_usd": 0,
+    "context_hit": false,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "answerable": true,
+    "question": "What share of Viet Nam's total greenhouse gas emissions came from the transport sector in 2021?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "The transport sector accounted for 7.2 percent of total economy-wide GHG emissions in Viet Nam in 2021 [wb-taking-stock-2025-03:p0016:para800:000]",
+    "citations": [
+      "wb-taking-stock-2025-03:p0016:para800:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Viet Nam transport sector greenhouse gas emissions 2021",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03:p0042:para800:001",
+            "text": "The transport\nsector accounted for 32.9 million tons of carbon dioxide equivalent (MtCO2eq) in 2021, or 7.2 percent\nof total economy-wide GHG emissions in Viet Nam, the majority of which were generated from road\ntransport, with the most emitting road vehicle segment from freight trucks (Figure 2.1). Although car\nownership remains a luxury for many Vietnamese today, a growing middle class has been fueling auto\nsales at an annual rate of 15 percent since 2010, among the fastest in the region. Without decarbonization\nof the sector, transport-related emissions are set to rise significantly, reaching about 334 MtCO2eq by\n2050 under the business-as-usual (BAU) scenario.\n2.1 Context22\n22 This section is based on findings from the World Bank report “Viet Nam:",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 42,
+            "metadata": {
+              "document_type": "economic_update",
+              "char_end": 1453,
+              "year": 2025,
+              "char_start": 692,
+              "section": "special_focus"
+            },
+            "score": 0.8623272180557251,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0042:para800:000",
+            "text": "32 I TAKING STOCK MARCH 2025\nFigure 2.1. Share of GHG emissions by vehicle segments in Viet Nam, 2020\n28%\n6%\n1%\n11%\n54%\nTwo-wheelers\nPassenger cars\nCity Buses\nIntercity Bus/Coach\nTrucks\nSource: Ministry of Transport, Viet Nam, and World Bank calculations\nViet Nam has set ambitious goals to decarbonize its economy by 2050. The prime minister of Viet\nNam’s pledge at COP2623 in 2021 to achieve economy-wide net-zero emissions by 2050 has set into\nmotion plans to decarbonize the transport sector.\nThe energy sector is the biggest contributor to GHG emissions, of which transport is a main driver.\nWithout decarbonation, this share would rise significantly with the rapid increase in car use.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 42,
+            "metadata": {
+              "year": 2025,
+              "char_end": 691,
+              "section": "special_focus",
+              "document_type": "economic_update",
+              "char_start": 0
+            },
+            "score": 0.8429397344589233,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0016:para800:000",
+            "text": "vi I TAKING STOCK MARCH 2025\nViet Nam has set ambitious goals to\ndecarbonize its economy by 2050. At the\nUnited Nation’s Climate Change Conference\nin Glasgow in November 2021 (COP26),\nthe Prime Minister of Viet Nam made an\nambitious pledge to achieve economy-\nwide net zero emissions by 2050, which\nset into motion plans to decarbonize the\ntransportation sector.\nThe energy sector is the biggest contributor\nto GHG emissions, of which transport is\na main driver. Without decarbonation, this\nshare would rise significantly with the rapid\nincrease in car use. The transport sector in\nViet Nam accounted for about 32.9 million\ntons of carbon dioxide equivalent (MtCO2eq)\nin 2021, or 7.2 percent of total economy-\nwide GHG emissions, the majority of which\nare generated from road transport.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 16,
+            "metadata": {
+              "document_type": "economic_update",
+              "section": "overview",
+              "char_end": 786,
+              "year": 2025,
+              "char_start": 0
+            },
+            "score": 0.8204598426818848,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03:p0042:para800:001 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 42]\nThe transport\nsector accounted for 32.9 million tons of carbon dioxide equivalent (MtCO2eq) in 2021, or 7.2 percent\nof total economy-wide GHG emissions in Viet Nam, the majority of which were generated from road\ntransport, with the most emitting road vehicle segment from freight trucks (Figure 2.1). Although car\nownership remains a luxury for many Vietnamese today, a growing middle class has been fueling auto\nsales at an annual rate of 15 percent since 2010, among the fastest in the region. Without decarbonization\nof the sector, transport-related emissions are set to rise significantly, reaching about 334 MtCO2eq by\n2050 under the business-as-usual (BAU) scenario.\n2.1 Context22\n22 This section is based on findings from the World Bank report “Viet Nam:\n\n[wb-taking-stock-2025-03:p0042:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 42]\n32 I TAKING STOCK MARCH 2025\nFigure 2.1. Share of GHG emissions by vehicle segments in Viet Nam, 2020\n28%\n6%\n1%\n11%\n54%\nTwo-wheelers\nPassenger cars\nCity Buses\nIntercity Bus/Coach\nTrucks\nSource: Ministry of Transport, Viet Nam, and World Bank calculations\nViet Nam has set ambitious goals to decarbonize its economy by 2050. The prime minister of Viet\nNam’s pledge at COP2623 in 2021 to achieve economy-wide net-zero emissions by 2050 has set into\nmotion plans to decarbonize the transport sector.\nThe energy sector is the biggest contributor to GHG emissions, of which transport is a main driver.\nWithout decarbonation, this share would rise significantly with the rapid increase in car use.\n\n[wb-taking-stock-2025-03:p0016:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 16]\nvi I TAKING STOCK MARCH 2025\nViet Nam has set ambitious goals to\ndecarbonize its economy by 2050. At the\nUnited Nation’s Climate Change Conference\nin Glasgow in November 2021 (COP26),\nthe Prime Minister of Viet Nam made an\nambitious pledge to achieve economy-\nwide net zero emissions by 2050, which\nset into motion plans to decarbonize the\ntransportation sector.\nThe energy sector is the biggest contributor\nto GHG emissions, of which transport is\na main driver. Without decarbonation, this\nshare would rise significantly with the rapid\nincrease in car use. The transport sector in\nViet Nam accounted for about 32.9 million\ntons of carbon dioxide equivalent (MtCO2eq)\nin 2021, or 7.2 percent of total economy-\nwide GHG emissions, the majority of which\nare generated from road transport.",
+        "context_ids": [
+          "wb-taking-stock-2025-03:p0042:para800:001",
+          "wb-taking-stock-2025-03:p0042:para800:000",
+          "wb-taking-stock-2025-03:p0016:para800:000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "Viet Nam transport sector greenhouse gas emissions 2021"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2025-03:p0042:para800:001",
+      "wb-taking-stock-2025-03:p0042:para800:000",
+      "wb-taking-stock-2025-03:p0016:para800:000"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_86t91xzd",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "Viet Nam transport sector greenhouse gas emissions 2021"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 385,
+        "output_tokens": 30,
+        "seconds": 7.2908842,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"The transport sector accounted for 7.2 percent of total economy-wide GHG emissions in Viet Nam in 2021 [3]\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1250,
+        "output_tokens": 53,
+        "seconds": 27.2758067,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1635,
+    "output_tokens": 83,
+    "seconds": 34.685067600000366,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which three pathways does the report model for the uptake of electric vehicles?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "The three pathways are Business-as-Usual (BAU) Scenario, Stated Policy Scenario (SPS), and Accelerated Decarbonization Scenario (ADS) [wb-taking-stock-2025-03:p0047:para800:000].",
+    "citations": [
+      "wb-taking-stock-2025-03:p0047:para800:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "electric vehicles pathways uptake",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03:p0047:para800:000",
+            "text": "ELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 37\nThree e-mobility transition pathways were developed to better understand EV uptake scenarios\nand accompanying policy. Based on the pathways – Business-as-Usual (BAU) Scenario, Stated Policy\nScenario (SPS) and Accelerated Decarbonization Scenario (ADS) – the analysis included modelling\ndifferent levels of EV uptake for 18 specific vehicle use categories in Viet Nam. Table 2.2 highlights key\nassumptions across all scenarios.\nEach pathway rests on different policy choices to support EV uptake, production, and its charging\nnetwork. Variations across the three pathways are further split into the following parameters: (i)\nlevels of EV uptake, (ii) levels of EV production and supply and (iii) availability of EV charging (Table\n2.3).",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 47,
+            "metadata": {
+              "char_end": 797,
+              "char_start": 0,
+              "year": 2025,
+              "section": "special_focus",
+              "document_type": "economic_update"
+            },
+            "score": 0.815524697303772,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0050:para800:002",
+            "text": "From 2035 onwards, EVs will penetrate the passenger car and\nintercity commercial vehicle segments, 28 with a consequent surge in EV charging demand. By 2045,\nincremental demand for EV charging will be 13.5–16 percent on top of the PDP8 high-case outlook\nunder the SPS or ADS pathways, which will further climb to 22–28 percent by 2050 (Table 2.5).\n2.4 Impact on electricity demand\nTable 2.5. EV charging demand under different EV uptake scenarios incremental\nto the PDP8 generation outlook (GWh)\n28 Intercity bus/coach, and small trucks, pickups and vans.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 50,
+            "metadata": {
+              "document_type": "economic_update",
+              "year": 2025,
+              "section": "special_focus",
+              "char_end": 1924,
+              "char_start": 1369
+            },
+            "score": 0.8049882650375366,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0050:para800:001",
+            "text": "(i) numbers of EVs in circulation,\n(ii) transport activity (vehicle-km-travelled) by EVs and (iii) energy efficiency of EV batteries and\neffectiveness of transmission and distribution networks.\nWhile EV charging is not expected to impose major pressure on Viet Nam’s power sector before\n2030, its impact will subsequently intensify. To 2030, EV charging demand even under the more\nambitious ADS pathway will require only 2.1 percent of generation supply in addition to PDP8 targets\nwhich can be accommodated by increasing planned generation surplus margins. This is because\nEV uptake during this period will be mainly dominated by e-2Ws, which operate on small batteries\nand cover short distances in general.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 50,
+            "metadata": {
+              "section": "special_focus",
+              "char_end": 1368,
+              "document_type": "economic_update",
+              "year": 2025,
+              "char_start": 660
+            },
+            "score": 0.7924656271934509,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03:p0047:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 47]\nELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 37\nThree e-mobility transition pathways were developed to better understand EV uptake scenarios\nand accompanying policy. Based on the pathways – Business-as-Usual (BAU) Scenario, Stated Policy\nScenario (SPS) and Accelerated Decarbonization Scenario (ADS) – the analysis included modelling\ndifferent levels of EV uptake for 18 specific vehicle use categories in Viet Nam. Table 2.2 highlights key\nassumptions across all scenarios.\nEach pathway rests on different policy choices to support EV uptake, production, and its charging\nnetwork. Variations across the three pathways are further split into the following parameters: (i)\nlevels of EV uptake, (ii) levels of EV production and supply and (iii) availability of EV charging (Table\n2.3).\n\n[wb-taking-stock-2025-03:p0050:para800:002 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 50]\nFrom 2035 onwards, EVs will penetrate the passenger car and\nintercity commercial vehicle segments, 28 with a consequent surge in EV charging demand. By 2045,\nincremental demand for EV charging will be 13.5–16 percent on top of the PDP8 high-case outlook\nunder the SPS or ADS pathways, which will further climb to 22–28 percent by 2050 (Table 2.5).\n2.4 Impact on electricity demand\nTable 2.5. EV charging demand under different EV uptake scenarios incremental\nto the PDP8 generation outlook (GWh)\n28 Intercity bus/coach, and small trucks, pickups and vans.\n\n[wb-taking-stock-2025-03:p0050:para800:001 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 50]\n(i) numbers of EVs in circulation,\n(ii) transport activity (vehicle-km-travelled) by EVs and (iii) energy efficiency of EV batteries and\neffectiveness of transmission and distribution networks.\nWhile EV charging is not expected to impose major pressure on Viet Nam’s power sector before\n2030, its impact will subsequently intensify. To 2030, EV charging demand even under the more\nambitious ADS pathway will require only 2.1 percent of generation supply in addition to PDP8 targets\nwhich can be accommodated by increasing planned generation surplus margins. This is because\nEV uptake during this period will be mainly dominated by e-2Ws, which operate on small batteries\nand cover short distances in general.",
+        "context_ids": [
+          "wb-taking-stock-2025-03:p0047:para800:000",
+          "wb-taking-stock-2025-03:p0050:para800:002",
+          "wb-taking-stock-2025-03:p0050:para800:001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "electric vehicles pathways uptake"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2025-03:p0047:para800:000",
+      "wb-taking-stock-2025-03:p0050:para800:002",
+      "wb-taking-stock-2025-03:p0050:para800:001"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_azx2fvn8",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "electric vehicles pathways uptake"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 377,
+        "output_tokens": 22,
+        "seconds": 6.0740998,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"The three pathways are Business-as-Usual (BAU) Scenario, Stated Policy Scenario (SPS), and Accelerated Decarbonization Scenario (ADS) [1].\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1140,
+        "output_tokens": 61,
+        "seconds": 26.5956518,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1517,
+    "output_tokens": 83,
+    "seconds": 32.788756199999625,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "answerable": true,
+    "question": "How did the banking system's non-performing loan ratio change?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "non-performing loan ratio banking system vietnam",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2023-08:p0036:para800:002",
+            "text": "Reforms of Vietnam’s banking laws\nAn opportunity to further strengthen the foundations for financial stability in Vietnam\nA modern financial system that aligns with international standards and good international practice is a precondition\nfor Vietnam to achieve its aspiration to become a high-income country by 2045. Vietnam is currently reviewing the\nLaw on Credit Institutions (LCI). The existing LCI has significant gaps that impede the SBV’s ability to adequately\nsupervise banks and financial groups, maintain financial stability and protect depositors. Since the last limited\nrevision of the LCI in 2017, Vietnamese banks and financial groups have become larger, more sophisticated,\nand complex.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 36,
+            "metadata": {
+              "char_start": 1190,
+              "year": 2023,
+              "document_type": "economic_update",
+              "section": "economic_developments",
+              "char_end": 1892
+            },
+            "score": 0.7549770474433899,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0032:para800:000",
+            "text": "22 I TAKING STOCK MARCH 2025\nFigure 1.27. Reported asset quality\nappeared relatively stable\nFigure 1.28. Corporate bond issuances\nrebounded, driven by the banking sector\nNPL ratio Corporate bond issuance, trillion VND\nTotal system's balance sheet NPL (LHS)\nGross NPL (LHS)\nLoan-loss coverage ratio (26 banks) (RHS)\n0\n100\n200\n300\n400\n500\n600\n700\n800\n2019 2020 2021 2022 2023 20242019 2020 2021 2022 2023 Q3-2024Q2-2024\nCredit institutions Securities Real estate\nCommerce Construction Production\nEnergy Others\n0%\n20%\n40%\n60%\n80%\n100%\n120%\n140%\n160%\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\nSource: VBMASource: Fiingroup, SBV\nbusinesses affected by September’s Typhoon Yagi, with total impacted loans estimated at VND165\ntrillion (1.1 percent of total outstanding loans).",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 32,
+            "metadata": {
+              "document_type": "economic_update",
+              "char_start": 0,
+              "section": "economic_developments",
+              "char_end": 754,
+              "year": 2025
+            },
+            "score": 0.7421116828918457,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0030:para800:003",
+            "text": "50 Decree 08/2023/ND-CP amending and supplementing several provisions in Decree 65/2022/ND-CP.\nSource: FinnGroup, State Bank of VietnamSource: SBV, Haver Analytics, and World Bank staff calculations\nNote: LHS = left-hand scale\nFigure 1.21. Credit growth\nPercent (y/y, NSA)\nJun-19 Jun-20 Jun-21 Jun-22 Jun-23\n4\n2\n0\n18\n16\n14\n12\n10\n8\n6\n4\n2\n0\nMonth-on-month Year-on-year (LHS)\nFigure 1.22. NPL and provision of credit institutions\nPercent\n6%\n5%\n4%\n3%\n2%\n1%\n0%\n2019 2020 2021Q1-22Q2-22Q3-22Q4-22Q1-23\n160%\n150%\n140%\n130%\n120%\n110%\n100%\nBalance sheet NPL (LHS) Gross NPL (LHS)\nProvision to balance sheet NPL (RHS)",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 30,
+            "metadata": {
+              "document_type": "economic_update",
+              "char_start": 2167,
+              "section": "economic_developments",
+              "year": 2023,
+              "char_end": 2774
+            },
+            "score": 0.7391738891601562,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2023-08:p0036:para800:002 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 36]\nReforms of Vietnam’s banking laws\nAn opportunity to further strengthen the foundations for financial stability in Vietnam\nA modern financial system that aligns with international standards and good international practice is a precondition\nfor Vietnam to achieve its aspiration to become a high-income country by 2045. Vietnam is currently reviewing the\nLaw on Credit Institutions (LCI). The existing LCI has significant gaps that impede the SBV’s ability to adequately\nsupervise banks and financial groups, maintain financial stability and protect depositors. Since the last limited\nrevision of the LCI in 2017, Vietnamese banks and financial groups have become larger, more sophisticated,\nand complex.\n\n[wb-taking-stock-2025-03:p0032:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 32]\n22 I TAKING STOCK MARCH 2025\nFigure 1.27. Reported asset quality\nappeared relatively stable\nFigure 1.28. Corporate bond issuances\nrebounded, driven by the banking sector\nNPL ratio Corporate bond issuance, trillion VND\nTotal system's balance sheet NPL (LHS)\nGross NPL (LHS)\nLoan-loss coverage ratio (26 banks) (RHS)\n0\n100\n200\n300\n400\n500\n600\n700\n800\n2019 2020 2021 2022 2023 20242019 2020 2021 2022 2023 Q3-2024Q2-2024\nCredit institutions Securities Real estate\nCommerce Construction Production\nEnergy Others\n0%\n20%\n40%\n60%\n80%\n100%\n120%\n140%\n160%\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\nSource: VBMASource: Fiingroup, SBV\nbusinesses affected by September’s Typhoon Yagi, with total impacted loans estimated at VND165\ntrillion (1.1 percent of total outstanding loans).\n\n[wb-taking-stock-2023-08:p0030:para800:003 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 30]\n50 Decree 08/2023/ND-CP amending and supplementing several provisions in Decree 65/2022/ND-CP.\nSource: FinnGroup, State Bank of VietnamSource: SBV, Haver Analytics, and World Bank staff calculations\nNote: LHS = left-hand scale\nFigure 1.21. Credit growth\nPercent (y/y, NSA)\nJun-19 Jun-20 Jun-21 Jun-22 Jun-23\n4\n2\n0\n18\n16\n14\n12\n10\n8\n6\n4\n2\n0\nMonth-on-month Year-on-year (LHS)\nFigure 1.22. NPL and provision of credit institutions\nPercent\n6%\n5%\n4%\n3%\n2%\n1%\n0%\n2019 2020 2021Q1-22Q2-22Q3-22Q4-22Q1-23\n160%\n150%\n140%\n130%\n120%\n110%\n100%\nBalance sheet NPL (LHS) Gross NPL (LHS)\nProvision to balance sheet NPL (RHS)",
+        "context_ids": [
+          "wb-taking-stock-2023-08:p0036:para800:002",
+          "wb-taking-stock-2025-03:p0032:para800:000",
+          "wb-taking-stock-2023-08:p0030:para800:003"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "non-performing loan ratio banking system vietnam"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2023-08:p0036:para800:002",
+      "wb-taking-stock-2025-03:p0032:para800:000",
+      "wb-taking-stock-2023-08:p0030:para800:003"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_m03dgntr",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "non-performing loan ratio banking system vietnam"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 376,
+        "output_tokens": 27,
+        "seconds": 6.8819386,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": false,\n  \"answer\": \"INSUFFICIENT_EVIDENCE\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1371,
+        "output_tokens": 31,
+        "seconds": 26.3301396,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1747,
+    "output_tokens": 58,
+    "seconds": 33.328773200000796,
+    "service_cost_usd": 0,
+    "context_hit": false,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "What was headline inflation, and how did it compare with the central bank's target?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "answered",
+    "answer": "Headline inflation reached 3.6 percent in 2024, undershooting the SBV target of 4–4.5 percent. [wb-taking-stock-2025-03:p0031:para800:001]",
+    "citations": [
+      "wb-taking-stock-2025-03:p0031:para800:001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "headline inflation central bank target Viet Nam",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03:p0038:para800:000",
+            "text": "28 I TAKING STOCK MARCH 2025\nis expected to have a marginal impact on headline inflation given the limited size of the public sector\nin overall employment (3.8 percent of total employment 21).\nForeign investment and trade turnover are expected to remain important drivers of growth over\n2025–26, but with heightened uncertainty. The current account is projected to maintain a surplus,\nprimarily driven by the merchandise trade balance. FDI inflows are expected to remain stable in the\nshort- to medium-terms, reflecting foreign investors’ sustained interest in Viet Nam.\nAfter tightening in 2024, the fiscal account is expected to return to a deficit is in 2025-26 due to\nplanned increases in expenditures.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 38,
+            "metadata": {
+              "char_start": 0,
+              "document_type": "economic_update",
+              "char_end": 706,
+              "section": "economic_developments",
+              "year": 2025
+            },
+            "score": 0.7484322786331177,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0031:para800:001",
+            "text": "However, in 2024, the SBV introduced a slightly more flexible approach, allowing selected\nbanks with stronger capital bases to exceed their quotas once they reached 80 percent of their limit\nby August, without having to seek approval for additional credit room.\nHeadline inflation reached 3.6 percent in 2024, undershooting the SBV target of 4–4.5 percent.\nInflation increased in H1–2024 to 4.4 percent (y/y) as food prices rose due to outbreaks of African\nswine fever affecting pork prices, and planned increases in administered prices, including with\nimpacts on education and health. H2–inflation eased as transport costs subsided and the impact of\nadministered prices for health and education faded.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 31,
+            "metadata": {
+              "char_start": 683,
+              "char_end": 1385,
+              "document_type": "economic_update",
+              "section": "economic_developments",
+              "year": 2025
+            },
+            "score": 0.7399370074272156,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0029:para800:001",
+            "text": "(Figure 1.21).\nMonetary policy remained accommodative, while intervening\nto contain FX pressures\nThe State Bank of Viet Nam (SBV) intervened to reduce depreciation pressures on the VND via sales\nof reserves and open market operations (OMOs). The VND depreciated by 4.4 percent (y/y) against\nthe US$ by December 2024, with an exchange rate of VND25,333. Depreciation pressures pushed\nthe exchange rate close to the +/- 5 percent band set by the SBV (Figure 1.22). In response, the SBV\nintervened by selling foreign reserves worth US$9.4 billion in 2024, drawing down current reserves to\nabout 2.5 months of imports by Q3-2024, from 3.1 months a year earlier (Figure 1.23).",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 29,
+            "metadata": {
+              "document_type": "economic_update",
+              "char_start": 798,
+              "char_end": 1469,
+              "section": "economic_developments",
+              "year": 2025
+            },
+            "score": 0.7384893894195557,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03:p0038:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 38]\n28 I TAKING STOCK MARCH 2025\nis expected to have a marginal impact on headline inflation given the limited size of the public sector\nin overall employment (3.8 percent of total employment 21).\nForeign investment and trade turnover are expected to remain important drivers of growth over\n2025–26, but with heightened uncertainty. The current account is projected to maintain a surplus,\nprimarily driven by the merchandise trade balance. FDI inflows are expected to remain stable in the\nshort- to medium-terms, reflecting foreign investors’ sustained interest in Viet Nam.\nAfter tightening in 2024, the fiscal account is expected to return to a deficit is in 2025-26 due to\nplanned increases in expenditures.\n\n[wb-taking-stock-2025-03:p0031:para800:001 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 31]\nHowever, in 2024, the SBV introduced a slightly more flexible approach, allowing selected\nbanks with stronger capital bases to exceed their quotas once they reached 80 percent of their limit\nby August, without having to seek approval for additional credit room.\nHeadline inflation reached 3.6 percent in 2024, undershooting the SBV target of 4–4.5 percent.\nInflation increased in H1–2024 to 4.4 percent (y/y) as food prices rose due to outbreaks of African\nswine fever affecting pork prices, and planned increases in administered prices, including with\nimpacts on education and health. H2–inflation eased as transport costs subsided and the impact of\nadministered prices for health and education faded.\n\n[wb-taking-stock-2025-03:p0029:para800:001 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 29]\n(Figure 1.21).\nMonetary policy remained accommodative, while intervening\nto contain FX pressures\nThe State Bank of Viet Nam (SBV) intervened to reduce depreciation pressures on the VND via sales\nof reserves and open market operations (OMOs). The VND depreciated by 4.4 percent (y/y) against\nthe US$ by December 2024, with an exchange rate of VND25,333. Depreciation pressures pushed\nthe exchange rate close to the +/- 5 percent band set by the SBV (Figure 1.22). In response, the SBV\nintervened by selling foreign reserves worth US$9.4 billion in 2024, drawing down current reserves to\nabout 2.5 months of imports by Q3-2024, from 3.1 months a year earlier (Figure 1.23).",
+        "context_ids": [
+          "wb-taking-stock-2025-03:p0038:para800:000",
+          "wb-taking-stock-2025-03:p0031:para800:001",
+          "wb-taking-stock-2025-03:p0029:para800:001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "headline inflation central bank target Viet Nam"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2025-03:p0038:para800:000",
+      "wb-taking-stock-2025-03:p0031:para800:001",
+      "wb-taking-stock-2025-03:p0029:para800:001"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_lgvthnsc",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "headline inflation central bank target Viet Nam"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 380,
+        "output_tokens": 25,
+        "seconds": 6.574299,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": true,\n  \"answer\": \"Headline inflation reached 3.6 percent in 2024, undershooting the SBV target of 4–4.5 percent. [2]\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1176,
+        "output_tokens": 59,
+        "seconds": 26.6298138,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1556,
+    "output_tokens": 84,
+    "seconds": 33.33249820000037,
+    "service_cost_usd": 0,
+    "context_hit": true,
+    "context_policy": "first_come"
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "answerable": false,
+    "question": "How many electric cars did VinFast sell in Viet Nam in 2024?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "context_policy": "first_come",
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "VinFast electric car sales 2024 Viet Nam",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2025-03:p0017:para800:000",
+            "text": "ELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I vii\nthat they will remain the dominant vehicle\nchoice until 2035. In 2022, the registered\n2Ws in Viet Nam reached 72.16 million (ca.\n94 percent of the total registered vehicles\nstock). This represents a motorization\nrate of close to 518 units of 2Ws per 1,000\npopulation – in sharp contrast to the rate for\npassenger cars (PCs) at about 22 units per\n1,000 population. E-Mobility transition will be\ndriven by the uptake of electric 2Ws (E-2Ws),\nas it has been since 2014.\nMoving towards electric mobility also rep-\nresents significant economic opportuni-\nties. To achieve the EV uptake targets, EV\nsales in Viet Nam need to increase from\n500,000 units in 2022 to about 1.5 million\nunits by 2030, and 7.3 million by 2050.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 17,
+            "metadata": {
+              "char_start": 0,
+              "document_type": "economic_update",
+              "char_end": 778,
+              "section": "overview",
+              "year": 2025
+            },
+            "score": 0.7524210214614868,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0045:para800:000",
+            "text": "ELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 35\nE-mobility represents an enormous opportunity to bypass purchases of traditionally-fuelled cars with\ninternal combustion engines (ICE) to leapfrog into EVs. As domestic GDP per capita grows, ownership\nconstraints of affordability will gradually lift and drive a shift from 2Ws to passenger cars, with sales\nparity reached by 2035 (Figure 2.3). Post-2035, demand for passenger cars will surge to nearly 54 million\non a cumulative basis leading to a motorization rate of 312 units per 1,000 population, up from 22 in\n2023. Using existing battery rental scheme24 for Vietnamese who can afford ICE passenger cars today,\nswitching to an EV is already a viable alternative in terms of costs.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 45,
+            "metadata": {
+              "section": "special_focus",
+              "char_start": 0,
+              "document_type": "economic_update",
+              "year": 2025,
+              "char_end": 747
+            },
+            "score": 0.7501653432846069,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0049:para800:000",
+            "text": "ELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 39\nTable 2.4. Projected annual sales of 2Ws and e-2Ws under the three transition pathways\n(vehicle units)\n2022\n(Historical)\n2025 2030 2035 2040 2045 2050\nTotal 2Ws Sales\nBAU\nSPS\nADS\n3,003,000 3,028,000\n390,000\n635,000\n982,000\n1,563,000\n463,000\n1,159,000\n1,350,000\n395,000\n163,000\n377,000\n389,000\n2,373,000\n515,000\n1,163,000\n1,560,000\n860,000\n340,000\n764,000\n818,000\n151,000\n69,000\n148,000\n151,000\n407,550\nSource: World Bank calculations.\nNote: e-2Ws sales are captured in rows BAU, SPS, ADS.\nThe ADS pathway for e-2Ws allows for a faster e-mobility transition and decarbonization than under\nSPS, achieved by the same policy interventions – but implemented at a faster pace by the former.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 49,
+            "metadata": {
+              "section": "special_focus",
+              "document_type": "economic_update",
+              "char_start": 0,
+              "year": 2025,
+              "char_end": 746
+            },
+            "score": 0.7404130697250366,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2025-03:p0017:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 17]\nELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I vii\nthat they will remain the dominant vehicle\nchoice until 2035. In 2022, the registered\n2Ws in Viet Nam reached 72.16 million (ca.\n94 percent of the total registered vehicles\nstock). This represents a motorization\nrate of close to 518 units of 2Ws per 1,000\npopulation – in sharp contrast to the rate for\npassenger cars (PCs) at about 22 units per\n1,000 population. E-Mobility transition will be\ndriven by the uptake of electric 2Ws (E-2Ws),\nas it has been since 2014.\nMoving towards electric mobility also rep-\nresents significant economic opportuni-\nties. To achieve the EV uptake targets, EV\nsales in Viet Nam need to increase from\n500,000 units in 2022 to about 1.5 million\nunits by 2030, and 7.3 million by 2050.\n\n[wb-taking-stock-2025-03:p0045:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 45]\nELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 35\nE-mobility represents an enormous opportunity to bypass purchases of traditionally-fuelled cars with\ninternal combustion engines (ICE) to leapfrog into EVs. As domestic GDP per capita grows, ownership\nconstraints of affordability will gradually lift and drive a shift from 2Ws to passenger cars, with sales\nparity reached by 2035 (Figure 2.3). Post-2035, demand for passenger cars will surge to nearly 54 million\non a cumulative basis leading to a motorization rate of 312 units per 1,000 population, up from 22 in\n2023. Using existing battery rental scheme24 for Vietnamese who can afford ICE passenger cars today,\nswitching to an EV is already a viable alternative in terms of costs.\n\n[wb-taking-stock-2025-03:p0049:para800:000 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 49]\nELECTRIFYING JOURNEYS: E-MOBILITY TRANSITION IN VIET NAM I 39\nTable 2.4. Projected annual sales of 2Ws and e-2Ws under the three transition pathways\n(vehicle units)\n2022\n(Historical)\n2025 2030 2035 2040 2045 2050\nTotal 2Ws Sales\nBAU\nSPS\nADS\n3,003,000 3,028,000\n390,000\n635,000\n982,000\n1,563,000\n463,000\n1,159,000\n1,350,000\n395,000\n163,000\n377,000\n389,000\n2,373,000\n515,000\n1,163,000\n1,560,000\n860,000\n340,000\n764,000\n818,000\n151,000\n69,000\n148,000\n151,000\n407,550\nSource: World Bank calculations.\nNote: e-2Ws sales are captured in rows BAU, SPS, ADS.\nThe ADS pathway for e-2Ws allows for a faster e-mobility transition and decarbonization than under\nSPS, achieved by the same policy interventions – but implemented at a faster pace by the former.",
+        "context_ids": [
+          "wb-taking-stock-2025-03:p0017:para800:000",
+          "wb-taking-stock-2025-03:p0045:para800:000",
+          "wb-taking-stock-2025-03:p0049:para800:000"
+        ],
+        "context_policy": "first_come"
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "VinFast electric car sales 2024 Viet Nam"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2025-03:p0017:para800:000",
+      "wb-taking-stock-2025-03:p0045:para800:000",
+      "wb-taking-stock-2025-03:p0049:para800:000"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_4vpzkgks",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "VinFast electric car sales 2024 Viet Nam"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 381,
+        "output_tokens": 30,
+        "seconds": 7.9379476,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": false,\n  \"answer\": \"INSUFFICIENT_EVIDENCE\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1494,
+        "output_tokens": 31,
+        "seconds": 31.0226433,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1875,
+    "output_tokens": 61,
+    "seconds": 39.18444600000112,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "answerable": false,
+    "question": "What level did the VN-Index stock index close at by the end of 2024?",
+    "model": "qwen2.5:7b",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "context_policy": "first_come",
+    "use_filter": false,
+    "num_gpu": 0,
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "VN-Index 2024 end close value",
+        "filter": null,
+        "results": [
+          {
+            "id": "wb-taking-stock-2023-08:p0029:para800:001",
+            "text": "Price indexes of selected imports\nJun 2019 = 100 (NSA)\nJun-18 Jun-19 Jun-20 Jun-21 Jun-22 Jun-23 Jun-19 Jun-20 Jun-21 Jun-22 Jun-23\nFood Housing Transport\nOthers Headline Core\nCoal Crude oil Petrol\nFertilizers Iron & steel\nSource: Haver Analytics, State Bank of Vietnam\nJun-19\nAug-19\nOct-19\nFeb-20\nFeb-21\nFeb-22\nFeb-23\nDec-19\nDec-20\nDec-21\nDec-22\nArp-20\nArp-21\nArp-22\nArp-23\nAug-20\nAug-21\nAug-22\nJun-21\nJun-22\nJun-23\nJun-20\nOct-20\nOct-21\nOct-22\nFigure 1.20. Interest rates\nPercent\n8\n6\n4\n2\n0\nVietnam: 10 Year Government Bond Yield (%) 2-Week VND Vietnam Interbank Offered Rate [VIBOR] (%) SBV’s discount\nThe banking sector continued to face challenges during the first half of 2023.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 29,
+            "metadata": {
+              "document_type": "economic_update",
+              "char_start": 597,
+              "section": "economic_developments",
+              "char_end": 1278,
+              "year": 2023
+            },
+            "score": 0.7189427018165588,
+            "rank": 1,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2025-03:p0032:para800:002",
+            "text": "Coupon rates averaged 7.5 percent\nin Q4–2024, slightly higher than the previous quarter, reflecting a higher proportion of real estate bond\nissuance with higher yields. The value of bonds maturing in 2025 is VND217 trillion (US$8.6 billion), with\naround half issued by the real estate sector.\nUnder-disbursement of public investment led to fiscal\nconsolidation\nIncreased total revenues were driven by greater land sales, while tax revenues remained stable\n(Figure 1.29). Overall, total revenues reached 17.7 percent of GDP in 2024, up 17.2 percent in 2023. Tax\nrevenues remained unchanged (12.4 percent) from 2023, with VAT revenue stable at 4.1 percent of GDP\nin 2024 as the government extended a VAT rate cut to 8 percent started in 2022 until June 30, 2025.",
+            "source_id": "wb-taking-stock-2025-03",
+            "source": "https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf",
+            "page": 32,
+            "metadata": {
+              "char_start": 1505,
+              "document_type": "economic_update",
+              "section": "economic_developments",
+              "char_end": 2265,
+              "year": 2025
+            },
+            "score": 0.7138533592224121,
+            "rank": 2,
+            "strategy": "dense"
+          },
+          {
+            "id": "wb-taking-stock-2023-08:p0014:para800:000",
+            "text": "14\nTAKING STOCK AUGUST 2023\nThe outlook is subject to heightened domestic\nand external risks. Slower-than-expected growth\nin advanced economies and China could further\ndampen external demand for Vietnam’s export\nsector, whose size is estimated at 50 percent of\nGDP. Continued uncertainties in the global financial\nmarket have the potential to rekindle stress in\nthe global banking sector, intensify investor risk\naversion, and discourage investment – including FDI\nto Vietnam. Additional monetary policy tightening\nin major advanced economies to combat persistent\ninflation could widen the interest rate gap between\ninternational and domestic markets. This could\nexert exchange rate pressures on the local currency.",
+            "source_id": "wb-taking-stock-2023-08",
+            "source": "https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+            "page": 14,
+            "metadata": {
+              "char_end": 715,
+              "document_type": "economic_update",
+              "year": 2023,
+              "char_start": 0,
+              "section": "overview"
+            },
+            "score": 0.712893009185791,
+            "rank": 3,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[wb-taking-stock-2023-08:p0029:para800:001 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 29]\nPrice indexes of selected imports\nJun 2019 = 100 (NSA)\nJun-18 Jun-19 Jun-20 Jun-21 Jun-22 Jun-23 Jun-19 Jun-20 Jun-21 Jun-22 Jun-23\nFood Housing Transport\nOthers Headline Core\nCoal Crude oil Petrol\nFertilizers Iron & steel\nSource: Haver Analytics, State Bank of Vietnam\nJun-19\nAug-19\nOct-19\nFeb-20\nFeb-21\nFeb-22\nFeb-23\nDec-19\nDec-20\nDec-21\nDec-22\nArp-20\nArp-21\nArp-22\nArp-23\nAug-20\nAug-21\nAug-22\nJun-21\nJun-22\nJun-23\nJun-20\nOct-20\nOct-21\nOct-22\nFigure 1.20. Interest rates\nPercent\n8\n6\n4\n2\n0\nVietnam: 10 Year Government Bond Yield (%) 2-Week VND Vietnam Interbank Offered Rate [VIBOR] (%) SBV’s discount\nThe banking sector continued to face challenges during the first half of 2023.\n\n[wb-taking-stock-2025-03:p0032:para800:002 | https://documents.worldbank.org/curated/en/099919303102515323/pdf/IDU-409e0901-e76f-4c35-b13a-248c3fb8c4c0.pdf | page 32]\nCoupon rates averaged 7.5 percent\nin Q4–2024, slightly higher than the previous quarter, reflecting a higher proportion of real estate bond\nissuance with higher yields. The value of bonds maturing in 2025 is VND217 trillion (US$8.6 billion), with\naround half issued by the real estate sector.\nUnder-disbursement of public investment led to fiscal\nconsolidation\nIncreased total revenues were driven by greater land sales, while tax revenues remained stable\n(Figure 1.29). Overall, total revenues reached 17.7 percent of GDP in 2024, up 17.2 percent in 2023. Tax\nrevenues remained unchanged (12.4 percent) from 2023, with VAT revenue stable at 4.1 percent of GDP\nin 2024 as the government extended a VAT rate cut to 8 percent started in 2022 until June 30, 2025.\n\n[wb-taking-stock-2023-08:p0014:para800:000 | https://documents.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf | page 14]\n14\nTAKING STOCK AUGUST 2023\nThe outlook is subject to heightened domestic\nand external risks. Slower-than-expected growth\nin advanced economies and China could further\ndampen external demand for Vietnam’s export\nsector, whose size is estimated at 50 percent of\nGDP. Continued uncertainties in the global financial\nmarket have the potential to rekindle stress in\nthe global banking sector, intensify investor risk\naversion, and discourage investment – including FDI\nto Vietnam. Additional monetary policy tightening\nin major advanced economies to combat persistent\ninflation could widen the interest rate gap between\ninternational and domestic markets. This could\nexert exchange rate pressures on the local currency.",
+        "context_ids": [
+          "wb-taking-stock-2023-08:p0029:para800:001",
+          "wb-taking-stock-2025-03:p0032:para800:002",
+          "wb-taking-stock-2023-08:p0014:para800:000"
+        ],
+        "context_policy": "first_come"
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "n_searches": 1,
+    "queries": [
+      "VN-Index 2024 end close value"
+    ],
+    "final_context_ids": [
+      "wb-taking-stock-2023-08:p0029:para800:001",
+      "wb-taking-stock-2025-03:p0032:para800:002",
+      "wb-taking-stock-2023-08:p0014:para800:000"
+    ],
+    "llm_calls": [
+      {
+        "model": "qwen2.5:7b",
+        "mode": "tools",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "call_5t3kavvk",
+            "function": {
+              "index": 0,
+              "name": "search",
+              "arguments": {
+                "query": "VN-Index 2024 end close value"
+              }
+            }
+          }
+        ],
+        "prompt_tokens": 384,
+        "output_tokens": 29,
+        "seconds": 8.1623181,
+        "fallback": null
+      },
+      {
+        "model": "qwen2.5:7b",
+        "mode": "json",
+        "content": "{\n  \"passages_contain_answer\": false,\n  \"answer\": \"INSUFFICIENT_EVIDENCE\",\n  \"next_query\": \"\"\n}",
+        "tool_calls": [],
+        "prompt_tokens": 1337,
+        "output_tokens": 31,
+        "seconds": 28.1952319,
+        "fallback": null
+      }
+    ],
+    "prompt_tokens": 1721,
+    "output_tokens": 60,
+    "seconds": 36.52904839999974,
+    "service_cost_usd": 0
+  }
+]
